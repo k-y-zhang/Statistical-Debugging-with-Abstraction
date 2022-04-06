@@ -1,0 +1,40 @@
+space,31_-,1,start
+space,31_-,1,coarse-grained.profile.time,7658
+space,31_-,1,coarse-grained.profile.size,527
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v31/v31_c.sites
+space,31_-,1,coarse-grained.profile.number,136
+space,31_-,1,fine-grained.profile.time,54906
+space,31_-,1,fine-grained.profile.size,567039
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v31/v31_f.sites
+space,31_-,1,fine-grained.profile.number,459134
+space,31_-,1,fine-grained.preprocess.size,1825172
+space,31_-,1,fine-grained.preprocess.time,37801
+space,31_-,1,fine-grained.preprocess.number,1100 
+space,31_-,1,fine-grained.preprocess.time_p,37544.0
+space,31_-,1,fine-grained.mine.size,5916
+space,31_-,1,fine-grained.mine.time,7696
+space,31_-,1,boost,0.05
+space,31_-,1,boost.functions.count,7
+space,31_-,1,boost.includes,-sampler-include-method=angclaus -sampler-include-method=angstep -sampler-include-method=doubstep -sampler-include-method=hexgrdef -sampler-include-method=parserro -sampler-include-method=recgrdef -sampler-include-method=trigrdef
+space,31_-,1,boost.preprocess.size,296528
+space,31_-,1,boost.preprocess.time,1104
+space,31_-,1,boost.preprocess.number,99 
+space,31_-,1,boost.preprocess.time_p,967.0
+space,31_-,1,boost.mine.size,5848
+space,31_-,1,boost.mine.time,3840
+space,31_-,1,theta,0.720966
+space,31_-,1,prune.functions.count,0
+space,31_-,1,prune.includes,
+space,31_-,1,boost.profile.time,7259
+space,31_-,1,boost.profile.size,6055
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v31/v31_b.sites
+space,31_-,1,boost.profile.number,4586
+space,31_-,1,prune.profile.time,1
+space,31_-,1,prune.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v31/v31_p.sites
+space,31_-,1,prune.profile.number,0
+space,31_-,1,prune-minus-boost.profile.time,1
+space,31_-,1,prune-minus-boost.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v31/v31_pmb.sites
+space,31_-,1,prune-minus-boost.profile.number,0
+space,31_-,1,end

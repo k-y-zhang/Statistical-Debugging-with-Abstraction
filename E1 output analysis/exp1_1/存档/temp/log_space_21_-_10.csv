@@ -1,0 +1,38 @@
+space,21_-,10,start
+space,21_-,10,fine-grained.preprocess.size,1980996
+space,21_-,10,fine-grained.preprocess.time,96129
+space,21_-,10,fine-grained.preprocess.number,4208 
+space,21_-,10,fine-grained.preprocess.time_p,95791.0
+space,21_-,10,fine-grained.mine.size,5840
+space,21_-,10,fine-grained.mine.time,65750
+space,21_-,10,boost,0.05
+space,21_-,10,boost.functions.count,9
+space,21_-,10,boost.includes,-sampler-include-method=anglerot -sampler-include-method=hexdef -sampler-include-method=mkshex -sampler-include-method=polydef -sampler-include-method=seqrothg -sampler-include-method=serotdir -sampler-include-method=serotpar -sampler-include-method=serotpha -sampler-include-method=sgrphasr
+space,21_-,10,boost.preprocess.size,569672
+space,21_-,10,boost.preprocess.time,1736
+space,21_-,10,boost.preprocess.number,261 
+space,21_-,10,boost.preprocess.time_p,1579.0
+space,21_-,10,boost.mine.size,5840
+space,21_-,10,boost.mine.time,6333
+space,21_-,10,theta,0.339963
+space,21_-,10,prune.functions.count,68
+space,21_-,10,prune.includes,-sampler-include-method=Get1Real -sampler-include-method=GetInt -sampler-include-method=GetKeyword -sampler-include-method=GetReal -sampler-include-method=GetUName -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=TapeGet -sampler-include-method=adddef -sampler-include-method=addscan -sampler-include-method=adremdef -sampler-include-method=ampunit -sampler-include-method=ampval -sampler-include-method=anglerot -sampler-include-method=blockdef -sampler-include-method=circspec -sampler-include-method=elemdef -sampler-include-method=emsginit -sampler-include-method=fixgramp -sampler-include-method=fixgrpha -sampler-include-method=fixport -sampler-include-method=fixselem -sampler-include-method=fixsgrel -sampler-include-method=fixsgrid -sampler-include-method=floatsup -sampler-include-method=geomspec -sampler-include-method=grampexc -sampler-include-method=greldef -sampler-include-method=grexcdef -sampler-include-method=grgeodef -sampler-include-method=griddef1 -sampler-include-method=groupdef -sampler-include-method=grphaexc -sampler-include-method=grwrite -sampler-include-method=hexdef -sampler-include-method=isletter -sampler-include-method=kwdsinit -sampler-include-method=lenunit -sampler-include-method=main -sampler-include-method=mkshex -sampler-include-method=moseinit -sampler-include-method=nodecoor -sampler-include-method=nodedef -sampler-include-method=nomefile -sampler-include-method=polspec -sampler-include-method=polydef -sampler-include-method=portspec -sampler-include-method=prnfile -sampler-include-method=readfil3 -sampler-include-method=recgrdef -sampler-include-method=recspec -sampler-include-method=remdef -sampler-include-method=secorpha -sampler-include-method=seqrothg -sampler-include-method=serotdir -sampler-include-method=serotpar -sampler-include-method=serotpha -sampler-include-method=sgrphasr -sampler-include-method=simamp -sampler-include-method=simgroup -sampler-include-method=simpha -sampler-include-method=simpol -sampler-include-method=sinelem -sampler-include-method=squgrdef -sampler-include-method=unaminit -sampler-include-method=unifamp -sampler-include-method=unifpha
+space,21_-,10,prune.preprocess.size,1715676
+space,21_-,10,prune.preprocess.time,52312
+space,21_-,10,prune.preprocess.number,3578 
+space,21_-,10,prune.preprocess.time_p,52061.0
+space,21_-,10,prune.mine.size,5836
+space,21_-,10,prune.mine.time,55967
+space,21_-,10,boost.profile.time,9547
+space,21_-,10,boost.profile.size,10551
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v21/v21_b.sites
+space,21_-,10,boost.profile.number,8272
+space,21_-,10,prune.profile.time,50362
+space,21_-,10,prune.profile.size,291210
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v21/v21_p.sites
+space,21_-,10,prune.profile.number,233378
+space,21_-,10,prune-minus-boost.profile.time,44465
+space,21_-,10,prune-minus-boost.profile.size,257255
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v21/v21_pmb.sites
+space,21_-,10,prune-minus-boost.profile.number,205624
+space,21_-,10,end

@@ -1,0 +1,13 @@
+bash,2_3,1,start
+bash,2_3,1,coarse-grained.profile.time,840
+bash,2_3,1,coarse-grained.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/bash/versions/v2/subv3/v2_subv3_c.sites
+bash,2_3,1,coarse-grained.profile.number,0
+bash,2_3,1,fine-grained.profile.time,860
+bash,2_3,1,fine-grained.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/bash/versions/v2/subv3/v2_subv3_f.sites
+bash,2_3,1,fine-grained.profile.number,0
+bash,2_3,1,fine-grained.preprocess.size,19836
+bash,2_3,1,fine-grained.preprocess.number,0 
+bash,2_3,1,fine-grained.preprocess.time_p,
+bash,2_3,1,fine-grained.mine.size,5828

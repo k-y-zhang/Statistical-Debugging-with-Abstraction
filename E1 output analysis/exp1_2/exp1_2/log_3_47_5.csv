@@ -1,0 +1,40 @@
+3,47,5,start
+3,47,5,raw.profile.time,605
+3,47,5,coarse-grained.profile.time,4104
+3,47,5,coarse-grained.profile.number,5387
+3,47,5,coarse-grained.profile.size,3228
+3,47,5,fine-grained.profile.time,181563
+3,47,5,fine-grained.profile.size,220644
+3,47,5,fine-grained.profile.number,956470
+3,47,5,fine-grained.preprocess.size,18275664
+3,47,5,fine-grained.preprocess.time,22406
+3,47,5,fine-grained.preprocess.number,1832
+3,47,5,fine-grained.preprocess.time_p,21430.0
+3,47,5,fine-grained.mine.size,37376
+3,47,5,fine-grained.mine.time,852
+3,47,5,boost.includes,-sampler-include-method=-org.apache.commons.math.complex.Complex--java.lang.String-toString--- -sampler-include-method=-org.apache.commons.math.complex.Complex--org.apache.commons.math.complex.Complex-divide-org.apache.commons.math.complex.Complex--
+3,47,5,boost.profile.number,1802
+3,47,5,boost.profile.time,3740
+3,47,5,boost.profile.size,836
+3,47,5,boost.preprocess.size,1031152
+3,47,5,boost.preprocess.time,1736
+3,47,5,boost.preprocess.number,737
+3,47,5,boost.preprocess.time_p,982.0
+3,47,5,boost.mine.size,22992
+3,47,5,boost.mine.time,163
+3,47,5,prune.theta,0.043315
+3,47,5,prune.includes,-sampler-include-method=-org.apache.commons.math.complex.Complex--java.lang.String-toString--- -sampler-include-method=-org.apache.commons.math.complex.Complex--org.apache.commons.math.complex.Complex-divide-org.apache.commons.math.complex.Complex-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.complex.Complex--void--init--double,double--
+3,47,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.complex.Complex--void--init--double,double--
+3,47,5,prune_s.profile.number,108
+3,47,5,prune_s.profile.time,3454
+3,47,5,prune_s.profile.size,836
+3,47,5,prune.profile.number,1910
+3,47,5,prune.profile.time,3558
+3,47,5,prune.profile.size,836
+3,47,5,prune.preprocess.size,1080704
+3,47,5,prune.preprocess.time,1835
+3,47,5,prune.preprocess.number,781
+3,47,5,prune.preprocess.time_p,1188.0
+3,47,5,prune.mine.size,23728
+3,47,5,prune.mine.time,164
+3,47,5,end

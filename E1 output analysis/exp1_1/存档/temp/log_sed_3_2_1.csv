@@ -1,0 +1,46 @@
+sed,3_2,1,start
+sed,3_2,1,coarse-grained.profile.time,3500
+sed,3_2,1,coarse-grained.profile.size,137
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv2/v3_subv2_c.sites
+sed,3_2,1,coarse-grained.profile.number,97
+sed,3_2,1,fine-grained.profile.time,34456
+sed,3_2,1,fine-grained.profile.size,179256
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv2/v3_subv2_f.sites
+sed,3_2,1,fine-grained.profile.number,490644
+sed,3_2,1,fine-grained.preprocess.size,1558880
+sed,3_2,1,fine-grained.preprocess.time,13141
+sed,3_2,1,fine-grained.preprocess.number,2189 
+sed,3_2,1,fine-grained.preprocess.time_p,12897.0
+sed,3_2,1,fine-grained.mine.size,5872
+sed,3_2,1,fine-grained.mine.time,1621
+sed,3_2,1,boost,0.05
+sed,3_2,1,boost.functions.count,8
+sed,3_2,1,boost.includes,-sampler-include-method=alt_match_null_string_p -sampler-include-method=common_op_match_null_string_p -sampler-include-method=group_match_null_string_p -sampler-include-method=insert_op1 -sampler-include-method=main -sampler-include-method=mark_subst_opts -sampler-include-method=panic -sampler-include-method=setup_jump
+sed,3_2,1,boost.preprocess.size,170540
+sed,3_2,1,boost.preprocess.time,934
+sed,3_2,1,boost.preprocess.number,241 
+sed,3_2,1,boost.preprocess.time_p,829.0
+sed,3_2,1,boost.mine.size,5848
+sed,3_2,1,boost.mine.time,1329
+sed,3_2,1,theta,0.055680
+sed,3_2,1,prune.functions.count,30
+sed,3_2,1,prune.includes,-sampler-include-method=add1_buffer -sampler-include-method=check_final_program -sampler-include-method=ck_fclose -sampler-include-method=ck_fopen -sampler-include-method=ck_free -sampler-include-method=ck_malloc -sampler-include-method=ck_memdup -sampler-include-method=ck_realloc -sampler-include-method=ck_strdup -sampler-include-method=compile_address -sampler-include-method=compile_file -sampler-include-method=compile_program -sampler-include-method=compile_regex -sampler-include-method=free_buffer -sampler-include-method=in_nonblank -sampler-include-method=inchar -sampler-include-method=init_buffer -sampler-include-method=init_syntax_once -sampler-include-method=insert_op1 -sampler-include-method=main -sampler-include-method=map_file -sampler-include-method=mark_subst_opts -sampler-include-method=match_slash -sampler-include-method=new_vector -sampler-include-method=next_cmd_entry -sampler-include-method=regcomp -sampler-include-method=regex_compile -sampler-include-method=savchar -sampler-include-method=setup_jump -sampler-include-method=unmap_file
+sed,3_2,1,prune.preprocess.size,1429472
+sed,3_2,1,prune.preprocess.time,5086
+sed,3_2,1,prune.preprocess.number,1075 
+sed,3_2,1,prune.preprocess.time_p,4938.0
+sed,3_2,1,prune.mine.size,5844
+sed,3_2,1,prune.mine.time,3754
+sed,3_2,1,boost.profile.time,4446
+sed,3_2,1,boost.profile.size,6445
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv2/v3_subv2_b.sites
+sed,3_2,1,boost.profile.number,17804
+sed,3_2,1,prune.profile.time,12360
+sed,3_2,1,prune.profile.size,68958
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv2/v3_subv2_p.sites
+sed,3_2,1,prune.profile.number,191620
+sed,3_2,1,prune-minus-boost.profile.time,11781
+sed,3_2,1,prune-minus-boost.profile.size,64832
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv2/v3_subv2_pmb.sites
+sed,3_2,1,prune-minus-boost.profile.number,180008
+sed,3_2,1,end

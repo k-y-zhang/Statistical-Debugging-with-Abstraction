@@ -1,0 +1,10 @@
+siena,2_1,10,start
+siena,2_1,10,fine-grained.preprocess.size,313364
+siena,2_1,10,fine-grained.preprocess.time,1283
+siena,2_1,10,fine-grained.preprocess.number,80 
+siena,2_1,10,fine-grained.preprocess.time_p,1169.0
+siena,2_1,10,fine-grained.mine.size,5788
+siena,2_1,10,fine-grained.mine.time,1409
+siena,2_1,10,boost,0.05
+siena,2_1,10,boost.functions.count,21
+siena,2_1,10,boost.includes,-sampler-include-method=-siena.AttributeConstraint--int-hashCode--- -sampler-include-method=-siena.AttributeValue--int-intValue--- -sampler-include-method=-siena.AttributeValue--void--init--siena.AttributeValue-- -sampler-include-method=-siena.ByteBuf--byte[]-bytes--- -sampler-include-method=-siena.ByteBuf--void-append-byte-- -sampler-include-method=-siena.ByteBuf--void-append-byte[]-- -sampler-include-method=-siena.Filter--java.util.Iterator-constraintsIterator-java.lang.String-- -sampler-include-method=-siena.Filter--void-addConstraint-java.lang.String,siena.AttributeConstraint-- -sampler-include-method=-siena.OpCov--boolean-app-siena.Filter,siena.Event-- -sampler-include-method=-siena.OpTest--void-main-java.lang.String[]-- -sampler-include-method=-siena.SENP--boolean-match-byte[],byte[]-- -sampler-include-method=-siena.SENP--siena.AttributeConstraint-readAttributeConstraint-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.AttributeValue-readAttribute-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeConstraint-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeValue-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.Event-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.Filter-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode_decimal-siena.ByteBuf,long-- -sampler-include-method=-siena.Tokenizer--boolean-isCurrentFirstIdentChar--- -sampler-include-method=-siena.Tokenizer--int-currByte--- -sampler-include-method=-siena.Tokenizer--int-read_id---

@@ -1,0 +1,40 @@
+3,12,10,start
+3,12,10,raw.profile.time,58668
+3,12,10,coarse-grained.profile.time,1674563
+3,12,10,coarse-grained.profile.number,6885
+3,12,10,coarse-grained.profile.size,17076
+3,12,10,fine-grained.profile.time,104651618
+3,12,10,fine-grained.profile.size,1021664
+3,12,10,fine-grained.profile.number,213672
+3,12,10,fine-grained.preprocess.size,44156272
+3,12,10,fine-grained.preprocess.time,235128
+3,12,10,fine-grained.preprocess.number,7058
+3,12,10,fine-grained.preprocess.time_p,232777.0
+3,12,10,fine-grained.mine.size,2153664
+3,12,10,fine-grained.mine.time,170692
+3,12,10,boost.includes,-sampler-include-method=-org.apache.commons.math3.random.RandomDataGenerator--org.apache.commons.math3.random.RandomGenerator-getRan--- -sampler-include-method=-org.apache.commons.math3.random.RandomDataGenerator--void-initRan--- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,long--
+3,12,10,boost.profile.number,10
+3,12,10,boost.profile.time,55313
+3,12,10,boost.profile.size,2972
+3,12,10,boost.preprocess.size,531632
+3,12,10,boost.preprocess.time,1935
+3,12,10,boost.preprocess.number,36
+3,12,10,boost.preprocess.time_p,1322.0
+3,12,10,boost.mine.size,20048
+3,12,10,boost.mine.time,64
+3,12,10,prune.theta,0.012795
+3,12,10,prune.includes,-sampler-include-method=-org.apache.commons.math3.random.RandomDataGenerator--org.apache.commons.math3.random.RandomGenerator-getRan--- -sampler-include-method=-org.apache.commons.math3.random.RandomDataGenerator--void-initRan--- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,long-- -sampler-include-method=-org.apache.commons.math3.random.Well19937c--int-next-int-- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextGaussian--- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cos-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cosQ-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sin-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sinQ-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polyCosine-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polySine-double-- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextDouble--- -sampler-include-method=-org.apache.commons.math3.util.FastMath-CodyWaite--void--init--double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double,double[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double,double,double[]--
+3,12,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.random.Well19937c--int-next-int-- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextGaussian--- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cos-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cosQ-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sin-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sinQ-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polyCosine-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polySine-double-- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextDouble--- -sampler-include-method=-org.apache.commons.math3.util.FastMath-CodyWaite--void--init--double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double,double[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double,double,double[]--
+3,12,10,prune_s.profile.number,3432
+3,12,10,prune_s.profile.time,3014773
+3,12,10,prune_s.profile.size,18836
+3,12,10,prune.profile.number,3450
+3,12,10,prune.profile.time,2961007
+3,12,10,prune.profile.size,18860
+3,12,10,prune.preprocess.size,41677904
+3,12,10,prune.preprocess.time,64854
+3,12,10,prune.preprocess.number,5281
+3,12,10,prune.preprocess.time_p,62138.0
+3,12,10,prune.mine.size,1927776
+3,12,10,prune.mine.time,99558
+3,12,10,end

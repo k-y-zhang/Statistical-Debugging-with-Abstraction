@@ -1,0 +1,24 @@
+6,2,1,start
+6,2,1,raw.profile.time,89929
+6,2,1,coarse-grained.profile.time,589784
+6,2,1,coarse-grained.profile.number,10398
+6,2,1,coarse-grained.profile.size,217568
+6,2,1,fine-grained.profile.time,1137066
+6,2,1,fine-grained.profile.size,1933224
+6,2,1,fine-grained.profile.number,216212
+6,2,1,fine-grained.preprocess.size,45895360
+6,2,1,fine-grained.preprocess.time,350279
+6,2,1,fine-grained.preprocess.number,2796
+6,2,1,fine-grained.preprocess.time_p,348743.0
+6,2,1,fine-grained.mine.size,1673712
+6,2,1,fine-grained.mine.time,94134
+6,2,1,boost.includes,-sampler-include-method=-com.google.javascript.jscomp.TypeCheck--void-checkInterfaceConflictProperties-com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,java.lang.String,java.util.HashMap,java.util.HashMap,com.google.javascript.rhino.jstype.ObjectType--
+6,2,1,boost.profile.number,26
+6,2,1,boost.profile.time,480449
+6,2,1,boost.profile.size,28268
+6,2,1,boost.preprocess.size,1128720
+6,2,1,boost.preprocess.time,4129
+6,2,1,boost.preprocess.number,0
+6,2,1,boost.preprocess.time_p,3490.0
+6,2,1,boost.mine.size,Command exited with non-zero status 1
+21008

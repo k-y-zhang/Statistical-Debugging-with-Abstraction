@@ -1,0 +1,46 @@
+space,4_-,1,start
+space,4_-,1,coarse-grained.profile.time,9459
+space,4_-,1,coarse-grained.profile.size,526
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v4/v4_c.sites
+space,4_-,1,coarse-grained.profile.number,136
+space,4_-,1,fine-grained.profile.time,70297
+space,4_-,1,fine-grained.profile.size,566662
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v4/v4_f.sites
+space,4_-,1,fine-grained.profile.number,459152
+space,4_-,1,fine-grained.preprocess.size,1921844
+space,4_-,1,fine-grained.preprocess.time,48628
+space,4_-,1,fine-grained.preprocess.number,1958 
+space,4_-,1,fine-grained.preprocess.time_p,48433.0
+space,4_-,1,fine-grained.mine.size,5860
+space,4_-,1,fine-grained.mine.time,3551
+space,4_-,1,boost,0.05
+space,4_-,1,boost.functions.count,7
+space,4_-,1,boost.includes,-sampler-include-method=Get1Real -sampler-include-method=adddef -sampler-include-method=grgeodef -sampler-include-method=lenunit -sampler-include-method=polspec -sampler-include-method=portspec -sampler-include-method=recspec
+space,4_-,1,boost.preprocess.size,305040
+space,4_-,1,boost.preprocess.time,1297
+space,4_-,1,boost.preprocess.number,60 
+space,4_-,1,boost.preprocess.time_p,1208.0
+space,4_-,1,boost.mine.size,5800
+space,4_-,1,boost.mine.time,1602
+space,4_-,1,theta,0.627208
+space,4_-,1,prune.functions.count,32
+space,4_-,1,prune.includes,-sampler-include-method=Get1Real -sampler-include-method=GetKeyword -sampler-include-method=GetReal -sampler-include-method=GetUName -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=TapeGet -sampler-include-method=adddef -sampler-include-method=elemdef -sampler-include-method=emsginit -sampler-include-method=floatsup -sampler-include-method=geomspec -sampler-include-method=greldef -sampler-include-method=grgeodef -sampler-include-method=griddef1 -sampler-include-method=groupdef -sampler-include-method=isletter -sampler-include-method=kwdsinit -sampler-include-method=lenunit -sampler-include-method=main -sampler-include-method=moseinit -sampler-include-method=nomefile -sampler-include-method=parserro -sampler-include-method=polspec -sampler-include-method=portspec -sampler-include-method=prnfile -sampler-include-method=readfil3 -sampler-include-method=recspec -sampler-include-method=sinelem -sampler-include-method=squgrdef -sampler-include-method=unaminit
+space,4_-,1,prune.preprocess.size,1533260
+space,4_-,1,prune.preprocess.time,14105
+space,4_-,1,prune.preprocess.number,1635 
+space,4_-,1,prune.preprocess.time_p,13926.0
+space,4_-,1,prune.mine.size,5880
+space,4_-,1,prune.mine.time,4093
+space,4_-,1,boost.profile.time,9588
+space,4_-,1,boost.profile.size,10262
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v4/v4_b.sites
+space,4_-,1,boost.profile.number,8034
+space,4_-,1,prune.profile.time,29369
+space,4_-,1,prune.profile.size,130762
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v4/v4_p.sites
+space,4_-,1,prune.profile.number,102480
+space,4_-,1,prune-minus-boost.profile.time,26257
+space,4_-,1,prune-minus-boost.profile.size,101153
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v4/v4_pmb.sites
+space,4_-,1,prune-minus-boost.profile.number,78264
+space,4_-,1,end

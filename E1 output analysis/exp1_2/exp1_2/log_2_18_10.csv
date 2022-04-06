@@ -1,0 +1,40 @@
+2,18,10,start
+2,18,10,raw.profile.time,8300
+2,18,10,coarse-grained.profile.time,264292
+2,18,10,coarse-grained.profile.number,7298
+2,18,10,coarse-grained.profile.size,41948
+2,18,10,fine-grained.profile.time,2466413
+2,18,10,fine-grained.profile.size,1131528
+2,18,10,fine-grained.profile.number,546840
+2,18,10,fine-grained.preprocess.size,44216864
+2,18,10,fine-grained.preprocess.time,93448
+2,18,10,fine-grained.preprocess.number,51
+2,18,10,fine-grained.preprocess.time_p,91953.0
+2,18,10,fine-grained.mine.size,27184
+2,18,10,fine-grained.mine.time,74
+2,18,10,boost.includes,-sampler-include-method=-org.jfree.data.DefaultKeyedValues--void-removeValue-int-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues--void-removeValue-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues2D--void-removeColumn-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues--void-setValue-java.lang.Comparable,java.lang.Number--
+2,18,10,boost.profile.number,52
+2,18,10,boost.profile.time,46743
+2,18,10,boost.profile.size,7248
+2,18,10,boost.preprocess.size,608192
+2,18,10,boost.preprocess.time,1816
+2,18,10,boost.preprocess.number,25
+2,18,10,boost.preprocess.time_p,1260.0
+2,18,10,boost.mine.size,23760
+2,18,10,boost.mine.time,70
+2,18,10,prune.theta,0.005609
+2,18,10,prune.includes,-sampler-include-method=-org.jfree.data.DefaultKeyedValues--void-removeValue-int-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues--void-removeValue-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues2D--void-removeColumn-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues--void-setValue-java.lang.Comparable,java.lang.Number-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues--int-getIndex-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues2D--int-getRowIndex-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues2D--void-setValue-java.lang.Number,java.lang.Comparable,java.lang.Comparable--
+2,18,10,prune.includes_diff,-sampler-include-method=-org.jfree.data.DefaultKeyedValues--int-getIndex-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues2D--int-getRowIndex-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.DefaultKeyedValues2D--void-setValue-java.lang.Number,java.lang.Comparable,java.lang.Comparable--
+2,18,10,prune_s.profile.number,62
+2,18,10,prune_s.profile.time,45981
+2,18,10,prune_s.profile.size,7244
+2,18,10,prune.profile.number,114
+2,18,10,prune.profile.time,45049
+2,18,10,prune.profile.size,7248
+2,18,10,prune.preprocess.size,800464
+2,18,10,prune.preprocess.time,1748
+2,18,10,prune.preprocess.number,44
+2,18,10,prune.preprocess.time_p,1291.0
+2,18,10,prune.mine.size,25968
+2,18,10,prune.mine.time,50
+2,18,10,end

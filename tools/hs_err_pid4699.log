@@ -1,0 +1,33 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007ffa5014607e, pid=4699, tid=32793
+#
+# JRE version: OpenJDK Runtime Environment (11.0.13+8) (build 11.0.13+8-Ubuntu-0ubuntu1)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.13+8-Ubuntu-0ubuntu1, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x307e]
+#
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: /opt/jd-gui/jd-gui.jar /home/user/OneDrive/_我的笔记/实验/SE/zuo/tools/himps.jar
+
+Host: Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz, 6 cores, 7G, Ubuntu Jammy Jellyfish (development branch)
+Time: Tue Dec  7 20:18:49 2021 CST elapsed time: 70807.574926 seconds (0d 19h 40m 7s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007ff9d404e800):  JavaThread "XToolkt-Shutdown-Thread" [_thread_in_vm, id=32793, stack(0x00007ff99f8fe000,0x00007ff99f9fe000)]
+
+Stack: [0x00007ff99f8fe000,0x00007ff99f9fe000],  sp=0x00007ff99f9fb010,  free space=1012k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libjimage.so+0x307e]
+C  [libjimage.so+0x3df2]
+C  [libjimage.so+0x42f2]  JIMAGE_FindResource+0xf2
+V  [libjvm.so+0x5b7a61]

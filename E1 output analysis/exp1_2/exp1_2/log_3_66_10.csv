@@ -1,0 +1,40 @@
+3,66,10,start
+3,66,10,raw.profile.time,65
+3,66,10,coarse-grained.profile.time,601
+3,66,10,coarse-grained.profile.number,4417
+3,66,10,coarse-grained.profile.size,164
+3,66,10,fine-grained.profile.time,2829
+3,66,10,fine-grained.profile.size,7828
+3,66,10,fine-grained.profile.number,673248
+3,66,10,fine-grained.preprocess.size,2352400
+3,66,10,fine-grained.preprocess.time,3696
+3,66,10,fine-grained.preprocess.number,1099
+3,66,10,fine-grained.preprocess.time_p,3112.0
+3,66,10,fine-grained.mine.size,49872
+3,66,10,fine-grained.mine.time,621
+3,66,10,boost.includes,-sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptimaValues--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptima--- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--double-getFunctionValue--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double--
+3,66,10,boost.profile.number,1560
+3,66,10,boost.profile.time,391
+3,66,10,boost.profile.size,44
+3,66,10,boost.preprocess.size,195536
+3,66,10,boost.preprocess.time,947
+3,66,10,boost.preprocess.number,310
+3,66,10,boost.preprocess.time_p,356.0
+3,66,10,boost.mine.size,19984
+3,66,10,boost.mine.time,30
+3,66,10,prune.theta,0.321928
+3,66,10,prune.includes,-sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptimaValues--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptima--- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--double-getFunctionValue--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--double-computeObjectiveValue-org.apache.commons.math.analysis.UnivariateRealFunction,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-localMin-boolean,org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double,double,double--
+3,66,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--double-computeObjectiveValue-org.apache.commons.math.analysis.UnivariateRealFunction,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-localMin-boolean,org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double,double,double--
+3,66,10,prune_s.profile.number,4002
+3,66,10,prune_s.profile.time,2285
+3,66,10,prune_s.profile.size,84
+3,66,10,prune.profile.number,5562
+3,66,10,prune.profile.time,2033
+3,66,10,prune.profile.size,96
+3,66,10,prune.preprocess.size,317104
+3,66,10,prune.preprocess.time,1471
+3,66,10,prune.preprocess.number,802
+3,66,10,prune.preprocess.time_p,888.0
+3,66,10,prune.mine.size,50672
+3,66,10,prune.mine.time,1351
+3,66,10,end

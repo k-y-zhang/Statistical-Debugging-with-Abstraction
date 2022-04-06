@@ -1,0 +1,34 @@
+space,6_-,5,start
+space,6_-,5,fine-grained.preprocess.size,1861248
+space,6_-,5,fine-grained.preprocess.time,45921
+space,6_-,5,fine-grained.preprocess.number,1869 
+space,6_-,5,fine-grained.preprocess.time_p,45680.0
+space,6_-,5,fine-grained.mine.size,5788
+space,6_-,5,fine-grained.mine.time,4449
+space,6_-,5,boost,0.05
+space,6_-,5,boost.functions.count,8
+space,6_-,5,boost.includes,-sampler-include-method=GetReal -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=greldef -sampler-include-method=griddef1 -sampler-include-method=lenunit -sampler-include-method=squgrdef
+space,6_-,5,boost.preprocess.size,304980
+space,6_-,5,boost.preprocess.time,1424
+space,6_-,5,boost.preprocess.number,238 
+space,6_-,5,boost.preprocess.time_p,1304.0
+space,6_-,5,boost.mine.size,5800
+space,6_-,5,boost.mine.time,1255
+space,6_-,5,theta,0.176664
+space,6_-,5,prune.functions.count,23
+space,6_-,5,prune.includes,-sampler-include-method=GetKeyword -sampler-include-method=GetReal -sampler-include-method=GetUName -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=TapeGet -sampler-include-method=emsginit -sampler-include-method=floatsup -sampler-include-method=greldef -sampler-include-method=griddef1 -sampler-include-method=groupdef -sampler-include-method=isletter -sampler-include-method=kwdsinit -sampler-include-method=main -sampler-include-method=moseinit -sampler-include-method=nomefile -sampler-include-method=parserro -sampler-include-method=prnfile -sampler-include-method=readfil3 -sampler-include-method=recgrdef -sampler-include-method=squgrdef -sampler-include-method=unaminit
+space,6_-,5,prune.preprocess.size,1502604
+space,6_-,5,prune.preprocess.time,11394
+space,6_-,5,prune.preprocess.number,1470 
+space,6_-,5,prune.preprocess.time_p,11190.0
+space,6_-,5,prune.mine.size,5856
+space,6_-,5,prune.mine.time,2977
+space,6_-,5,boost.profile.time,9262
+space,6_-,5,boost.profile.size,10028
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v6/v6_b.sites
+space,6_-,5,boost.profile.number,6738
+space,6_-,5,prune-minus-boost.profile.time,17179
+space,6_-,5,prune-minus-boost.profile.size,59944
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v6/v6_pmb.sites
+space,6_-,5,prune-minus-boost.profile.number,43978
+space,6_-,5,end

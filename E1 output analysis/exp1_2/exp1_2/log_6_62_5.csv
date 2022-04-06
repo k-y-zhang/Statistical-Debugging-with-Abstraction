@@ -1,0 +1,40 @@
+6,62,5,start
+6,62,5,raw.profile.time,63057
+6,62,5,coarse-grained.profile.time,433737
+6,62,5,coarse-grained.profile.number,9443
+6,62,5,coarse-grained.profile.size,191140
+6,62,5,fine-grained.profile.time,783935
+6,62,5,fine-grained.profile.size,1742300
+6,62,5,fine-grained.profile.number,219184
+6,62,5,fine-grained.preprocess.size,46030672
+6,62,5,fine-grained.preprocess.time,193080
+6,62,5,fine-grained.preprocess.number,17
+6,62,5,fine-grained.preprocess.time_p,191947.0
+6,62,5,fine-grained.mine.size,32688
+6,62,5,fine-grained.mine.time,100
+6,62,5,boost.includes,-sampler-include-method=-com.google.javascript.jscomp.AbstractMessageFormatter--java.lang.String-maybeColorize-java.lang.String,com.google.javascript.jscomp.AbstractMessageFormatter-Color-- -sampler-include-method=-com.google.javascript.jscomp.AbstractMessageFormatter--java.lang.String-getLevelName-com.google.javascript.jscomp.CheckLevel--
+6,62,5,boost.profile.number,14
+6,62,5,boost.profile.time,327004
+6,62,5,boost.profile.size,25316
+6,62,5,boost.preprocess.size,1136704
+6,62,5,boost.preprocess.time,2669
+6,62,5,boost.preprocess.number,4
+6,62,5,boost.preprocess.time_p,2090.0
+6,62,5,boost.mine.size,28160
+6,62,5,boost.mine.time,72
+6,62,5,prune.theta,0.002327
+6,62,5,prune.includes,-sampler-include-method=-com.google.javascript.jscomp.AbstractMessageFormatter--java.lang.String-maybeColorize-java.lang.String,com.google.javascript.jscomp.AbstractMessageFormatter-Color-- -sampler-include-method=-com.google.javascript.jscomp.AbstractMessageFormatter--java.lang.String-getLevelName-com.google.javascript.jscomp.CheckLevel-- -sampler-include-method=-com.google.javascript.jscomp.LightweightMessageFormatter--java.lang.String-format-com.google.javascript.jscomp.JSError,boolean-- -sampler-include-method=-com.google.javascript.jscomp.JSError--void--init--java.lang.String,com.google.javascript.rhino.Node,int,int,com.google.javascript.jscomp.DiagnosticType,com.google.javascript.jscomp.CheckLevel,java.lang.String[]--
+6,62,5,prune.includes_diff,-sampler-include-method=-com.google.javascript.jscomp.LightweightMessageFormatter--java.lang.String-format-com.google.javascript.jscomp.JSError,boolean-- -sampler-include-method=-com.google.javascript.jscomp.JSError--void--init--java.lang.String,com.google.javascript.rhino.Node,int,int,com.google.javascript.jscomp.DiagnosticType,com.google.javascript.jscomp.CheckLevel,java.lang.String[]--
+6,62,5,prune_s.profile.number,82
+6,62,5,prune_s.profile.time,371550
+6,62,5,prune_s.profile.size,25316
+6,62,5,prune.profile.number,96
+6,62,5,prune.profile.time,345707
+6,62,5,prune.profile.size,25316
+6,62,5,prune.preprocess.size,1855168
+6,62,5,prune.preprocess.time,3040
+6,62,5,prune.preprocess.number,17
+6,62,5,prune.preprocess.time_p,2449.0
+6,62,5,prune.mine.size,33072
+6,62,5,prune.mine.time,77
+6,62,5,end

@@ -1,0 +1,40 @@
+3,40,5,start
+3,40,5,raw.profile.time,8720
+3,40,5,coarse-grained.profile.time,13308
+3,40,5,coarse-grained.profile.number,5732
+3,40,5,coarse-grained.profile.size,1820
+3,40,5,fine-grained.profile.time,1113995
+3,40,5,fine-grained.profile.size,107548
+3,40,5,fine-grained.profile.number,175769
+3,40,5,fine-grained.preprocess.size,9252000
+3,40,5,fine-grained.preprocess.time,31051
+3,40,5,fine-grained.preprocess.number,768
+3,40,5,fine-grained.preprocess.time_p,29518.0
+3,40,5,fine-grained.mine.size,36464
+3,40,5,fine-grained.mine.time,1492
+3,40,5,boost.includes,-sampler-include-method=-org.apache.commons.math.exception.util.LocalizedFormats--java.lang.String-getLocalizedString-java.util.Locale-- -sampler-include-method=-org.apache.commons.math.exception.util.ExceptionContext--java.lang.String-buildMessage-java.util.Locale,java.lang.String--
+3,40,5,boost.profile.number,3
+3,40,5,boost.profile.time,8356
+3,40,5,boost.profile.size,380
+3,40,5,boost.preprocess.size,167792
+3,40,5,boost.preprocess.time,1351
+3,40,5,boost.preprocess.number,13
+3,40,5,boost.preprocess.time_p,573.0
+3,40,5,boost.mine.size,18880
+3,40,5,boost.mine.time,67
+3,40,5,prune.theta,0.088072
+3,40,5,prune.includes,-sampler-include-method=-org.apache.commons.math.exception.util.LocalizedFormats--java.lang.String-getLocalizedString-java.util.Locale-- -sampler-include-method=-org.apache.commons.math.exception.util.ExceptionContext--java.lang.String-buildMessage-java.util.Locale,java.lang.String-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--double-solve-int,org.apache.commons.math.analysis.UnivariateFunction,double,double,double,org.apache.commons.math.analysis.solvers.AllowedSolution-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--void--init--double,double,double,int-- -sampler-include-method=-org.apache.commons.math.exception.util.ArgUtils--java.lang.Object[]-flatten-java.lang.Object[]-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--double-guessX-double,double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--double-doSolve--- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils--void-verifyInterval-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver--double-solve-int,org.apache.commons.math.analysis.UnivariateFunction,double,double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver--double-computeObjectiveValue-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--long-abs-long-- -sampler-include-method=-org.apache.commons.math.util.Precision--boolean-equals-double,double,int-- -sampler-include-method=-org.apache.commons.math.util.Incrementor--void-incrementCount--- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-max-double,double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-abs-double--
+3,40,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--double-solve-int,org.apache.commons.math.analysis.UnivariateFunction,double,double,double,org.apache.commons.math.analysis.solvers.AllowedSolution-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--void--init--double,double,double,int-- -sampler-include-method=-org.apache.commons.math.exception.util.ArgUtils--java.lang.Object[]-flatten-java.lang.Object[]-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--double-guessX-double,double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver--double-doSolve--- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils--void-verifyInterval-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver--double-solve-int,org.apache.commons.math.analysis.UnivariateFunction,double,double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver--double-computeObjectiveValue-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--long-abs-long-- -sampler-include-method=-org.apache.commons.math.util.Precision--boolean-equals-double,double,int-- -sampler-include-method=-org.apache.commons.math.util.Incrementor--void-incrementCount--- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-max-double,double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-abs-double--
+3,40,5,prune_s.profile.number,878
+3,40,5,prune_s.profile.time,17056
+3,40,5,prune_s.profile.size,740
+3,40,5,prune.profile.number,889
+3,40,5,prune.profile.time,15283
+3,40,5,prune.profile.size,740
+3,40,5,prune.preprocess.size,2253856
+3,40,5,prune.preprocess.time,4135
+3,40,5,prune.preprocess.number,768
+3,40,5,prune.preprocess.time_p,3140.0
+3,40,5,prune.mine.size,36240
+3,40,5,prune.mine.time,640
+3,40,5,end

@@ -1,0 +1,40 @@
+3,67,10,start
+3,67,10,raw.profile.time,23
+3,67,10,coarse-grained.profile.time,349
+3,67,10,coarse-grained.profile.number,4383
+3,67,10,coarse-grained.profile.size,36
+3,67,10,fine-grained.profile.time,901
+3,67,10,fine-grained.profile.size,1556
+3,67,10,fine-grained.profile.number,667066
+3,67,10,fine-grained.preprocess.size,1822048
+3,67,10,fine-grained.preprocess.time,3084
+3,67,10,fine-grained.preprocess.number,140
+3,67,10,fine-grained.preprocess.time_p,2469.0
+3,67,10,fine-grained.mine.size,20016
+3,67,10,fine-grained.mine.time,40
+3,67,10,boost.includes,-sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-getResult--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-getAbsoluteAccuracy--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-getRelativeAccuracy--- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--void--clinit----
+3,67,10,boost.profile.number,42
+3,67,10,boost.profile.time,128
+3,67,10,boost.profile.size,12
+3,67,10,boost.preprocess.size,140912
+3,67,10,boost.preprocess.time,733
+3,67,10,boost.preprocess.number,7
+3,67,10,boost.preprocess.time_p,112.0
+3,67,10,boost.mine.size,19056
+3,67,10,boost.mine.time,47
+3,67,10,prune.theta,1.000000
+3,67,10,prune.includes,-sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-getResult--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-getAbsoluteAccuracy--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-getRelativeAccuracy--- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--void--clinit---- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptimaValues--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptima--- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--void-checkResultComputed--- -sampler-include-method=-org.apache.commons.math.ConvergingAlgorithmImpl--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--double-computeObjectiveValue-org.apache.commons.math.analysis.UnivariateRealFunction,double-- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-localMin-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double,double--
+3,67,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptimaValues--- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double[]-getOptima--- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--void-checkResultComputed--- -sampler-include-method=-org.apache.commons.math.ConvergingAlgorithmImpl--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer--double-computeObjectiveValue-org.apache.commons.math.analysis.UnivariateRealFunction,double-- -sampler-include-method=-org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer--double-optimize-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double-- -sampler-include-method=-org.apache.commons.math.optimization.univariate.BrentOptimizer--double-localMin-org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double,double--
+3,67,10,prune_s.profile.number,5468
+3,67,10,prune_s.profile.time,418
+3,67,10,prune_s.profile.size,24
+3,67,10,prune.profile.number,5510
+3,67,10,prune.profile.time,800
+3,67,10,prune.profile.size,24
+3,67,10,prune.preprocess.size,177632
+3,67,10,prune.preprocess.time,798
+3,67,10,prune.preprocess.number,140
+3,67,10,prune.preprocess.time_p,293.0
+3,67,10,prune.mine.size,19984
+3,67,10,prune.mine.time,63
+3,67,10,end

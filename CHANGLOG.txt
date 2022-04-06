@@ -1,0 +1,156 @@
+
+
+
+    public static synchronized void reset(String name){
+        return_reports.clear();
+ branch_reports.clear();
+ scalarPair_reports.clear();
+ methodEntry_reports.clear();
+String output_file_reports =name;
+    }
+
+
+
+PCounters
+
+
+实验一
+
+```csv
+1,2,1,start
+1,2,1,_coarse-grained_time,Time in milliseconds: 2687
+1,2,1,_fine-grained_time,Time in milliseconds: 2793
+1,2,1,boost_time,4.76,766352
+1,2,1,includes,-sampler-include-method=-org.apache.commons.lang3.LocaleUtils--java.util.Locale-toLocale-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.LocaleUtils--boolean-isAvailableLocale-java.util.Locale--
+1,2,1,boost_profile_number,37
+1,2,1,boost_profile_time,
+1,2,1,boost_profile_size,56
+1,2,1,preprocess_time,0.16,219424
+1,2,1,mbs_time,0.00,19840
+1,2,1,t=,0.371232
+1,2,1,prune_time,0.57,384080
+1,2,1,includes,-sampler-include-method=-org.apache.commons.lang3.LocaleUtils--java.util.Locale-toLocale-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.LocaleUtils--boolean-isAvailableLocale-java.util.Locale--
+1,2,1,prune_profile_number,37
+1,2,1,prune_profile_time,
+1,2,1,prune_profile_size,56
+1,2,1,preprocess_time,0.17,252112
+1,2,1,mbs_time,0.00,19280
+1,2,1,end
+```
+
+执行过程
+
+1. instrument all function entries + run the test suite 
+2. instrument all predicates in boost(select a set of functions boost | boost output file ) + run the test suite + *preprocess* BP + *mine* top-k bug signatures to obtain kth top suspiciousness value 
+3. instrument all predicates in prune(generate a set of prospective functions prune| prune output file ) + run the test suite + *preprocess* PP + return(*mine*) top-k bug signatures
+
+
+
+统计的数据项（表格或者图表的形式）
+
+
+
+
+top-1 top-5 top-10
+
+1. Percentage of predicates instrumented compared with 100% fully instrumentation in MPS
+   - number
+2. Percentage of execution time and disk space used for profile collection compared with MPS
+   - profile collection=execution time+disk space 
+   - Profile Collection= the execution time for running the instrumented programs and the disk storage space
+used for profiles
+3. Percentage of time and memory consumption for preprocessing compared with the baseline (100%) in
+MPS [57]. (a) time, and (b) memory consumption.
+   - preprocessing 
+4. Percentage of time and memory consumption for mining compared with the baseline (100%) in
+MPS [57]. (a) time, and (b) memory consumption
+   - mining 
+
+
+14 
+Percentage of predicates instrumented
+
+Disk storage space used (in KB) for profile
+collection=
+original coarse boost prune total total/original
+
+Execution time (in seconds) for profile collection
+original coarse boost prune total total/original
+
+Percentage of predicates analyzed（boost/prune）
+
+
+Characteristics of subject programs
+
+Time (in seconds) and memory consumption (in KB) for preprocessing
+
+MPS HIMPS Ratio
+original boost prune total total/original
+Subject Time Memory Time Memory Time Memory Time Memory Time Memory
+
+Time (in seconds) and memory consumption (in KB) for mining
+
+Time (in seconds) and memory consumption (in KB) for preprocessing and mining together
+
+
+实验2 的运行次数 4 = 1 + 3
+
+To precisely measure running time, we ran each faulty version of each program four times and
+took the average of the execution times of the last three runs. Our results are shown in Table 4.
+The overhead is measured as the ratio between the execution time of the instrumented run and
+original run without any instrumentation.
+
+jdk7的版本问题
+
+
+
+
+```csv
+1,1,1,start
+1,1,1,coarse-grained_time,3648
+1,1,1,fine-grained_time,4576
+1,1,1,boost_time,21.96,2222512
+1,1,1,includes,-sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Integer-createInteger-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Number-createNumber-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--boolean-isBlank-java.lang.CharSequence--
+1,1,1,boost_profile_number,255
+1,1,1,boost_profile_time,3617
+1,1,1,boost_profile_size,708
+1,1,1,preprocess_time,0.36,283584
+1,1,1,mbs_time,0.00,19936
+1,1,1,t=,0.051290
+1,1,1,prune_time,19.20,1913712
+1,1,1,includes,
+1,1,1,prune_profile_number,21681
+1,1,1,prune_profile_time,4527
+1,1,1,prune_profile_size,24928
+1,1,1,preprocess_time,2.07,2405984
+1,1,1,mbs_time,0.00,19392
+1,1,1,end
+1,2,1,start
+```
+
+
+
+
+```csv
+1,2,1,start
+1,2,1,coarse-grained,time,944
+1,2,1,fine-grained,time,1141
+1,2,1,fine-grained_profile,size,2020
+1,2,1,includes,-sampler-include-method=-org.apache.commons.lang3.LocaleUtils--java.util.Locale-toLocale-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.LocaleUtils--boolean-isAvailableLocale-java.util.Locale--
+1,2,1,boost_profile,number,37
+1,2,1,boost_profile,time,903
+1,2,1,boost_profile,size,60
+1,2,1,boost,preprocess,0.20 151744
+1,2,1,boost,mine,0.05 19584
+1,2,1,t=,0.371232
+1,2,1,includes,-sampler-include-method=-org.apache.commons.lang3.LocaleUtils--java.util.Locale-toLocale-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.LocaleUtils--boolean-isAvailableLocale-java.util.Locale--
+1,2,1,prune_profile,number,37
+1,2,1,prune_profile,time,935
+1,2,1,prune_profile,size,60
+1,2,1,prune,preprocess,0.16 150640
+1,2,1,prune,mine,0.00 19808
+1,2,1,end
+```
+
+注意清理前面的输出
+

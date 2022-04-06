@@ -1,0 +1,34 @@
+nanoxml,1_7,5,start
+nanoxml,1_7,5,fine-grained.preprocess.size,161804
+nanoxml,1_7,5,fine-grained.preprocess.time,732
+nanoxml,1_7,5,fine-grained.preprocess.number,154 
+nanoxml,1_7,5,fine-grained.preprocess.time_p,623.0
+nanoxml,1_7,5,fine-grained.mine.size,5860
+nanoxml,1_7,5,fine-grained.mine.time,1217
+nanoxml,1_7,5,boost,0.05
+nanoxml,1_7,5,boost.functions.count,6
+nanoxml,1_7,5,boost.includes,-sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processCDATA--- -sampler-include-method=-net.n3.nanoxml.XMLElement--boolean-hasChildren--- -sampler-include-method=-net.n3.nanoxml.XMLEntityResolver--java.io.Reader-getEntity-net.n3.nanoxml.IXMLReader,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.io.Reader-scanEntity-boolean[],net.n3.nanoxml.IXMLReader,char,net.n3.nanoxml.XMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLWriter--void-write-net.n3.nanoxml.XMLElement,int-- -sampler-include-method=-net.n3.nanoxml.XMLWriter--void-writeEncoded-java.lang.String--
+nanoxml,1_7,5,boost.preprocess.size,58040
+nanoxml,1_7,5,boost.preprocess.time,345
+nanoxml,1_7,5,boost.preprocess.number,31 
+nanoxml,1_7,5,boost.preprocess.time_p,275.0
+nanoxml,1_7,5,boost.mine.size,5812
+nanoxml,1_7,5,boost.mine.time,3135
+nanoxml,1_7,5,theta,0.437449
+nanoxml,1_7,5,prune.functions.count,36
+nanoxml,1_7,5,prune.includes,-sampler-include-method=-net.n3.nanoxml.ContentReader--int-read-char[],int,int-- -sampler-include-method=-net.n3.nanoxml.ContentReader--void--init--net.n3.nanoxml.IXMLReader,net.n3.nanoxml.XMLEntityResolver,char,java.lang.String,boolean,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.ContentReader--void-close--- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-attributeAdded-java.lang.String,java.lang.String,java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-elementAttributesProcessed-java.lang.String,java.lang.String,java.lang.String,java.util.Properties-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-elementStarted-java.lang.String,java.lang.String,java.lang.String,int-- -sampler-include-method=-net.n3.nanoxml.StdXMLBuilder--void-addAttribute-java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.StdXMLBuilder--void-addPCData-java.io.Reader,int-- -sampler-include-method=-net.n3.nanoxml.StdXMLBuilder--void-endElement-java.lang.String,java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.StdXMLBuilder--void-startElement-java.lang.String,java.lang.String,java.lang.String,int-- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--java.lang.Object-parse--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processAttribute--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processCDATA--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processElement--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processSpecialTag-boolean-- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-scanData--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-scanSomeTag-boolean-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--boolean-atEOF--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--char-read--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--int-getLineNr--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.io.Reader-stream2reader-java.io.InputStream,java.lang.StringBuffer-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.lang.String-getEncoding-java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLElement--boolean-hasAttribute-java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLElement--boolean-hasChildren--- -sampler-include-method=-net.n3.nanoxml.XMLElement--int-getChildrenCount--- -sampler-include-method=-net.n3.nanoxml.XMLElement--void-addChild-net.n3.nanoxml.XMLElement-- -sampler-include-method=-net.n3.nanoxml.XMLEntityResolver--java.io.Reader-getEntity-net.n3.nanoxml.IXMLReader,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLParserFactory--net.n3.nanoxml.IXMLParser-createXMLParser-java.lang.String,net.n3.nanoxml.IXMLBuilder,net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLValidator-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--boolean-checkLiteral-net.n3.nanoxml.IXMLReader,char,net.n3.nanoxml.XMLEntityResolver,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--char-read-net.n3.nanoxml.IXMLReader,boolean[],char,net.n3.nanoxml.XMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.io.Reader-scanEntity-boolean[],net.n3.nanoxml.IXMLReader,char,net.n3.nanoxml.XMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanIdentifier-net.n3.nanoxml.IXMLReader,char,net.n3.nanoxml.XMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanString-net.n3.nanoxml.IXMLReader,char,boolean,net.n3.nanoxml.XMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--void-skipWhitespace-net.n3.nanoxml.IXMLReader,char,java.lang.StringBuffer,boolean[]-- -sampler-include-method=-net.n3.nanoxml.XMLWriter--void-write-net.n3.nanoxml.XMLElement,int-- -sampler-include-method=-net.n3.nanoxml.XMLWriter--void-writeEncoded-java.lang.String--
+nanoxml,1_7,5,prune.preprocess.size,94992
+nanoxml,1_7,5,prune.preprocess.time,746
+nanoxml,1_7,5,prune.preprocess.number,147 
+nanoxml,1_7,5,prune.preprocess.time_p,619.0
+nanoxml,1_7,5,prune.mine.size,5792
+nanoxml,1_7,5,prune.mine.time,3540
+nanoxml,1_7,5,boost.profile.time,61015
+nanoxml,1_7,5,boost.profile.size,952
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v1/subv7/boost/output.sites
+nanoxml,1_7,5,boost.profile.number,252
+nanoxml,1_7,5,prune-minus-boost.profile.time,74923
+nanoxml,1_7,5,prune-minus-boost.profile.size,952
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v1/subv7/prune-minus-boost/output.sites
+nanoxml,1_7,5,prune-minus-boost.profile.number,2390
+nanoxml,1_7,5,end

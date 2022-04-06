@@ -1,0 +1,40 @@
+3,36,5,start
+3,36,5,raw.profile.time,5831
+3,36,5,coarse-grained.profile.time,21379
+3,36,5,coarse-grained.profile.number,5704
+3,36,5,coarse-grained.profile.size,1900
+3,36,5,fine-grained.profile.time,1028994
+3,36,5,fine-grained.profile.size,113324
+3,36,5,fine-grained.profile.number,177819
+3,36,5,fine-grained.preprocess.size,9242720
+3,36,5,fine-grained.preprocess.time,30035
+3,36,5,fine-grained.preprocess.number,30
+3,36,5,fine-grained.preprocess.time_p,28711.0
+3,36,5,fine-grained.mine.size,19616
+3,36,5,fine-grained.mine.time,91
+3,36,5,boost.includes,-sampler-include-method=-org.apache.commons.math.fraction.BigFraction--float-floatValue--- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void-checkNotNull-java.lang.Object,org.apache.commons.math.exception.util.Localizable,java.lang.Object[]-- -sampler-include-method=-org.apache.commons.math.fraction.BigFraction--void--init--java.math.BigInteger,java.math.BigInteger--
+3,36,5,boost.profile.number,5
+3,36,5,boost.profile.time,8293
+3,36,5,boost.profile.size,396
+3,36,5,boost.preprocess.size,187104
+3,36,5,boost.preprocess.time,1652
+3,36,5,boost.preprocess.number,20
+3,36,5,boost.preprocess.time_p,842.0
+3,36,5,boost.mine.size,19856
+3,36,5,boost.mine.time,92
+3,36,5,prune.theta,0.006913
+3,36,5,prune.includes,-sampler-include-method=-org.apache.commons.math.fraction.BigFraction--float-floatValue--- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void-checkNotNull-java.lang.Object,org.apache.commons.math.exception.util.Localizable,java.lang.Object[]-- -sampler-include-method=-org.apache.commons.math.fraction.BigFraction--void--init--java.math.BigInteger,java.math.BigInteger-- -sampler-include-method=-org.apache.commons.math.fraction.BigFraction--double-doubleValue--- -sampler-include-method=-org.apache.commons.math.fraction.BigFraction--void--init--int,int--
+3,36,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.fraction.BigFraction--double-doubleValue--- -sampler-include-method=-org.apache.commons.math.fraction.BigFraction--void--init--int,int--
+3,36,5,prune_s.profile.number,-3
+3,36,5,prune_s.profile.time,5981
+3,36,5,prune_s.profile.size,396
+3,36,5,prune.profile.number,10
+3,36,5,prune.profile.time,5787
+3,36,5,prune.profile.size,396
+3,36,5,prune.preprocess.size,226224
+3,36,5,prune.preprocess.time,1587
+3,36,5,prune.preprocess.number,30
+3,36,5,prune.preprocess.time_p,879.0
+3,36,5,prune.mine.size,20048
+3,36,5,prune.mine.time,64
+3,36,5,end

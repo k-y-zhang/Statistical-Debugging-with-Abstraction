@@ -1,0 +1,32 @@
+nanoxml,2_7,10,start
+nanoxml,2_7,10,fine-grained.preprocess.size,158736
+nanoxml,2_7,10,fine-grained.preprocess.time,508
+nanoxml,2_7,10,fine-grained.preprocess.number,17 
+nanoxml,2_7,10,fine-grained.preprocess.time_p,389.0
+nanoxml,2_7,10,fine-grained.mine.size,5876
+nanoxml,2_7,10,fine-grained.mine.time,1268
+nanoxml,2_7,10,boost,0.05
+nanoxml,2_7,10,boost.functions.count,14
+nanoxml,2_7,10,boost.includes,-sampler-include-method=-Parser1_vw_v0--void-main-java.lang.String[]-- -sampler-include-method=-Parser1_vw_v1--void-main-java.lang.String[]-- -sampler-include-method=-Parser7_vw_v2--void-main-java.lang.String[]-- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--java.lang.Object-parse--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processSpecialTag-boolean-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--int-getLineNr--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.io.Reader-openStream-java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.lang.String-getEncoding-java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLEntityResolver--void-addInternalEntity-java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLException--void--init--java.lang.String,int,java.lang.Exception,java.lang.String,boolean-- -sampler-include-method=-net.n3.nanoxml.XMLException--void-printStackTrace--- -sampler-include-method=-net.n3.nanoxml.XMLException--void-printStackTrace-java.io.PrintStream-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanSystemID-net.n3.nanoxml.IXMLReader,char,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--void-skipComment-net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver--
+nanoxml,2_7,10,boost.preprocess.size,51076
+nanoxml,2_7,10,boost.preprocess.time,282
+nanoxml,2_7,10,boost.preprocess.number,3 
+nanoxml,2_7,10,boost.preprocess.time_p,174.0
+nanoxml,2_7,10,boost.mine.size,5900
+nanoxml,2_7,10,boost.mine.time,1297
+nanoxml,2_7,10,theta,0.171464
+nanoxml,2_7,10,prune.functions.count,0
+nanoxml,2_7,10,prune.includes,
+nanoxml,2_7,10,boost.profile.time,83396
+nanoxml,2_7,10,boost.profile.size,224
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v2/subv7/boost/output.sites
+nanoxml,2_7,10,boost.profile.number,480
+nanoxml,2_7,10,prune.profile.time,0
+nanoxml,2_7,10,prune.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v2/subv7/prune/output.sites
+nanoxml,2_7,10,prune.profile.number,5058
+nanoxml,2_7,10,prune-minus-boost.profile.time,2
+nanoxml,2_7,10,prune-minus-boost.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v2/subv7/prune-minus-boost/output.sites
+nanoxml,2_7,10,prune-minus-boost.profile.number,5058
+nanoxml,2_7,10,end

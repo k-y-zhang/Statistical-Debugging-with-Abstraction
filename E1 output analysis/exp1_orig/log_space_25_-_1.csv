@@ -1,0 +1,40 @@
+space,25_-,1,start
+space,25_-,1,coarse-grained.profile.time,21378
+space,25_-,1,coarse-grained.profile.size,737
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v25/v25_c.sites
+space,25_-,1,coarse-grained.profile.number,136
+space,25_-,1,fine-grained.profile.time,80792
+space,25_-,1,fine-grained.profile.size,567303
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v25/v25_f.sites
+space,25_-,1,fine-grained.profile.number,459110
+space,25_-,1,fine-grained.preprocess.size,1924640
+space,25_-,1,fine-grained.preprocess.time,94370
+space,25_-,1,fine-grained.preprocess.number,5468 
+space,25_-,1,fine-grained.preprocess.time_p,94129.0
+space,25_-,1,fine-grained.mine.size,5792
+space,25_-,1,fine-grained.mine.time,43023
+space,25_-,1,boost,0.05
+space,25_-,1,boost.functions.count,3
+space,25_-,1,boost.includes,-sampler-include-method=addscan -sampler-include-method=blockdef -sampler-include-method=mksblock
+space,25_-,1,boost.preprocess.size,317312
+space,25_-,1,boost.preprocess.time,1277
+space,25_-,1,boost.preprocess.number,461 
+space,25_-,1,boost.preprocess.time_p,1173.0
+space,25_-,1,boost.mine.size,5844
+space,25_-,1,boost.mine.time,2508
+space,25_-,1,theta,0.824952
+space,25_-,1,prune.functions.count,0
+space,25_-,1,prune.includes,
+space,25_-,1,boost.profile.time,20969
+space,25_-,1,boost.profile.size,8148
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v25/v25_b.sites
+space,25_-,1,boost.profile.number,6150
+space,25_-,1,prune.profile.time,1
+space,25_-,1,prune.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v25/v25_p.sites
+space,25_-,1,prune.profile.number,0
+space,25_-,1,prune-minus-boost.profile.time,1
+space,25_-,1,prune-minus-boost.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v25/v25_pmb.sites
+space,25_-,1,prune-minus-boost.profile.number,0
+space,25_-,1,end

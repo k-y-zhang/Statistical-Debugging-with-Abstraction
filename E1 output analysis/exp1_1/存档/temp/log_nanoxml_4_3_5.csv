@@ -1,0 +1,38 @@
+nanoxml,4_3,5,start
+nanoxml,4_3,5,fine-grained.preprocess.size,161236
+nanoxml,4_3,5,fine-grained.preprocess.time,635
+nanoxml,4_3,5,fine-grained.preprocess.number,75 
+nanoxml,4_3,5,fine-grained.preprocess.time_p,500.0
+nanoxml,4_3,5,fine-grained.mine.size,5844
+nanoxml,4_3,5,fine-grained.mine.time,1375
+nanoxml,4_3,5,boost,0.05
+nanoxml,4_3,5,boost.functions.count,13
+nanoxml,4_3,5,boost.includes,-sampler-include-method=-net.n3.nanoxml.NonValidator--void-parseDTD-java.lang.String,net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver,boolean-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-processElement-net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-processEntity-net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--boolean-atEOFOfCurrentStream--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.io.Reader-openStream-java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLEntityResolver--void-addExternalEntity-java.lang.String,java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLEntityResolver--void-addInternalEntity-java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLException--java.lang.String-buildMessage-java.lang.String,int,java.lang.Exception,java.lang.String,boolean-- -sampler-include-method=-net.n3.nanoxml.XMLException--void-printStackTrace--- -sampler-include-method=-net.n3.nanoxml.XMLException--void-printStackTrace-java.io.PrintStream-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--char-readChar-net.n3.nanoxml.IXMLReader,char-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanSystemID-net.n3.nanoxml.IXMLReader-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--void-skipTag-net.n3.nanoxml.IXMLReader--
+nanoxml,4_3,5,boost.preprocess.size,78948
+nanoxml,4_3,5,boost.preprocess.time,369
+nanoxml,4_3,5,boost.preprocess.number,23 
+nanoxml,4_3,5,boost.preprocess.time_p,239.0
+nanoxml,4_3,5,boost.mine.size,5820
+nanoxml,4_3,5,boost.mine.time,1506
+nanoxml,4_3,5,theta,0.650859
+nanoxml,4_3,5,prune.functions.count,31
+nanoxml,4_3,5,prune.includes,-sampler-include-method=-net.n3.nanoxml.NonValidator--void-parseDTD-java.lang.String,net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver,boolean-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-processAttList-net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-processElement-net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.NonValidator--void-processEntity-net.n3.nanoxml.IXMLReader,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--java.lang.Object-parse--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processDocType--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-processSpecialTag-boolean-- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-scanData--- -sampler-include-method=-net.n3.nanoxml.StdXMLParser--void-scanSomeTag-boolean,java.lang.String,java.util.Properties-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--boolean-atEOF--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--boolean-atEOFOfCurrentStream--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--char-read--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--int-getLineNr--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--int-getStreamLevel--- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.io.Reader-openStream-java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.io.Reader-stream2reader-java.io.InputStream,java.lang.StringBuffer-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--java.lang.String-getEncoding-java.lang.String-- -sampler-include-method=-net.n3.nanoxml.StdXMLReader--void-startNewStream-java.io.Reader,boolean-- -sampler-include-method=-net.n3.nanoxml.XMLElement--void--init--java.lang.String,java.lang.String,java.lang.String,int-- -sampler-include-method=-net.n3.nanoxml.XMLEntityResolver--void-addInternalEntity-java.lang.String,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLException--java.lang.String-buildMessage-java.lang.String,int,java.lang.Exception,java.lang.String,boolean-- -sampler-include-method=-net.n3.nanoxml.XMLException--void-printStackTrace--- -sampler-include-method=-net.n3.nanoxml.XMLException--void-printStackTrace-java.io.PrintStream-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--boolean-checkLiteral-net.n3.nanoxml.IXMLReader,java.lang.String-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--char-readChar-net.n3.nanoxml.IXMLReader,char-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-read-net.n3.nanoxml.IXMLReader,char-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanIdentifier-net.n3.nanoxml.IXMLReader-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanString-net.n3.nanoxml.IXMLReader,char,net.n3.nanoxml.IXMLEntityResolver-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--java.lang.String-scanSystemID-net.n3.nanoxml.IXMLReader-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--void-skipTag-net.n3.nanoxml.IXMLReader-- -sampler-include-method=-net.n3.nanoxml.XMLUtil--void-skipWhitespace-net.n3.nanoxml.IXMLReader,java.lang.StringBuffer--
+nanoxml,4_3,5,prune.preprocess.size,162524
+nanoxml,4_3,5,prune.preprocess.time,504
+nanoxml,4_3,5,prune.preprocess.number,65 
+nanoxml,4_3,5,prune.preprocess.time_p,382.0
+nanoxml,4_3,5,prune.mine.size,5828
+nanoxml,4_3,5,prune.mine.time,1474
+nanoxml,4_3,5,boost.profile.time,94715
+nanoxml,4_3,5,boost.profile.size,170
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v4/subv3/boost/output.sites
+nanoxml,4_3,5,boost.profile.number,270
+nanoxml,4_3,5,prune.profile.time,582227
+nanoxml,4_3,5,prune.profile.size,454
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v4/subv3/prune/output.sites
+nanoxml,4_3,5,prune.profile.number,1098
+nanoxml,4_3,5,prune-minus-boost.profile.time,550287
+nanoxml,4_3,5,prune-minus-boost.profile.size,362
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/nanoxml/versions/v4/subv3/prune-minus-boost/output.sites
+nanoxml,4_3,5,prune-minus-boost.profile.number,836
+nanoxml,4_3,5,end

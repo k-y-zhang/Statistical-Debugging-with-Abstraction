@@ -1,0 +1,40 @@
+1,20,5,start
+1,20,5,raw.profile.time,22607
+1,20,5,coarse-grained.profile.time,38670
+1,20,5,coarse-grained.profile.number,2289
+1,20,5,coarse-grained.profile.size,15352
+1,20,5,fine-grained.profile.time,291112
+1,20,5,fine-grained.profile.size,202956
+1,20,5,fine-grained.profile.number,16451
+1,20,5,fine-grained.preprocess.size,17823472
+1,20,5,fine-grained.preprocess.time,78831
+1,20,5,fine-grained.preprocess.number,79
+1,20,5,fine-grained.preprocess.time_p,76555.0
+1,20,5,fine-grained.mine.size,24448
+1,20,5,fine-grained.mine.time,80
+1,20,5,boost.includes,-sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],char-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],char,int,int--
+1,20,5,boost.profile.number,19
+1,20,5,boost.profile.time,20225
+1,20,5,boost.profile.size,7844
+1,20,5,boost.preprocess.size,1018656
+1,20,5,boost.preprocess.time,4502
+1,20,5,boost.preprocess.number,37
+1,20,5,boost.preprocess.time_p,3503.0
+1,20,5,boost.mine.size,22784
+1,20,5,boost.mine.time,104
+1,20,5,prune.theta,0.004433
+1,20,5,prune.includes,-sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],char-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],char,int,int-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],java.lang.String,int,int--
+1,20,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--java.lang.String-join-java.lang.Object[],java.lang.String,int,int--
+1,20,5,prune_s.profile.number,24
+1,20,5,prune_s.profile.time,22913
+1,20,5,prune_s.profile.size,7844
+1,20,5,prune.profile.number,51
+1,20,5,prune.profile.time,21772
+1,20,5,prune.profile.size,7844
+1,20,5,prune.preprocess.size,2273456
+1,20,5,prune.preprocess.time,6011
+1,20,5,prune.preprocess.number,79
+1,20,5,prune.preprocess.time_p,5124.0
+1,20,5,prune.mine.size,23872
+1,20,5,prune.mine.time,75
+1,20,5,end

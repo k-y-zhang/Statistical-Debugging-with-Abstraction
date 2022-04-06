@@ -1,0 +1,40 @@
+2,23,10,start
+2,23,10,raw.profile.time,8181
+2,23,10,coarse-grained.profile.time,192160
+2,23,10,coarse-grained.profile.number,7180
+2,23,10,coarse-grained.profile.size,39156
+2,23,10,fine-grained.profile.time,2387979
+2,23,10,fine-grained.profile.size,1043556
+2,23,10,fine-grained.profile.number,539932
+2,23,10,fine-grained.preprocess.size,44066496
+2,23,10,fine-grained.preprocess.time,86736
+2,23,10,fine-grained.preprocess.number,262
+2,23,10,fine-grained.preprocess.time_p,85433.0
+2,23,10,fine-grained.mine.size,37680
+2,23,10,fine-grained.mine.time,128
+2,23,10,boost.includes,-sampler-include-method=-org.jfree.chart.renderer.category.MinMaxCategoryRenderer--void-setDrawLines-boolean-- -sampler-include-method=-org.jfree.chart.renderer.category.MinMaxCategoryRenderer--javax.swing.Icon-getIcon-java.awt.Shape,java.awt.Paint,java.awt.Paint-- -sampler-include-method=-org.jfree.chart.renderer.category.MinMaxCategoryRenderer--javax.swing.Icon-getIcon-java.awt.Shape,boolean,boolean-- -sampler-include-method=-org.jfree.chart.renderer.category.AbstractCategoryItemRenderer--boolean-equals-java.lang.Object--
+2,23,10,boost.profile.number,118
+2,23,10,boost.profile.time,41501
+2,23,10,boost.profile.size,6756
+2,23,10,boost.preprocess.size,718352
+2,23,10,boost.preprocess.time,2000
+2,23,10,boost.preprocess.number,29
+2,23,10,boost.preprocess.time_p,1482.0
+2,23,10,boost.mine.size,23296
+2,23,10,boost.mine.time,62
+2,23,10,prune.theta,0.002502
+2,23,10,prune.includes,-sampler-include-method=-org.jfree.chart.renderer.category.MinMaxCategoryRenderer--void-setDrawLines-boolean-- -sampler-include-method=-org.jfree.chart.renderer.category.MinMaxCategoryRenderer--javax.swing.Icon-getIcon-java.awt.Shape,java.awt.Paint,java.awt.Paint-- -sampler-include-method=-org.jfree.chart.renderer.category.MinMaxCategoryRenderer--javax.swing.Icon-getIcon-java.awt.Shape,boolean,boolean-- -sampler-include-method=-org.jfree.chart.renderer.category.AbstractCategoryItemRenderer--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.StandardCategorySeriesLabelGenerator--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.ItemLabelPosition--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.ItemLabelAnchor--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.StandardCategorySeriesLabelGenerator--void--init--java.lang.String-- -sampler-include-method=-org.jfree.chart.text.TextAnchor--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.BooleanList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.ShapeList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.renderer.AbstractRenderer--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.StrokeList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.PaintList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.renderer.AbstractRenderer--void-notifyListeners-org.jfree.chart.event.RendererChangeEvent-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.ItemLabelPosition--void--init--org.jfree.chart.labels.ItemLabelAnchor,org.jfree.chart.text.TextAnchor,org.jfree.chart.text.TextAnchor,double-- -sampler-include-method=-org.jfree.chart.util.PaintUtilities--boolean-equal-java.awt.Paint,java.awt.Paint-- -sampler-include-method=-org.jfree.chart.util.ObjectUtilities--boolean-equal-java.lang.Object,java.lang.Object--
+2,23,10,prune.includes_diff,-sampler-include-method=-org.jfree.chart.labels.StandardCategorySeriesLabelGenerator--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.ItemLabelPosition--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.ItemLabelAnchor--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.StandardCategorySeriesLabelGenerator--void--init--java.lang.String-- -sampler-include-method=-org.jfree.chart.text.TextAnchor--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.BooleanList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.ShapeList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.renderer.AbstractRenderer--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.StrokeList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.PaintList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.renderer.AbstractRenderer--void-notifyListeners-org.jfree.chart.event.RendererChangeEvent-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.labels.ItemLabelPosition--void--init--org.jfree.chart.labels.ItemLabelAnchor,org.jfree.chart.text.TextAnchor,org.jfree.chart.text.TextAnchor,double-- -sampler-include-method=-org.jfree.chart.util.PaintUtilities--boolean-equal-java.awt.Paint,java.awt.Paint-- -sampler-include-method=-org.jfree.chart.util.ObjectUtilities--boolean-equal-java.lang.Object,java.lang.Object--
+2,23,10,prune_s.profile.number,1354
+2,23,10,prune_s.profile.time,46866
+2,23,10,prune_s.profile.size,6756
+2,23,10,prune.profile.number,1472
+2,23,10,prune.profile.time,48425
+2,23,10,prune.profile.size,6756
+2,23,10,prune.preprocess.size,2282624
+2,23,10,prune.preprocess.time,3200
+2,23,10,prune.preprocess.number,262
+2,23,10,prune.preprocess.time_p,2372.0
+2,23,10,prune.mine.size,37168
+2,23,10,prune.mine.time,100
+2,23,10,end

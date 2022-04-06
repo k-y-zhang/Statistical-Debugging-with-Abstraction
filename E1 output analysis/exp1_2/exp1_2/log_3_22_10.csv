@@ -1,0 +1,40 @@
+3,22,10,start
+3,22,10,raw.profile.time,886
+3,22,10,coarse-grained.profile.time,6412
+3,22,10,coarse-grained.profile.number,6046
+3,22,10,coarse-grained.profile.size,1984
+3,22,10,fine-grained.profile.time,390771
+3,22,10,fine-grained.profile.size,127096
+3,22,10,fine-grained.profile.number,1117318
+3,22,10,fine-grained.preprocess.size,9261392
+3,22,10,fine-grained.preprocess.time,13894
+3,22,10,fine-grained.preprocess.number,2217
+3,22,10,fine-grained.preprocess.time_p,13190.0
+3,22,10,fine-grained.mine.size,141232
+3,22,10,fine-grained.mine.time,3431
+3,22,10,boost.includes,-sampler-include-method=-org.apache.commons.math3.special.Beta--double-logBeta-double,double-- -sampler-include-method=-org.apache.commons.math3.distribution.UniformRealDistribution--double-density-double--
+3,22,10,boost.profile.number,142
+3,22,10,boost.profile.time,4685
+3,22,10,boost.profile.size,416
+3,22,10,boost.preprocess.size,172528
+3,22,10,boost.preprocess.time,876
+3,22,10,boost.preprocess.number,30
+3,22,10,boost.preprocess.time_p,347.0
+3,22,10,boost.mine.size,19200
+3,22,10,boost.mine.time,53
+3,22,10,prune.theta,0.029086
+3,22,10,prune.includes,-sampler-include-method=-org.apache.commons.math3.special.Beta--double-logBeta-double,double-- -sampler-include-method=-org.apache.commons.math3.distribution.UniformRealDistribution--double-density-double-- -sampler-include-method=-org.apache.commons.math3.distribution.FDistribution--double-density-double-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]-- -sampler-include-method=-org.apache.commons.math3.distribution.UniformRealDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,double,double,double-- -sampler-include-method=-org.apache.commons.math3.distribution.FDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,double,double,double-- -sampler-include-method=-org.apache.commons.math3.special.Beta--double-logBeta-double,double,double,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-floor-double-- -sampler-include-method=-org.apache.commons.math3.special.Gamma--double-logGamma1p-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log1p-double-- -sampler-include-method=-org.apache.commons.math3.special.Gamma--double-invGamma1pm1-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double-- -sampler-include-method=-org.apache.commons.math3.special.Gamma--double-logGamma-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double,double,double[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double,double[]--
+3,22,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.distribution.FDistribution--double-density-double-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]-- -sampler-include-method=-org.apache.commons.math3.distribution.UniformRealDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,double,double,double-- -sampler-include-method=-org.apache.commons.math3.distribution.FDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,double,double,double-- -sampler-include-method=-org.apache.commons.math3.special.Beta--double-logBeta-double,double,double,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-floor-double-- -sampler-include-method=-org.apache.commons.math3.special.Gamma--double-logGamma1p-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log1p-double-- -sampler-include-method=-org.apache.commons.math3.special.Gamma--double-invGamma1pm1-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double-- -sampler-include-method=-org.apache.commons.math3.special.Gamma--double-logGamma-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double,double,double[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double,double[]--
+3,22,10,prune_s.profile.number,16844
+3,22,10,prune_s.profile.time,29213
+3,22,10,prune_s.profile.size,2184
+3,22,10,prune.profile.number,16986
+3,22,10,prune.profile.time,31864
+3,22,10,prune.profile.size,2188
+3,22,10,prune.preprocess.size,1488640
+3,22,10,prune.preprocess.time,2051
+3,22,10,prune.preprocess.number,2214
+3,22,10,prune.preprocess.time_p,1561.0
+3,22,10,prune.mine.size,141600
+3,22,10,prune.mine.time,4640
+3,22,10,end

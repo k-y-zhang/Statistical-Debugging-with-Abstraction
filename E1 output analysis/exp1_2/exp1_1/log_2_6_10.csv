@@ -1,0 +1,40 @@
+2,6,10,start
+2,6,10,raw.profile.time,49147
+2,6,10,coarse-grained.profile.time,231156
+2,6,10,coarse-grained.profile.number,7402
+2,6,10,coarse-grained.profile.size,45496
+2,6,10,fine-grained.profile.time,2449579
+2,6,10,fine-grained.profile.size,1234948
+2,6,10,fine-grained.profile.number,98591
+2,6,10,fine-grained.preprocess.size,44185040
+2,6,10,fine-grained.preprocess.time,262383
+2,6,10,fine-grained.preprocess.number,212
+2,6,10,fine-grained.preprocess.time_p,259946.00000000003
+2,6,10,fine-grained.mine.size,33760
+2,6,10,fine-grained.mine.time,141
+2,6,10,boost.includes,-sampler-include-method=-org.jfree.chart.util.ShapeList--int-hashCode--- -sampler-include-method=-org.jfree.chart.util.ShapeList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--java.lang.Object-get-int-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-set-int,java.lang.Object--
+2,6,10,boost.profile.number,17
+2,6,10,boost.profile.time,50223
+2,6,10,boost.profile.size,7856
+2,6,10,boost.preprocess.size,1047552
+2,6,10,boost.preprocess.time,3943
+2,6,10,boost.preprocess.number,24
+2,6,10,boost.preprocess.time_p,3177.0
+2,6,10,boost.mine.size,23408
+2,6,10,boost.mine.time,91
+2,6,10,prune.theta,0.003249
+2,6,10,prune.includes,-sampler-include-method=-org.jfree.chart.util.ShapeList--int-hashCode--- -sampler-include-method=-org.jfree.chart.util.ShapeList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--java.lang.Object-get-int-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-set-int,java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.HashUtilities--int-hashCode-int,int-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--int-hashCode--- -sampler-include-method=-org.jfree.chart.util.HashUtilities--int-hashCode-int,java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.ObjectUtilities--boolean-equal-java.lang.Object,java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.ShapeList--void-writeObject-java.io.ObjectOutputStream-- -sampler-include-method=-org.jfree.chart.util.ShapeList--void-readObject-java.io.ObjectInputStream-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-writeObject-java.io.ObjectOutputStream-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-readObject-java.io.ObjectInputStream-- -sampler-include-method=-org.jfree.chart.util.SerialUtilities--void-writeShape-java.awt.Shape,java.io.ObjectOutputStream-- -sampler-include-method=-org.jfree.chart.util.SerialUtilities--java.awt.Shape-readShape-java.io.ObjectInputStream--
+2,6,10,prune.includes_diff,-sampler-include-method=-org.jfree.chart.util.AbstractObjectList--boolean-equals-java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.HashUtilities--int-hashCode-int,int-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--int-hashCode--- -sampler-include-method=-org.jfree.chart.util.HashUtilities--int-hashCode-int,java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.ObjectUtilities--boolean-equal-java.lang.Object,java.lang.Object-- -sampler-include-method=-org.jfree.chart.util.ShapeList--void-writeObject-java.io.ObjectOutputStream-- -sampler-include-method=-org.jfree.chart.util.ShapeList--void-readObject-java.io.ObjectInputStream-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-writeObject-java.io.ObjectOutputStream-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-readObject-java.io.ObjectInputStream-- -sampler-include-method=-org.jfree.chart.util.SerialUtilities--void-writeShape-java.awt.Shape,java.io.ObjectOutputStream-- -sampler-include-method=-org.jfree.chart.util.SerialUtilities--java.awt.Shape-readShape-java.io.ObjectInputStream--
+2,6,10,prune_s.profile.number,183
+2,6,10,prune_s.profile.time,43141
+2,6,10,prune_s.profile.size,7856
+2,6,10,prune.profile.number,208
+2,6,10,prune.profile.time,47054
+2,6,10,prune.profile.size,7856
+2,6,10,prune.preprocess.size,6511696
+2,6,10,prune.preprocess.time,11088
+2,6,10,prune.preprocess.number,212
+2,6,10,prune.preprocess.time_p,10233.0
+2,6,10,prune.mine.size,32832
+2,6,10,prune.mine.time,147
+2,6,10,end

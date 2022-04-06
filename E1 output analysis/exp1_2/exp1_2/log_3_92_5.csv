@@ -1,0 +1,40 @@
+3,92,5,start
+3,92,5,raw.profile.time,3209
+3,92,5,coarse-grained.profile.time,22168
+3,92,5,coarse-grained.profile.number,2508
+3,92,5,coarse-grained.profile.size,4488
+3,92,5,fine-grained.profile.time,1914275
+3,92,5,fine-grained.profile.size,308704
+3,92,5,fine-grained.profile.number,485392
+3,92,5,fine-grained.preprocess.size,18640896
+3,92,5,fine-grained.preprocess.time,23724
+3,92,5,fine-grained.preprocess.number,110
+3,92,5,fine-grained.preprocess.time_p,22880.0
+3,92,5,fine-grained.mine.size,21296
+3,92,5,fine-grained.mine.time,70
+3,92,5,boost.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--long-binomialCoefficient-int,int--
+3,92,5,boost.profile.number,44
+3,92,5,boost.profile.time,15579
+3,92,5,boost.profile.size,2300
+3,92,5,boost.preprocess.size,265584
+3,92,5,boost.preprocess.time,1128
+3,92,5,boost.preprocess.number,17
+3,92,5,boost.preprocess.time_p,636.0
+3,92,5,boost.mine.size,20304
+3,92,5,boost.mine.time,40
+3,92,5,prune.theta,0.013330
+3,92,5,prune.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--long-binomialCoefficient-int,int-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long,java.lang.String-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientDouble-int,int-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientLog-int,int--
+3,92,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long,java.lang.String-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientDouble-int,int-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientLog-int,int--
+3,92,5,prune_s.profile.number,368
+3,92,5,prune_s.profile.time,207006
+3,92,5,prune_s.profile.size,2300
+3,92,5,prune.profile.number,412
+3,92,5,prune.profile.time,239961
+3,92,5,prune.profile.size,2300
+3,92,5,prune.preprocess.size,520208
+3,92,5,prune.preprocess.time,1756
+3,92,5,prune.preprocess.number,110
+3,92,5,prune.preprocess.time_p,1014.9999999999999
+3,92,5,prune.mine.size,21088
+3,92,5,prune.mine.time,50
+3,92,5,end

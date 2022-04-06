@@ -1,0 +1,15 @@
+grep,3_2,5,start
+grep,3_2,5,fine-grained.preprocess.size,2373892
+grep,3_2,5,fine-grained.preprocess.time,113831
+grep,3_2,5,fine-grained.preprocess.number,12253 
+grep,3_2,5,fine-grained.preprocess.time_p,113513.0
+grep,3_2,5,fine-grained.mine.size,5788
+grep,3_2,5,fine-grained.mine.time,15436
+grep,3_2,5,boost,0.05
+grep,3_2,5,boost.functions.count,4
+grep,3_2,5,boost.includes,-sampler-include-method=fillbuf -sampler-include-method=grep -sampler-include-method=page_alloc -sampler-include-method=reset
+grep,3_2,5,boost.preprocess.size,582816
+grep,3_2,5,boost.preprocess.time,1793
+grep,3_2,5,boost.preprocess.number,0 
+grep,3_2,5,boost.preprocess.time_p,1653.0
+grep,3_2,5,boost.mine.size,5808

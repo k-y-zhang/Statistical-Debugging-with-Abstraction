@@ -1,0 +1,40 @@
+3,92,10,start
+3,92,10,raw.profile.time,11600
+3,92,10,coarse-grained.profile.time,22168
+3,92,10,coarse-grained.profile.number,2504
+3,92,10,coarse-grained.profile.size,4488
+3,92,10,fine-grained.profile.time,1914275
+3,92,10,fine-grained.profile.size,308704
+3,92,10,fine-grained.profile.number,82862
+3,92,10,fine-grained.preprocess.size,18627184
+3,92,10,fine-grained.preprocess.time,69093
+3,92,10,fine-grained.preprocess.number,110
+3,92,10,fine-grained.preprocess.time_p,67737.0
+3,92,10,fine-grained.mine.size,22384
+3,92,10,fine-grained.mine.time,100
+3,92,10,boost.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--long-binomialCoefficient-int,int--
+3,92,10,boost.profile.number,4
+3,92,10,boost.profile.time,15579
+3,92,10,boost.profile.size,2300
+3,92,10,boost.preprocess.size,306224
+3,92,10,boost.preprocess.time,2073
+3,92,10,boost.preprocess.number,17
+3,92,10,boost.preprocess.time_p,1281.0
+3,92,10,boost.mine.size,19760
+3,92,10,boost.mine.time,63
+3,92,10,prune.theta,0.013330
+3,92,10,prune.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--long-binomialCoefficient-int,int-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long,java.lang.String-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientDouble-int,int-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientLog-int,int--
+3,92,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.util.MathUtils--long-addAndCheck-long,long,java.lang.String-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientDouble-int,int-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-binomialCoefficientLog-int,int--
+3,92,10,prune_s.profile.number,62
+3,92,10,prune_s.profile.time,207006
+3,92,10,prune_s.profile.size,2300
+3,92,10,prune.profile.number,74
+3,92,10,prune.profile.time,239961
+3,92,10,prune.profile.size,2300
+3,92,10,prune.preprocess.size,1327840
+3,92,10,prune.preprocess.time,3267
+3,92,10,prune.preprocess.number,110
+3,92,10,prune.preprocess.time_p,2441.0
+3,92,10,prune.mine.size,21936
+3,92,10,prune.mine.time,111
+3,92,10,end

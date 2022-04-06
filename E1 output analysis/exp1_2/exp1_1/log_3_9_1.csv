@@ -1,0 +1,40 @@
+3,9,1,start
+3,9,1,raw.profile.time,695
+3,9,1,coarse-grained.profile.time,1805
+3,9,1,coarse-grained.profile.number,7274
+3,9,1,coarse-grained.profile.size,852
+3,9,1,fine-grained.profile.time,35838
+3,9,1,fine-grained.profile.size,51636
+3,9,1,fine-grained.profile.number,217476
+3,9,1,fine-grained.preprocess.size,5105664
+3,9,1,fine-grained.preprocess.time,16592
+3,9,1,fine-grained.preprocess.number,3409
+3,9,1,fine-grained.preprocess.time_p,15712.0
+3,9,1,fine-grained.mine.size,93232
+3,9,1,fine-grained.mine.time,26566
+3,9,1,boost.includes,-sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--double[]-toArray--- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--org.apache.commons.math3.geometry.euclidean.threed.Vector3D-negate---
+3,9,1,boost.profile.number,10
+3,9,1,boost.profile.time,983
+3,9,1,boost.profile.size,152
+3,9,1,boost.preprocess.size,154032
+3,9,1,boost.preprocess.time,1218
+3,9,1,boost.preprocess.number,18
+3,9,1,boost.preprocess.time_p,411.0
+3,9,1,boost.mine.size,19696
+3,9,1,boost.mine.time,118
+3,9,1,prune.theta,0.187176
+3,9,1,prune.includes,-sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--double[]-toArray--- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--org.apache.commons.math3.geometry.euclidean.threed.Vector3D-negate--- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Line--void-reset-org.apache.commons.math3.geometry.euclidean.threed.Vector3D,org.apache.commons.math3.geometry.euclidean.threed.Vector3D-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--double-getNormSq--- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--void--init--double,org.apache.commons.math3.geometry.euclidean.threed.Vector3D,double,org.apache.commons.math3.geometry.euclidean.threed.Vector3D-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--org.apache.commons.math3.geometry.euclidean.threed.Vector3D-subtract-org.apache.commons.math3.geometry.Vector-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--double-dotProduct-org.apache.commons.math3.geometry.Vector-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--void--init--double,org.apache.commons.math3.geometry.euclidean.threed.Vector3D-- -sampler-include-method=-org.apache.commons.math3.util.MathArrays--double-linearCombination-double,double,double,double,double,double-- -sampler-include-method=-org.apache.commons.math3.util.MathArrays--double-linearCombination-double,double,double,double--
+3,9,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Line--void-reset-org.apache.commons.math3.geometry.euclidean.threed.Vector3D,org.apache.commons.math3.geometry.euclidean.threed.Vector3D-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--double-getNormSq--- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--void--init--double,org.apache.commons.math3.geometry.euclidean.threed.Vector3D,double,org.apache.commons.math3.geometry.euclidean.threed.Vector3D-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--org.apache.commons.math3.geometry.euclidean.threed.Vector3D-subtract-org.apache.commons.math3.geometry.Vector-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--double-dotProduct-org.apache.commons.math3.geometry.Vector-- -sampler-include-method=-org.apache.commons.math3.geometry.euclidean.threed.Vector3D--void--init--double,org.apache.commons.math3.geometry.euclidean.threed.Vector3D-- -sampler-include-method=-org.apache.commons.math3.util.MathArrays--double-linearCombination-double,double,double,double,double,double-- -sampler-include-method=-org.apache.commons.math3.util.MathArrays--double-linearCombination-double,double,double,double--
+3,9,1,prune_s.profile.number,1439
+3,9,1,prune_s.profile.time,10112
+3,9,1,prune_s.profile.size,476
+3,9,1,prune.profile.number,1457
+3,9,1,prune.profile.time,11062
+3,9,1,prune.profile.size,480
+3,9,1,prune.preprocess.size,2361968
+3,9,1,prune.preprocess.time,5079
+3,9,1,prune.preprocess.number,3409
+3,9,1,prune.preprocess.time_p,4257.0
+3,9,1,prune.mine.size,93472
+3,9,1,prune.mine.time,34294
+3,9,1,end

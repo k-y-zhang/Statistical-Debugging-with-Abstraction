@@ -1,0 +1,40 @@
+3,101,1,start
+3,101,1,raw.profile.time,21
+3,101,1,coarse-grained.profile.time,455
+3,101,1,coarse-grained.profile.number,1727
+3,101,1,coarse-grained.profile.size,580
+3,101,1,fine-grained.profile.time,3160
+3,101,1,fine-grained.profile.size,23540
+3,101,1,fine-grained.profile.number,288232
+3,101,1,fine-grained.preprocess.size,2385792
+3,101,1,fine-grained.preprocess.time,4096
+3,101,1,fine-grained.preprocess.number,36
+3,101,1,fine-grained.preprocess.time_p,3553.0
+3,101,1,fine-grained.mine.size,19168
+3,101,1,fine-grained.mine.time,44
+3,101,1,boost.includes,-sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-parseAndIgnoreWhitespace-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--char-parseNextCharacter-java.lang.String,java.text.ParsePosition--
+3,101,1,boost.profile.number,74
+3,101,1,boost.profile.time,420
+3,101,1,boost.profile.size,300
+3,101,1,boost.preprocess.size,165344
+3,101,1,boost.preprocess.time,731
+3,101,1,boost.preprocess.number,20
+3,101,1,boost.preprocess.time_p,244.0
+3,101,1,boost.mine.size,19568
+3,101,1,boost.mine.time,53
+3,101,1,prune.theta,0.187176
+3,101,1,prune.includes,-sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-parseAndIgnoreWhitespace-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--char-parseNextCharacter-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--java.lang.Number-parseNumber-java.lang.String,java.text.NumberFormat,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--org.apache.commons.math.complex.Complex-parse-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-setRealFormat-java.text.NumberFormat-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-setImaginaryFormat-java.text.NumberFormat-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-setImaginaryCharacter-java.lang.String--
+3,101,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--java.lang.Number-parseNumber-java.lang.String,java.text.NumberFormat,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--org.apache.commons.math.complex.Complex-parse-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-setRealFormat-java.text.NumberFormat-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-setImaginaryFormat-java.text.NumberFormat-- -sampler-include-method=-org.apache.commons.math.complex.ComplexFormat--void-setImaginaryCharacter-java.lang.String--
+3,101,1,prune_s.profile.number,194
+3,101,1,prune_s.profile.time,224
+3,101,1,prune_s.profile.size,300
+3,101,1,prune.profile.number,268
+3,101,1,prune.profile.time,259
+3,101,1,prune.profile.size,300
+3,101,1,prune.preprocess.size,178704
+3,101,1,prune.preprocess.time,1019
+3,101,1,prune.preprocess.number,36
+3,101,1,prune.preprocess.time_p,463.0
+3,101,1,prune.mine.size,19792
+3,101,1,prune.mine.time,45
+3,101,1,end

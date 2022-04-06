@@ -1,0 +1,40 @@
+3,15,5,start
+3,15,5,raw.profile.time,40558
+3,15,5,coarse-grained.profile.time,1291763
+3,15,5,coarse-grained.profile.number,6294
+3,15,5,coarse-grained.profile.size,63140
+3,15,5,fine-grained.profile.time,122864756
+3,15,5,fine-grained.profile.size,4157356
+3,15,5,fine-grained.profile.number,1145798
+3,15,5,fine-grained.preprocess.size,51047136
+3,15,5,fine-grained.preprocess.time,354218
+3,15,5,fine-grained.preprocess.number,4108
+3,15,5,fine-grained.preprocess.time_p,352764.0
+3,15,5,fine-grained.mine.size,2348528
+3,15,5,fine-grained.mine.time,75384
+3,15,5,boost.includes,-sampler-include-method=-org.apache.commons.math3.random.MersenneTwister--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.random.MersenneTwister--void-setSeed-int--
+3,15,5,boost.profile.number,314
+3,15,5,boost.profile.time,71635
+3,15,5,boost.profile.size,13104
+3,15,5,boost.preprocess.size,1413776
+3,15,5,boost.preprocess.time,2228
+3,15,5,boost.preprocess.number,66
+3,15,5,boost.preprocess.time_p,1614.0
+3,15,5,boost.mine.size,24672
+3,15,5,boost.mine.time,12
+3,15,5,prune.theta,0.001750
+3,15,5,prune.includes,-sampler-include-method=-org.apache.commons.math3.random.MersenneTwister--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.random.MersenneTwister--void-setSeed-int-- -sampler-include-method=-org.apache.commons.math3.random.MersenneTwister--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--int-getRadixDigits--- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--void-computeStringConstants-int-- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--void-setIEEEFlagsBits-int-- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--void--init--int,boolean-- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--org.apache.commons.math3.dfp.Dfp[]-split-java.lang.String-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--void--init--org.apache.commons.math3.dfp.DfpField,long-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--int-round-int-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--void--init--org.apache.commons.math3.dfp.DfpField,java.lang.String-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-max-int,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-pow-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double,double[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double,double,double[]--
+3,15,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.random.MersenneTwister--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--int-getRadixDigits--- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--void-computeStringConstants-int-- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--void-setIEEEFlagsBits-int-- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--void--init--int,boolean-- -sampler-include-method=-org.apache.commons.math3.dfp.DfpField--org.apache.commons.math3.dfp.Dfp[]-split-java.lang.String-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--void--init--org.apache.commons.math3.dfp.DfpField,long-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--int-round-int-- -sampler-include-method=-org.apache.commons.math3.dfp.Dfp--void--init--org.apache.commons.math3.dfp.DfpField,java.lang.String-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-max-int,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-pow-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-log-double,double[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-exp-double,double,double[]--
+3,15,5,prune_s.profile.number,20994
+3,15,5,prune_s.profile.time,723997
+3,15,5,prune_s.profile.size,88268
+3,15,5,prune.profile.number,21308
+3,15,5,prune.profile.time,788586
+3,15,5,prune.profile.size,88380
+3,15,5,prune.preprocess.size,17732848
+3,15,5,prune.preprocess.time,16015
+3,15,5,prune.preprocess.number,4110
+3,15,5,prune.preprocess.time_p,15135.0
+3,15,5,prune.mine.size,2350720
+3,15,5,prune.mine.time,67820
+3,15,5,end

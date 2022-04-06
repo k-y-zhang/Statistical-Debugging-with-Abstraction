@@ -1,0 +1,46 @@
+grep,1_8,1,start
+grep,1_8,1,coarse-grained.profile.time,7865
+grep,1_8,1,coarse-grained.profile.size,339
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/v1_subv8_c.sites
+grep,1_8,1,coarse-grained.profile.number,123
+grep,1_8,1,fine-grained.profile.time,204743
+grep,1_8,1,fine-grained.profile.size,892558
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/v1_subv8_f.sites
+grep,1_8,1,fine-grained.profile.number,1098642
+grep,1_8,1,fine-grained.preprocess.size,2155780
+grep,1_8,1,fine-grained.preprocess.time,90031
+grep,1_8,1,fine-grained.preprocess.number,7288 
+grep,1_8,1,fine-grained.preprocess.time_p,89755.0
+grep,1_8,1,fine-grained.mine.size,5792
+grep,1_8,1,fine-grained.mine.time,308605
+grep,1_8,1,boost,0.05
+grep,1_8,1,boost.functions.count,8
+grep,1_8,1,boost.includes,-sampler-include-method=btowc -sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=charclass_index -sampler-include-method=dfaexec -sampler-include-method=dfastate -sampler-include-method=is_alpha -sampler-include-method=looking_at
+grep,1_8,1,boost.preprocess.size,1165560
+grep,1_8,1,boost.preprocess.time,4518
+grep,1_8,1,boost.preprocess.number,1801 
+grep,1_8,1,boost.preprocess.time_p,4285.0
+grep,1_8,1,boost.mine.size,5804
+grep,1_8,1,boost.mine.time,10407
+grep,1_8,1,theta,0.020027
+grep,1_8,1,prune.functions.count,48
+grep,1_8,1,prune.includes,-sampler-include-method=EGexecute -sampler-include-method=Gcompile -sampler-include-method=addtok -sampler-include-method=atom -sampler-include-method=branch -sampler-include-method=btowc -sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=charclass_index -sampler-include-method=closure -sampler-include-method=copy -sampler-include-method=copyset -sampler-include-method=dfaanalyze -sampler-include-method=dfacomp -sampler-include-method=dfaexec -sampler-include-method=dfainit -sampler-include-method=dfamust -sampler-include-method=dfaparse -sampler-include-method=dfastate -sampler-include-method=dfasyntax -sampler-include-method=epsclosure -sampler-include-method=fillbuf -sampler-include-method=freelist -sampler-include-method=grep -sampler-include-method=grepbuf -sampler-include-method=ifree -sampler-include-method=init_syntax_once -sampler-include-method=insert -sampler-include-method=is_alpha -sampler-include-method=kwsmusts -sampler-include-method=lex -sampler-include-method=looking_at -sampler-include-method=main -sampler-include-method=merge -sampler-include-method=prline -sampler-include-method=prtext -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile -sampler-include-method=regexp -sampler-include-method=reset -sampler-include-method=setmatcher -sampler-include-method=state_index -sampler-include-method=xcalloc -sampler-include-method=xmalloc -sampler-include-method=xmalloc_1 -sampler-include-method=xrealloc_1 -sampler-include-method=zeroset
+grep,1_8,1,prune.preprocess.size,1860228
+grep,1_8,1,prune.preprocess.time,62095
+grep,1_8,1,prune.preprocess.number,7065 
+grep,1_8,1,prune.preprocess.time_p,61881.0
+grep,1_8,1,prune.mine.size,5824
+grep,1_8,1,prune.mine.time,275834
+grep,1_8,1,boost.profile.time,41472
+grep,1_8,1,boost.profile.size,51966
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/v1_subv8_b.sites
+grep,1_8,1,boost.profile.number,60970
+grep,1_8,1,prune.profile.time,104947
+grep,1_8,1,prune.profile.size,467996
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/v1_subv8_p.sites
+grep,1_8,1,prune.profile.number,574398
+grep,1_8,1,prune-minus-boost.profile.time,53455
+grep,1_8,1,prune-minus-boost.profile.size,372644
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/v1_subv8_pmb.sites
+grep,1_8,1,prune-minus-boost.profile.number,461342
+grep,1_8,1,end

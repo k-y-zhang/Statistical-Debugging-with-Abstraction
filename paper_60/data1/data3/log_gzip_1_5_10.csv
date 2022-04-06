@@ -1,0 +1,32 @@
+gzip,1_5,10,start
+gzip,1_5,10,fine-grained.preprocess.size,2170268
+gzip,1_5,10,fine-grained.preprocess.time,38983
+gzip,1_5,10,fine-grained.preprocess.number,1419 
+gzip,1_5,10,fine-grained.preprocess.time_p,38781.0
+gzip,1_5,10,fine-grained.mine.size,5936
+gzip,1_5,10,fine-grained.mine.time,1686
+gzip,1_5,10,boost,0.05
+gzip,1_5,10,boost.functions.count,12 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv5/predicate-dataset/boost/boost_functions_2_0.05.txt
+gzip,1_5,10,prune-minus-boost.includes,-sampler-include-method=check_ofname -sampler-include-method=clear_bufs -sampler-include-method=create_outfile -sampler-include-method=do_stat -sampler-include-method=exchange -sampler-include-method=get_istat -sampler-include-method=get_suffix -sampler-include-method=make_ofname -sampler-include-method=reset_times -sampler-include-method=strlwr -sampler-include-method=treat_dir -sampler-include-method=treat_file
+gzip,1_5,10,boost.preprocess.size,733720
+gzip,1_5,10,boost.preprocess.time,2843
+gzip,1_5,10,boost.preprocess.number,835 
+gzip,1_5,10,boost.preprocess.time_p,2691.0
+gzip,1_5,10,boost.mine.size,5832
+gzip,1_5,10,boost.mine.time,1552
+gzip,1_5,10,theta,0.300524
+gzip,1_5,10,prune.functions.count,16 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv5/predicate-dataset/prune/prune_functions_2_0.05.txt
+gzip,1_5,10,prune-minus-boost.includes,-sampler-include-method=_getopt_internal -sampler-include-method=add_envopt -sampler-include-method=basename -sampler-include-method=check_ofname -sampler-include-method=clear_bufs -sampler-include-method=create_outfile -sampler-include-method=do_exit -sampler-include-method=do_stat -sampler-include-method=exchange -sampler-include-method=get_istat -sampler-include-method=get_suffix -sampler-include-method=getopt_long -sampler-include-method=main -sampler-include-method=make_ofname -sampler-include-method=strlwr -sampler-include-method=treat_file
+gzip,1_5,10,prune.preprocess.size,1219260
+gzip,1_5,10,prune.preprocess.time,6570
+gzip,1_5,10,prune.preprocess.number,1144 
+gzip,1_5,10,prune.preprocess.time_p,6379.0
+gzip,1_5,10,prune.mine.size,5860
+gzip,1_5,10,prune.mine.time,1787
+gzip,1_5,10,boost.profile.time,17272
+gzip,1_5,10,boost.profile.size,39204
+gzip,1_5,10,boost.profile.number,184180
+gzip,1_5,10,prune-minus-boost.profile.time,18872
+gzip,1_5,10,prune-minus-boost.profile.size,51984
+gzip,1_5,10,prune-minus-boost.profile.number,246832
+gzip,1_5,10,end

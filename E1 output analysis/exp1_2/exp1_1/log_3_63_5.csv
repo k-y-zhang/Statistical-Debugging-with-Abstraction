@@ -1,0 +1,28 @@
+3,63,5,start
+3,63,5,raw.profile.time,32391
+3,63,5,coarse-grained.profile.time,41514
+3,63,5,coarse-grained.profile.number,4526
+3,63,5,coarse-grained.profile.size,14676
+3,63,5,fine-grained.profile.time,3006936
+3,63,5,fine-grained.profile.size,787896
+3,63,5,fine-grained.profile.number,127811
+3,63,5,fine-grained.preprocess.size,43100752
+3,63,5,fine-grained.preprocess.time,147052
+3,63,5,fine-grained.preprocess.number,58
+3,63,5,fine-grained.preprocess.time_p,144218.0
+3,63,5,fine-grained.mine.size,21248
+3,63,5,fine-grained.mine.time,90
+3,63,5,boost.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--boolean-equals-double,double-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--boolean-equals-double[],double[]--
+3,63,5,boost.profile.number,28
+3,63,5,boost.profile.time,25780
+3,63,5,boost.profile.size,3792
+3,63,5,boost.preprocess.size,662896
+3,63,5,boost.preprocess.time,2642
+3,63,5,boost.preprocess.number,58
+3,63,5,boost.preprocess.time_p,1959.0
+3,63,5,boost.mine.size,20816
+3,63,5,boost.mine.time,75
+3,63,5,prune.theta,0.012422
+3,63,5,prune.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--boolean-equals-double,double-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--boolean-equals-double[],double[]--
+3,63,5,prune.includes_diff,
+3,63,5,end

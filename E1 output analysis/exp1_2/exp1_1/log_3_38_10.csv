@@ -1,0 +1,40 @@
+3,38,10,start
+3,38,10,raw.profile.time,19723
+3,38,10,coarse-grained.profile.time,218481
+3,38,10,coarse-grained.profile.number,5711
+3,38,10,coarse-grained.profile.size,384
+3,38,10,fine-grained.profile.time,1378596
+3,38,10,fine-grained.profile.size,22728
+3,38,10,fine-grained.profile.number,175900
+3,38,10,fine-grained.preprocess.size,2987248
+3,38,10,fine-grained.preprocess.time,11983
+3,38,10,fine-grained.preprocess.number,1209
+3,38,10,fine-grained.preprocess.time_p,11180.0
+3,38,10,fine-grained.mine.size,51440
+3,38,10,fine-grained.mine.time,1302
+3,38,10,boost.includes,-sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--java.lang.String-caller-int-- -sampler-include-method=-org.apache.commons.math.optimization.RealPointValuePair--void--init--double[],double-- -sampler-include-method=-org.apache.commons.math.linear.Array2DRowRealMatrix--int-getRowDimension--- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer--double-computeObjectiveValue-double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer--int-getEvaluations--- -sampler-include-method=-org.apache.commons.math.linear.Array2DRowRealMatrix--int-getColumnDimension--- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math.linear.MatrixUtils--void-checkRowIndex-org.apache.commons.math.linear.AnyMatrix,int--
+3,38,10,boost.profile.number,7
+3,38,10,boost.profile.time,134999
+3,38,10,boost.profile.size,80
+3,38,10,boost.preprocess.size,152512
+3,38,10,boost.preprocess.time,1116
+3,38,10,boost.preprocess.number,13
+3,38,10,boost.preprocess.time_p,405.0
+3,38,10,boost.mine.size,19392
+3,38,10,boost.mine.time,163
+3,38,10,prune.theta,0.023933
+3,38,10,prune.includes,-sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--java.lang.String-caller-int-- -sampler-include-method=-org.apache.commons.math.optimization.RealPointValuePair--void--init--double[],double-- -sampler-include-method=-org.apache.commons.math.linear.Array2DRowRealMatrix--int-getRowDimension--- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer--double-computeObjectiveValue-double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer--int-getEvaluations--- -sampler-include-method=-org.apache.commons.math.linear.Array2DRowRealMatrix--int-getColumnDimension--- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math.linear.MatrixUtils--void-checkRowIndex-org.apache.commons.math.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math.linear.MatrixUtils--void-checkColumnIndex-org.apache.commons.math.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math.util.Incrementor--void-incrementCount--- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--double-bobyqa-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--void-prelim-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--double-bobyqb-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer--org.apache.commons.math.optimization.RealPointValuePair-optimize-int,org.apache.commons.math.analysis.MultivariateFunction,org.apache.commons.math.optimization.GoalType,double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--org.apache.commons.math.optimization.RealPointValuePair-doOptimize--- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--void-setup-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateSimpleBoundsOptimizer--org.apache.commons.math.optimization.RealPointValuePair-optimize-int,org.apache.commons.math.analysis.MultivariateFunction,org.apache.commons.math.optimization.GoalType,double[],double[],double[]--
+3,38,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.linear.MatrixUtils--void-checkColumnIndex-org.apache.commons.math.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math.util.Incrementor--void-incrementCount--- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--double-bobyqa-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--void-prelim-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--double-bobyqb-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer--org.apache.commons.math.optimization.RealPointValuePair-optimize-int,org.apache.commons.math.analysis.MultivariateFunction,org.apache.commons.math.optimization.GoalType,double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--org.apache.commons.math.optimization.RealPointValuePair-doOptimize--- -sampler-include-method=-org.apache.commons.math.optimization.direct.BOBYQAOptimizer--void-setup-double[],double[]-- -sampler-include-method=-org.apache.commons.math.optimization.direct.BaseAbstractMultivariateSimpleBoundsOptimizer--org.apache.commons.math.optimization.RealPointValuePair-optimize-int,org.apache.commons.math.analysis.MultivariateFunction,org.apache.commons.math.optimization.GoalType,double[],double[],double[]--
+3,38,10,prune_s.profile.number,2455
+3,38,10,prune_s.profile.time,255908
+3,38,10,prune_s.profile.size,384
+3,38,10,prune.profile.number,2470
+3,38,10,prune.profile.time,510374
+3,38,10,prune.profile.size,384
+3,38,10,prune.preprocess.size,1903312
+3,38,10,prune.preprocess.time,3815
+3,38,10,prune.preprocess.number,1209
+3,38,10,prune.preprocess.time_p,3066.0
+3,38,10,prune.mine.size,50640
+3,38,10,prune.mine.time,2317
+3,38,10,end

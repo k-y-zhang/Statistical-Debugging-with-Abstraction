@@ -1,0 +1,42 @@
+gzip,1_16,1,start
+gzip,1_16,1,coarse-grained.profile.time,13735
+gzip,1_16,1,coarse-grained.profile.size,864
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv16/v1_subv16_c.sites
+gzip,1_16,1,coarse-grained.profile.number,81
+gzip,1_16,1,fine-grained.profile.time,782654
+gzip,1_16,1,fine-grained.profile.size,759636
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv16/v1_subv16_f.sites
+gzip,1_16,1,fine-grained.profile.number,3441456
+gzip,1_16,1,fine-grained.preprocess.size,2372824
+gzip,1_16,1,fine-grained.preprocess.time,59271
+gzip,1_16,1,fine-grained.preprocess.number,1044 
+gzip,1_16,1,fine-grained.preprocess.time_p,58927.0
+gzip,1_16,1,fine-grained.mine.size,5864
+gzip,1_16,1,fine-grained.mine.time,1479
+gzip,1_16,1,boost,0.05
+gzip,1_16,1,boost.functions.count,2
+gzip,1_16,1,boost.includes,-sampler-include-method=fill_inbuf -sampler-include-method=get_method
+gzip,1_16,1,boost.preprocess.size,585988
+gzip,1_16,1,boost.preprocess.time,2736
+gzip,1_16,1,boost.preprocess.number,53 
+gzip,1_16,1,boost.preprocess.time_p,2576.0
+gzip,1_16,1,boost.mine.size,5800
+gzip,1_16,1,boost.mine.time,2557
+gzip,1_16,1,theta,0.312733
+gzip,1_16,1,prune.functions.count,9
+gzip,1_16,1,prune.includes,-sampler-include-method=_getopt_internal -sampler-include-method=add_envopt -sampler-include-method=basename -sampler-include-method=clear_bufs -sampler-include-method=do_exit -sampler-include-method=fill_inbuf -sampler-include-method=get_method -sampler-include-method=getopt_long -sampler-include-method=main
+gzip,1_16,1,prune.preprocess.size,1127652
+gzip,1_16,1,prune.preprocess.time,6182
+gzip,1_16,1,prune.preprocess.number,604 
+gzip,1_16,1,prune.preprocess.time_p,6024.0
+gzip,1_16,1,prune.mine.size,5792
+gzip,1_16,1,prune.mine.time,3209
+gzip,1_16,1,boost.profile.time,18855
+gzip,1_16,1,boost.profile.size,40908
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv16/v1_subv16_b.sites
+gzip,1_16,1,boost.profile.number,193886
+gzip,1_16,1,prune-minus-boost.profile.time,19888
+gzip,1_16,1,prune-minus-boost.profile.size,55392
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv16/v1_subv16_pmb.sites
+gzip,1_16,1,prune-minus-boost.profile.number,263572
+gzip,1_16,1,end

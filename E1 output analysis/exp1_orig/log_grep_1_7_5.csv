@@ -1,0 +1,38 @@
+grep,1_7,5,start
+grep,1_7,5,fine-grained.preprocess.size,2360692
+grep,1_7,5,fine-grained.preprocess.time,117602
+grep,1_7,5,fine-grained.preprocess.number,10856 
+grep,1_7,5,fine-grained.preprocess.time_p,117342.0
+grep,1_7,5,fine-grained.mine.size,5760
+grep,1_7,5,fine-grained.mine.time,585063
+grep,1_7,5,boost,0.05
+grep,1_7,5,boost.functions.count,9
+grep,1_7,5,boost.includes,-sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=charclass_index -sampler-include-method=delete -sampler-include-method=dfaexec -sampler-include-method=dfastate -sampler-include-method=equal -sampler-include-method=inboth -sampler-include-method=notset
+grep,1_7,5,boost.preprocess.size,1446720
+grep,1_7,5,boost.preprocess.time,6103
+grep,1_7,5,boost.preprocess.number,2817 
+grep,1_7,5,boost.preprocess.time_p,5917.0
+grep,1_7,5,boost.mine.size,5800
+grep,1_7,5,boost.mine.time,19836
+grep,1_7,5,theta,0.011251
+grep,1_7,5,prune.functions.count,47
+grep,1_7,5,prune.includes,-sampler-include-method=EGexecute -sampler-include-method=Gcompile -sampler-include-method=addtok -sampler-include-method=atom -sampler-include-method=branch -sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=charclass_index -sampler-include-method=closure -sampler-include-method=copy -sampler-include-method=copyset -sampler-include-method=delete -sampler-include-method=dfaanalyze -sampler-include-method=dfacomp -sampler-include-method=dfaexec -sampler-include-method=dfainit -sampler-include-method=dfamust -sampler-include-method=dfaparse -sampler-include-method=dfastate -sampler-include-method=dfasyntax -sampler-include-method=epsclosure -sampler-include-method=equal -sampler-include-method=fillbuf -sampler-include-method=freelist -sampler-include-method=grep -sampler-include-method=grepbuf -sampler-include-method=ifree -sampler-include-method=inboth -sampler-include-method=init_syntax_once -sampler-include-method=insert -sampler-include-method=kwsmusts -sampler-include-method=lex -sampler-include-method=main -sampler-include-method=merge -sampler-include-method=notset -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile -sampler-include-method=regexp -sampler-include-method=reset -sampler-include-method=setmatcher -sampler-include-method=state_index -sampler-include-method=xcalloc -sampler-include-method=xmalloc -sampler-include-method=xmalloc_1 -sampler-include-method=xrealloc_1 -sampler-include-method=zeroset
+grep,1_7,5,prune.preprocess.size,1902764
+grep,1_7,5,prune.preprocess.time,80641
+grep,1_7,5,prune.preprocess.number,10551 
+grep,1_7,5,prune.preprocess.time_p,80388.0
+grep,1_7,5,prune.mine.size,5772
+grep,1_7,5,prune.mine.time,523459
+grep,1_7,5,boost.profile.time,40736
+grep,1_7,5,boost.profile.size,55458
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv7/v1_subv7_b.sites
+grep,1_7,5,boost.profile.number,65432
+grep,1_7,5,prune.profile.time,114063
+grep,1_7,5,prune.profile.size,464589
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv7/v1_subv7_p.sites
+grep,1_7,5,prune.profile.number,570802
+grep,1_7,5,prune-minus-boost.profile.time,52252
+grep,1_7,5,prune-minus-boost.profile.size,365883
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv7/v1_subv7_pmb.sites
+grep,1_7,5,prune-minus-boost.profile.number,453368
+grep,1_7,5,end

@@ -1,0 +1,40 @@
+2,2,1,start
+2,2,1,raw.profile.time,9563
+2,2,1,coarse-grained.profile.time,256497
+2,2,1,coarse-grained.profile.number,8482
+2,2,1,coarse-grained.profile.size,61720
+2,2,1,fine-grained.profile.time,2517902
+2,2,1,fine-grained.profile.size,1621724
+2,2,1,fine-grained.profile.number,620334
+2,2,1,fine-grained.preprocess.size,45571408
+2,2,1,fine-grained.preprocess.time,147486
+2,2,1,fine-grained.preprocess.number,115
+2,2,1,fine-grained.preprocess.time_p,145863.0
+2,2,1,fine-grained.mine.size,42704
+2,2,1,fine-grained.mine.time,55
+2,2,1,boost.includes,-sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getItemCount-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--org.jfree.data.xy.XYIntervalSeries-getSeries-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getSeriesCount--- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--void-addSeries-org.jfree.data.xy.XYIntervalSeries-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getStartYValue-int,int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getEndYValue-int,int--
+2,2,1,boost.profile.number,36
+2,2,1,boost.profile.time,52850
+2,2,1,boost.profile.size,9136
+2,2,1,boost.preprocess.size,575488
+2,2,1,boost.preprocess.time,2826
+2,2,1,boost.preprocess.number,9
+2,2,1,boost.preprocess.time_p,2252.0
+2,2,1,boost.mine.size,25280
+2,2,1,boost.mine.time,148
+2,2,1,prune.theta,0.010533
+2,2,1,prune.includes,-sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getItemCount-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--org.jfree.data.xy.XYIntervalSeries-getSeries-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getSeriesCount--- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--void-addSeries-org.jfree.data.xy.XYIntervalSeries-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--void-add-org.jfree.data.ComparableObjectItem,boolean-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--int-getItemCount--- -sampler-include-method=-org.jfree.data.ComparableObjectItem--void--init--java.lang.Comparable,java.lang.Object-- -sampler-include-method=-org.jfree.data.general.Series--void-addChangeListener-org.jfree.data.event.SeriesChangeListener-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.event.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String-- -sampler-include-method=-org.jfree.data.general.AbstractDataset--void-notifyListeners-org.jfree.data.event.DatasetChangeEvent-- -sampler-include-method=-org.jfree.data.event.DatasetChangeEvent--void--init--java.lang.Object,org.jfree.data.general.Dataset,org.jfree.chart.event.DatasetChangeInfo--
+2,2,1,prune.includes_diff,-sampler-include-method=-org.jfree.data.ComparableObjectSeries--void-add-org.jfree.data.ComparableObjectItem,boolean-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--int-getItemCount--- -sampler-include-method=-org.jfree.data.ComparableObjectItem--void--init--java.lang.Comparable,java.lang.Object-- -sampler-include-method=-org.jfree.data.general.Series--void-addChangeListener-org.jfree.data.event.SeriesChangeListener-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.event.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String-- -sampler-include-method=-org.jfree.data.general.AbstractDataset--void-notifyListeners-org.jfree.data.event.DatasetChangeEvent-- -sampler-include-method=-org.jfree.data.event.DatasetChangeEvent--void--init--java.lang.Object,org.jfree.data.general.Dataset,org.jfree.chart.event.DatasetChangeInfo--
+2,2,1,prune_s.profile.number,200
+2,2,1,prune_s.profile.time,53307
+2,2,1,prune_s.profile.size,9136
+2,2,1,prune.profile.number,224
+2,2,1,prune.profile.time,54108
+2,2,1,prune.profile.size,9136
+2,2,1,prune.preprocess.size,988896
+2,2,1,prune.preprocess.time,3215
+2,2,1,prune.preprocess.number,31
+2,2,1,prune.preprocess.time_p,2592.0
+2,2,1,prune.mine.size,31120
+2,2,1,prune.mine.time,41
+2,2,1,end

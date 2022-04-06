@@ -1,0 +1,28 @@
+1,53,1,start
+1,53,1,raw.profile.time,9371
+1,53,1,coarse-grained.profile.time,66567
+1,53,1,coarse-grained.profile.number,2065
+1,53,1,coarse-grained.profile.size,13280
+1,53,1,fine-grained.profile.time,4346340
+1,53,1,fine-grained.profile.size,162688
+1,53,1,fine-grained.profile.number,76758
+1,53,1,fine-grained.preprocess.size,13270192
+1,53,1,fine-grained.preprocess.time,22043
+1,53,1,fine-grained.preprocess.number,319
+1,53,1,fine-grained.preprocess.time_p,21301.0
+1,53,1,fine-grained.mine.size,24480
+1,53,1,fine-grained.mine.time,65
+1,53,1,boost.includes,-sampler-include-method=-org.apache.commons.lang.time.DateUtils--java.util.Date-round-java.util.Date,int-- -sampler-include-method=-org.apache.commons.lang.time.DateUtils--void-modify-java.util.Calendar,int,boolean--
+1,53,1,boost.profile.number,1974
+1,53,1,boost.profile.time,16086
+1,53,1,boost.profile.size,6784
+1,53,1,boost.preprocess.size,2281952
+1,53,1,boost.preprocess.time,3959
+1,53,1,boost.preprocess.number,305
+1,53,1,boost.preprocess.time_p,3307.0
+1,53,1,boost.mine.size,24048
+1,53,1,boost.mine.time,51
+1,53,1,prune.theta,0.007455
+1,53,1,prune.includes,-sampler-include-method=-org.apache.commons.lang.time.DateUtils--java.util.Date-round-java.util.Date,int-- -sampler-include-method=-org.apache.commons.lang.time.DateUtils--void-modify-java.util.Calendar,int,boolean--
+1,53,1,prune.includes_diff,
+1,53,1,end

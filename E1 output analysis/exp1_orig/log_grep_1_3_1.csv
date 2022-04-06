@@ -1,0 +1,46 @@
+grep,1_3,1,start
+grep,1_3,1,coarse-grained.profile.time,15564
+grep,1_3,1,coarse-grained.profile.size,393
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv3/v1_subv3_c.sites
+grep,1_3,1,coarse-grained.profile.number,123
+grep,1_3,1,fine-grained.profile.time,194916
+grep,1_3,1,fine-grained.profile.size,890814
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv3/v1_subv3_f.sites
+grep,1_3,1,fine-grained.profile.number,1098644
+grep,1_3,1,fine-grained.preprocess.size,2367536
+grep,1_3,1,fine-grained.preprocess.time,200655
+grep,1_3,1,fine-grained.preprocess.number,16782 
+grep,1_3,1,fine-grained.preprocess.time_p,200404.0
+grep,1_3,1,fine-grained.mine.size,5812
+grep,1_3,1,fine-grained.mine.time,523608
+grep,1_3,1,boost,0.05
+grep,1_3,1,boost.functions.count,4
+grep,1_3,1,boost.includes,-sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=dfaexec -sampler-include-method=dfastate
+grep,1_3,1,boost.preprocess.size,1169704
+grep,1_3,1,boost.preprocess.time,4395
+grep,1_3,1,boost.preprocess.number,3088 
+grep,1_3,1,boost.preprocess.time_p,4217.0
+grep,1_3,1,boost.mine.size,5872
+grep,1_3,1,boost.mine.time,3883
+grep,1_3,1,theta,0.709340
+grep,1_3,1,prune.functions.count,46
+grep,1_3,1,prune.includes,-sampler-include-method=EGexecute -sampler-include-method=addlists -sampler-include-method=addtok -sampler-include-method=atom -sampler-include-method=branch -sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=closure -sampler-include-method=copy -sampler-include-method=copyset -sampler-include-method=dfaanalyze -sampler-include-method=dfacomp -sampler-include-method=dfaexec -sampler-include-method=dfainit -sampler-include-method=dfamust -sampler-include-method=dfaparse -sampler-include-method=dfastate -sampler-include-method=dfasyntax -sampler-include-method=enlist -sampler-include-method=epsclosure -sampler-include-method=fillbuf -sampler-include-method=freelist -sampler-include-method=grep -sampler-include-method=grepbuf -sampler-include-method=icatalloc -sampler-include-method=icpyalloc -sampler-include-method=ifree -sampler-include-method=init_syntax_once -sampler-include-method=insert -sampler-include-method=istrstr -sampler-include-method=kwsmusts -sampler-include-method=lex -sampler-include-method=main -sampler-include-method=merge -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile -sampler-include-method=regexp -sampler-include-method=reset -sampler-include-method=setmatcher -sampler-include-method=state_index -sampler-include-method=xcalloc -sampler-include-method=xmalloc -sampler-include-method=xmalloc_1 -sampler-include-method=xrealloc_1 -sampler-include-method=zeroset
+grep,1_3,1,prune.preprocess.size,1893492
+grep,1_3,1,prune.preprocess.time,95829
+grep,1_3,1,prune.preprocess.number,13671 
+grep,1_3,1,prune.preprocess.time_p,95634.0
+grep,1_3,1,prune.mine.size,5764
+grep,1_3,1,prune.mine.time,223146
+grep,1_3,1,boost.profile.time,43708
+grep,1_3,1,boost.profile.size,49496
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv3/v1_subv3_b.sites
+grep,1_3,1,boost.profile.number,58328
+grep,1_3,1,prune.profile.time,99621
+grep,1_3,1,prune.profile.size,455222
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv3/v1_subv3_p.sites
+grep,1_3,1,prune.profile.number,559380
+grep,1_3,1,prune-minus-boost.profile.time,59548
+grep,1_3,1,prune-minus-boost.profile.size,368721
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv3/v1_subv3_pmb.sites
+grep,1_3,1,prune-minus-boost.profile.number,456496
+grep,1_3,1,end

@@ -1,0 +1,40 @@
+3,79,5,start
+3,79,5,raw.profile.time,13291
+3,79,5,coarse-grained.profile.time,19234
+3,79,5,coarse-grained.profile.number,3948
+3,79,5,coarse-grained.profile.size,10548
+3,79,5,fine-grained.profile.time,1435877
+3,79,5,fine-grained.profile.size,669020
+3,79,5,fine-grained.profile.number,114012
+3,79,5,fine-grained.preprocess.size,36267824
+3,79,5,fine-grained.preprocess.time,133282
+3,79,5,fine-grained.preprocess.number,84
+3,79,5,fine-grained.preprocess.time_p,129112.0
+3,79,5,fine-grained.mine.size,22816
+3,79,5,fine-grained.mine.time,95
+3,79,5,boost.includes,-sampler-include-method=-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint--double-distanceFrom-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--void-assignPointsToClusters-java.util.Collection,java.util.Collection-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--org.apache.commons.math.stat.clustering.Cluster-getNearestCluster-java.util.Collection,org.apache.commons.math.stat.clustering.Clusterable--
+3,79,5,boost.profile.number,0
+3,79,5,boost.profile.time,11916
+3,79,5,boost.profile.size,3620
+3,79,5,boost.preprocess.size,448784
+3,79,5,boost.preprocess.time,3052
+3,79,5,boost.preprocess.number,9
+3,79,5,boost.preprocess.time_p,2341.0
+3,79,5,boost.mine.size,20720
+3,79,5,boost.mine.time,135
+3,79,5,prune.theta,0.010624
+3,79,5,prune.includes,-sampler-include-method=-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint--double-distanceFrom-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--void-assignPointsToClusters-java.util.Collection,java.util.Collection-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--org.apache.commons.math.stat.clustering.Cluster-getNearestCluster-java.util.Collection,org.apache.commons.math.stat.clustering.Clusterable-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--java.util.List-cluster-java.util.Collection,int,int-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--java.util.List-chooseInitialCenters-java.util.Collection,int,java.util.Random-- -sampler-include-method=-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint--double-distanceFrom-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-distance-int[],int[]-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void--clinit----
+3,79,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--java.util.List-cluster-java.util.Collection,int,int-- -sampler-include-method=-org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer--java.util.List-chooseInitialCenters-java.util.Collection,int,java.util.Random-- -sampler-include-method=-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint--double-distanceFrom-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--double-distance-int[],int[]-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--void--clinit----
+3,79,5,prune_s.profile.number,134
+3,79,5,prune_s.profile.time,9903
+3,79,5,prune_s.profile.size,3624
+3,79,5,prune.profile.number,142
+3,79,5,prune.profile.time,12688
+3,79,5,prune.profile.size,3620
+3,79,5,prune.preprocess.size,2266160
+3,79,5,prune.preprocess.time,4844
+3,79,5,prune.preprocess.number,84
+3,79,5,prune.preprocess.time_p,4033.0000000000005
+3,79,5,prune.mine.size,22912
+3,79,5,prune.mine.time,91
+3,79,5,end

@@ -1,0 +1,40 @@
+3,2,1,start
+3,2,1,raw.profile.time,354
+3,2,1,coarse-grained.profile.time,791
+3,2,1,coarse-grained.profile.number,7650
+3,2,1,coarse-grained.profile.size,388
+3,2,1,fine-grained.profile.time,16296
+3,2,1,fine-grained.profile.size,24608
+3,2,1,fine-grained.profile.number,227208
+3,2,1,fine-grained.preprocess.size,2992400
+3,2,1,fine-grained.preprocess.time,11271
+3,2,1,fine-grained.preprocess.number,1355
+3,2,1,fine-grained.preprocess.time_p,10388.0
+3,2,1,fine-grained.mine.size,51552
+3,2,1,fine-grained.mine.time,1549
+3,2,1,boost.includes,-sampler-include-method=-org.apache.commons.math3.distribution.AbstractIntegerDistribution--int-sample--- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextDouble---
+3,2,1,boost.profile.number,3
+3,2,1,boost.profile.time,314
+3,2,1,boost.profile.size,68
+3,2,1,boost.preprocess.size,145152
+3,2,1,boost.preprocess.time,999
+3,2,1,boost.preprocess.number,13
+3,2,1,boost.preprocess.time_p,253.0
+3,2,1,boost.mine.size,19520
+3,2,1,boost.mine.time,85
+3,2,1,prune.theta,0.337290
+3,2,1,prune.includes,-sampler-include-method=-org.apache.commons.math3.distribution.AbstractIntegerDistribution--int-sample--- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextDouble--- -sampler-include-method=-org.apache.commons.math3.random.Well19937c--int-next-int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.distribution.AbstractIntegerDistribution--int-solveInverseCumulativeProbability-double,int,int-- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--double-getNumericalVariance--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--int-getSupportUpperBound--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--double-getNumericalMean--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--int-getSupportLowerBound--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--double-calculateNumericalVariance--- -sampler-include-method=-org.apache.commons.math3.distribution.AbstractIntegerDistribution--int-inverseCumulativeProbability-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-max-int,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-min-int,int-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,int,int,int-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]--
+3,2,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.random.Well19937c--int-next-int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.distribution.AbstractIntegerDistribution--int-solveInverseCumulativeProbability-double,int,int-- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--double-getNumericalVariance--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--int-getSupportUpperBound--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--double-getNumericalMean--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--int-getSupportLowerBound--- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--double-calculateNumericalVariance--- -sampler-include-method=-org.apache.commons.math3.distribution.AbstractIntegerDistribution--int-inverseCumulativeProbability-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-max-int,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-min-int,int-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.distribution.HypergeometricDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,int,int,int-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]--
+3,2,1,prune_s.profile.number,1226
+3,2,1,prune_s.profile.time,4184
+3,2,1,prune_s.profile.size,200
+3,2,1,prune.profile.number,1237
+3,2,1,prune.profile.time,5028
+3,2,1,prune.profile.size,200
+3,2,1,prune.preprocess.size,1026320
+3,2,1,prune.preprocess.time,2312
+3,2,1,prune.preprocess.number,1222
+3,2,1,prune.preprocess.time_p,1588.0
+3,2,1,prune.mine.size,47328
+3,2,1,prune.mine.time,1039
+3,2,1,end

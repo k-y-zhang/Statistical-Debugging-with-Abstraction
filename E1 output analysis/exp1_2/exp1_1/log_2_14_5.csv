@@ -1,0 +1,40 @@
+2,14,5,start
+2,14,5,raw.profile.time,50864
+2,14,5,coarse-grained.profile.time,249441
+2,14,5,coarse-grained.profile.number,7366
+2,14,5,coarse-grained.profile.size,43060
+2,14,5,fine-grained.profile.time,2402503
+2,14,5,fine-grained.profile.size,1169292
+2,14,5,fine-grained.profile.number,98434
+2,14,5,fine-grained.preprocess.size,44190032
+2,14,5,fine-grained.preprocess.time,247191
+2,14,5,fine-grained.preprocess.number,89
+2,14,5,fine-grained.preprocess.time_p,244384.0
+2,14,5,fine-grained.mine.size,38544
+2,14,5,fine-grained.mine.time,138
+2,14,5,boost.includes,-sampler-include-method=-org.jfree.chart.plot.Marker--void--init--java.awt.Paint,java.awt.Stroke,java.awt.Paint,java.awt.Stroke,float-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--java.lang.Object-get-int-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-set-int,java.lang.Object--
+2,14,5,boost.profile.number,18
+2,14,5,boost.profile.time,43177
+2,14,5,boost.profile.size,7424
+2,14,5,boost.preprocess.size,821344
+2,14,5,boost.preprocess.time,3664
+2,14,5,boost.preprocess.number,19
+2,14,5,boost.preprocess.time_p,2888.0
+2,14,5,boost.mine.size,22784
+2,14,5,boost.mine.time,75
+2,14,5,prune.theta,0.006698
+2,14,5,prune.includes,-sampler-include-method=-org.jfree.chart.plot.Marker--void--init--java.awt.Paint,java.awt.Stroke,java.awt.Paint,java.awt.Stroke,float-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--java.lang.Object-get-int-- -sampler-include-method=-org.jfree.chart.util.AbstractObjectList--void-set-int,java.lang.Object-- -sampler-include-method=-org.jfree.chart.plot.Plot--void-notifyListeners-org.jfree.chart.event.PlotChangeEvent-- -sampler-include-method=-org.jfree.chart.util.RectangleInsets--void--init--org.jfree.chart.util.UnitType,double,double,double,double-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void-datasetChanged-org.jfree.data.general.DatasetChangeEvent-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--org.jfree.data.xy.XYDataset-getDataset-int-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void--init--org.jfree.data.xy.XYDataset,org.jfree.chart.axis.ValueAxis,org.jfree.chart.axis.ValueAxis,org.jfree.chart.renderer.xy.XYItemRenderer-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void-configureDomainAxes--- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void-configureRangeAxes--- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--org.jfree.data.category.CategoryDataset-getDataset-int-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-setRangeAxisLocation-int,org.jfree.chart.axis.AxisLocation,boolean-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-setDomainAxisLocation-int,org.jfree.chart.axis.AxisLocation,boolean-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void--init--org.jfree.data.category.CategoryDataset,org.jfree.chart.axis.CategoryAxis,org.jfree.chart.axis.ValueAxis,org.jfree.chart.renderer.category.CategoryItemRenderer-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--org.jfree.chart.axis.ValueAxis-getRangeAxis-int-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-configureDomainAxes--- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-configureRangeAxes--- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-addRangeMarker-int,org.jfree.chart.plot.Marker,org.jfree.chart.util.Layer,boolean-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-datasetChanged-org.jfree.data.general.DatasetChangeEvent-- -sampler-include-method=-org.jfree.chart.plot.Marker--void-addChangeListener-org.jfree.chart.event.MarkerChangeListener--
+2,14,5,prune.includes_diff,-sampler-include-method=-org.jfree.chart.plot.Plot--void-notifyListeners-org.jfree.chart.event.PlotChangeEvent-- -sampler-include-method=-org.jfree.chart.util.RectangleInsets--void--init--org.jfree.chart.util.UnitType,double,double,double,double-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void-datasetChanged-org.jfree.data.general.DatasetChangeEvent-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--org.jfree.data.xy.XYDataset-getDataset-int-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void--init--org.jfree.data.xy.XYDataset,org.jfree.chart.axis.ValueAxis,org.jfree.chart.axis.ValueAxis,org.jfree.chart.renderer.xy.XYItemRenderer-- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void-configureDomainAxes--- -sampler-include-method=-org.jfree.chart.plot.XYPlot--void-configureRangeAxes--- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--org.jfree.data.category.CategoryDataset-getDataset-int-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-setRangeAxisLocation-int,org.jfree.chart.axis.AxisLocation,boolean-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-setDomainAxisLocation-int,org.jfree.chart.axis.AxisLocation,boolean-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void--init--org.jfree.data.category.CategoryDataset,org.jfree.chart.axis.CategoryAxis,org.jfree.chart.axis.ValueAxis,org.jfree.chart.renderer.category.CategoryItemRenderer-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--org.jfree.chart.axis.ValueAxis-getRangeAxis-int-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-configureDomainAxes--- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-configureRangeAxes--- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-addRangeMarker-int,org.jfree.chart.plot.Marker,org.jfree.chart.util.Layer,boolean-- -sampler-include-method=-org.jfree.chart.plot.CategoryPlot--void-datasetChanged-org.jfree.data.general.DatasetChangeEvent-- -sampler-include-method=-org.jfree.chart.plot.Marker--void-addChangeListener-org.jfree.chart.event.MarkerChangeListener--
+2,14,5,prune_s.profile.number,51
+2,14,5,prune_s.profile.time,43030
+2,14,5,prune_s.profile.size,7420
+2,14,5,prune.profile.number,77
+2,14,5,prune.profile.time,41899
+2,14,5,prune.profile.size,7424
+2,14,5,prune.preprocess.size,4398032
+2,14,5,prune.preprocess.time,7165
+2,14,5,prune.preprocess.number,80
+2,14,5,prune.preprocess.time_p,6195.0
+2,14,5,prune.mine.size,34416
+2,14,5,prune.mine.time,99
+2,14,5,end

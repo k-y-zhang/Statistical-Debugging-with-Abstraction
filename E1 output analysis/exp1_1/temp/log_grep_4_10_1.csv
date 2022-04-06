@@ -1,0 +1,46 @@
+grep,4_10,1,start
+grep,4_10,1,coarse-grained.profile.time,7301
+grep,4_10,1,coarse-grained.profile.size,356
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv10/v4_subv10_c.sites
+grep,4_10,1,coarse-grained.profile.number,131
+grep,4_10,1,fine-grained.profile.time,440567
+grep,4_10,1,fine-grained.profile.size,2062050
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv10/v4_subv10_f.sites
+grep,4_10,1,fine-grained.profile.number,2545716
+grep,4_10,1,fine-grained.preprocess.size,2937452
+grep,4_10,1,fine-grained.preprocess.time,122713
+grep,4_10,1,fine-grained.preprocess.number,2925 
+grep,4_10,1,fine-grained.preprocess.time_p,122316.0
+grep,4_10,1,fine-grained.mine.size,5840
+grep,4_10,1,fine-grained.mine.time,2457
+grep,4_10,1,boost,0.05
+grep,4_10,1,boost.functions.count,8
+grep,4_10,1,boost.includes,-sampler-include-method=Gcompile -sampler-include-method=compile_range -sampler-include-method=dfasyntax -sampler-include-method=error -sampler-include-method=init_syntax_once -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile
+grep,4_10,1,boost.preprocess.size,1591256
+grep,4_10,1,boost.preprocess.time,14512
+grep,4_10,1,boost.preprocess.number,1889 
+grep,4_10,1,boost.preprocess.time_p,14223.0
+grep,4_10,1,boost.mine.size,5820
+grep,4_10,1,boost.mine.time,2759
+grep,4_10,1,theta,0.376762
+grep,4_10,1,prune.functions.count,11
+grep,4_10,1,prune.includes,-sampler-include-method=Gcompile -sampler-include-method=dfasyntax -sampler-include-method=error -sampler-include-method=init_syntax_once -sampler-include-method=install_matcher -sampler-include-method=main -sampler-include-method=prepend_default_options -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile -sampler-include-method=xmalloc
+grep,4_10,1,prune.preprocess.size,1698120
+grep,4_10,1,prune.preprocess.time,21696
+grep,4_10,1,prune.preprocess.number,2820 
+grep,4_10,1,prune.preprocess.time_p,21409.0
+grep,4_10,1,prune.mine.size,5860
+grep,4_10,1,prune.mine.time,3053
+grep,4_10,1,boost.profile.time,34133
+grep,4_10,1,boost.profile.size,230268
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv10/v4_subv10_b.sites
+grep,4_10,1,boost.profile.number,288798
+grep,4_10,1,prune.profile.time,48244
+grep,4_10,1,prune.profile.size,355796
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv10/v4_subv10_p.sites
+grep,4_10,1,prune.profile.number,447640
+grep,4_10,1,prune-minus-boost.profile.time,23111
+grep,4_10,1,prune-minus-boost.profile.size,129528
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv10/v4_subv10_pmb.sites
+grep,4_10,1,prune-minus-boost.profile.number,163536
+grep,4_10,1,end

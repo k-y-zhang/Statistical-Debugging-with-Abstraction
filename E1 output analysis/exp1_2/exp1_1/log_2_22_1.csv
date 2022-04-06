@@ -1,0 +1,40 @@
+2,22,1,start
+2,22,1,raw.profile.time,44938
+2,22,1,coarse-grained.profile.time,209731
+2,22,1,coarse-grained.profile.number,7185
+2,22,1,coarse-grained.profile.size,39660
+2,22,1,fine-grained.profile.time,2457687
+2,22,1,fine-grained.profile.size,1057100
+2,22,1,fine-grained.profile.number,96643
+2,22,1,fine-grained.preprocess.size,44118320
+2,22,1,fine-grained.preprocess.time,239244
+2,22,1,fine-grained.preprocess.number,79
+2,22,1,fine-grained.preprocess.time_p,236495.0
+2,22,1,fine-grained.mine.size,30176
+2,22,1,fine-grained.mine.time,153
+2,22,1,boost.includes,-sampler-include-method=-org.jfree.data.KeyedObjects2D--void-setObject-java.lang.Object,java.lang.Comparable,java.lang.Comparable-- -sampler-include-method=-org.jfree.data.KeyedObjects--void-setObject-java.lang.Comparable,java.lang.Object--
+2,22,1,boost.profile.number,0
+2,22,1,boost.profile.time,46181
+2,22,1,boost.profile.size,6840
+2,22,1,boost.preprocess.size,614624
+2,22,1,boost.preprocess.time,3006
+2,22,1,boost.preprocess.number,17
+2,22,1,boost.preprocess.time_p,2274.0
+2,22,1,boost.mine.size,22336
+2,22,1,boost.mine.time,55
+2,22,1,prune.theta,0.020767
+2,22,1,prune.includes,-sampler-include-method=-org.jfree.data.KeyedObjects2D--void-setObject-java.lang.Object,java.lang.Comparable,java.lang.Comparable-- -sampler-include-method=-org.jfree.data.KeyedObjects--void-setObject-java.lang.Comparable,java.lang.Object-- -sampler-include-method=-org.jfree.data.KeyedObjects--int-getIndex-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.KeyedObjects--java.lang.Object-getObject-int--
+2,22,1,prune.includes_diff,-sampler-include-method=-org.jfree.data.KeyedObjects--int-getIndex-java.lang.Comparable-- -sampler-include-method=-org.jfree.data.KeyedObjects--java.lang.Object-getObject-int--
+2,22,1,prune_s.profile.number,-2
+2,22,1,prune_s.profile.time,47167
+2,22,1,prune_s.profile.size,6836
+2,22,1,prune.profile.number,6
+2,22,1,prune.profile.time,48147
+2,22,1,prune.profile.size,6840
+2,22,1,prune.preprocess.size,1061376
+2,22,1,prune.preprocess.time,3547
+2,22,1,prune.preprocess.number,28
+2,22,1,prune.preprocess.time_p,2783.0
+2,22,1,prune.mine.size,23744
+2,22,1,prune.mine.time,84
+2,22,1,end

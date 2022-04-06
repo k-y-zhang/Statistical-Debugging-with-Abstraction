@@ -1,0 +1,40 @@
+2,7,5,start
+2,7,5,raw.profile.time,50143
+2,7,5,coarse-grained.profile.time,233067
+2,7,5,coarse-grained.profile.number,7384
+2,7,5,coarse-grained.profile.size,43692
+2,7,5,fine-grained.profile.time,2418929
+2,7,5,fine-grained.profile.size,1186372
+2,7,5,fine-grained.profile.number,98525
+2,7,5,fine-grained.preprocess.size,44525568
+2,7,5,fine-grained.preprocess.time,207327
+2,7,5,fine-grained.preprocess.number,294
+2,7,5,fine-grained.preprocess.time_p,204255.0
+2,7,5,fine-grained.mine.size,31712
+2,7,5,fine-grained.mine.time,167
+2,7,5,boost.includes,-sampler-include-method=-org.jfree.data.time.TimePeriodValues--void-add-org.jfree.data.time.TimePeriodValue-- -sampler-include-method=-org.jfree.data.time.TimePeriodValues--void-updateBounds-org.jfree.data.time.TimePeriod,int--
+2,7,5,boost.profile.number,133
+2,7,5,boost.profile.time,54281
+2,7,5,boost.profile.size,7532
+2,7,5,boost.preprocess.size,2309776
+2,7,5,boost.preprocess.time,4119
+2,7,5,boost.preprocess.number,275
+2,7,5,boost.preprocess.time_p,3463.0
+2,7,5,boost.mine.size,24576
+2,7,5,boost.mine.time,129
+2,7,5,prune.theta,0.004987
+2,7,5,prune.includes,-sampler-include-method=-org.jfree.data.time.TimePeriodValues--void-add-org.jfree.data.time.TimePeriodValue-- -sampler-include-method=-org.jfree.data.time.TimePeriodValues--void-updateBounds-org.jfree.data.time.TimePeriod,int-- -sampler-include-method=-org.jfree.data.time.TimePeriodValue--void--init--org.jfree.data.time.TimePeriod,java.lang.Number-- -sampler-include-method=-org.jfree.data.time.RegularTimePeriod--java.util.Date-getEnd--- -sampler-include-method=-org.jfree.data.time.RegularTimePeriod--java.util.Date-getStart--- -sampler-include-method=-org.jfree.data.time.SimpleTimePeriod--void--init--long,long-- -sampler-include-method=-org.jfree.data.time.Year--void--init--int-- -sampler-include-method=-org.jfree.data.time.Year--long-getFirstMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--long-getLastMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--void-peg-java.util.Calendar-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.general.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String--
+2,7,5,prune.includes_diff,-sampler-include-method=-org.jfree.data.time.TimePeriodValue--void--init--org.jfree.data.time.TimePeriod,java.lang.Number-- -sampler-include-method=-org.jfree.data.time.RegularTimePeriod--java.util.Date-getEnd--- -sampler-include-method=-org.jfree.data.time.RegularTimePeriod--java.util.Date-getStart--- -sampler-include-method=-org.jfree.data.time.SimpleTimePeriod--void--init--long,long-- -sampler-include-method=-org.jfree.data.time.Year--void--init--int-- -sampler-include-method=-org.jfree.data.time.Year--long-getFirstMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--long-getLastMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--void-peg-java.util.Calendar-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.general.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String--
+2,7,5,prune_s.profile.number,11
+2,7,5,prune_s.profile.time,47304
+2,7,5,prune_s.profile.size,7532
+2,7,5,prune.profile.number,152
+2,7,5,prune.profile.time,43344
+2,7,5,prune.profile.size,7532
+2,7,5,prune.preprocess.size,8630576
+2,7,5,prune.preprocess.time,11708
+2,7,5,prune.preprocess.number,294
+2,7,5,prune.preprocess.time_p,10555.0
+2,7,5,prune.mine.size,31568
+2,7,5,prune.mine.time,126
+2,7,5,end

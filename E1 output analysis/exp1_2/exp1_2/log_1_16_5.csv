@@ -1,0 +1,40 @@
+1,16,5,start
+1,16,5,raw.profile.time,9024
+1,16,5,coarse-grained.profile.time,36299
+1,16,5,coarse-grained.profile.number,2400
+1,16,5,coarse-grained.profile.size,16736
+1,16,5,fine-grained.profile.time,243171
+1,16,5,fine-grained.profile.size,229524
+1,16,5,fine-grained.profile.number,88722
+1,16,5,fine-grained.preprocess.size,17890016
+1,16,5,fine-grained.preprocess.time,25087
+1,16,5,fine-grained.preprocess.number,170
+1,16,5,fine-grained.preprocess.time_p,24202.0
+1,16,5,fine-grained.mine.size,28864
+1,16,5,fine-grained.mine.time,91
+1,16,5,boost.includes,-sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Float-createFloat-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Double-createDouble-java.lang.String--
+1,16,5,boost.profile.number,4
+1,16,5,boost.profile.time,22666
+1,16,5,boost.profile.size,8548
+1,16,5,boost.preprocess.size,418960
+1,16,5,boost.preprocess.time,1386
+1,16,5,boost.preprocess.number,2
+1,16,5,boost.preprocess.time_p,836.0
+1,16,5,boost.mine.size,22752
+1,16,5,boost.mine.time,35
+1,16,5,prune.theta,0.004734
+1,16,5,prune.includes,-sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Float-createFloat-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Double-createDouble-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Integer-createInteger-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--boolean-isAllZeros-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Number-createNumber-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Long-createLong-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--boolean-isDigits-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--boolean-isBlank-java.lang.CharSequence-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--boolean-isEmpty-java.lang.CharSequence--
+1,16,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Integer-createInteger-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--boolean-isAllZeros-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Number-createNumber-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--java.lang.Long-createLong-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.math.NumberUtils--boolean-isDigits-java.lang.String-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--boolean-isBlank-java.lang.CharSequence-- -sampler-include-method=-org.apache.commons.lang3.StringUtils--boolean-isEmpty-java.lang.CharSequence--
+1,16,5,prune_s.profile.number,1136
+1,16,5,prune_s.profile.time,20586
+1,16,5,prune_s.profile.size,8548
+1,16,5,prune.profile.number,1140
+1,16,5,prune.profile.time,25808
+1,16,5,prune.profile.size,8548
+1,16,5,prune.preprocess.size,2282960
+1,16,5,prune.preprocess.time,2860
+1,16,5,prune.preprocess.number,170
+1,16,5,prune.preprocess.time_p,2372.0
+1,16,5,prune.mine.size,28736
+1,16,5,prune.mine.time,88
+1,16,5,end

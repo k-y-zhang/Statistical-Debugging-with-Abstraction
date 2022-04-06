@@ -1,0 +1,47 @@
+siena,1_2,1,start
+siena,1_2,1,coarse-grained.profile.time,855047
+siena,1_2,1,coarse-grained.profile.size,370
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v1/subv2/coarse-grained/output.sites
+siena,1_2,1,coarse-grained.profile.number,245
+siena,1_2,1,fine-grained.profile.time,854574
+siena,1_2,1,fine-grained.profile.size,11779
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v1/subv2/fine-grained/output.sites
+siena,1_2,1,fine-grained.profile.number,19460
+siena,1_2,1,fine-grained.preprocess.size,317516
+siena,1_2,1,fine-grained.preprocess.time,1360
+siena,1_2,1,fine-grained.preprocess.number,55 
+siena,1_2,1,fine-grained.preprocess.time_p,1178.0
+siena,1_2,1,fine-grained.mine.size,5852
+siena,1_2,1,fine-grained.mine.time,1451
+siena,1_2,1,boost,0.05
+siena,1_2,1,boost.functions.count,18
+siena,1_2,1,boost.includes,-sampler-include-method=-siena.AttributeConstraint--int-hashCode--- -sampler-include-method=-siena.AttributeValue--double-doubleValue--- -sampler-include-method=-siena.AttributeValue--void--init--siena.AttributeValue-- -sampler-include-method=-siena.ByteBuf--byte[]-bytes--- -sampler-include-method=-siena.ByteBuf--void-append-byte-- -sampler-include-method=-siena.ByteBuf--void-append-byte[]-- -sampler-include-method=-siena.Filter--void-addConstraint-java.lang.String,siena.AttributeConstraint-- -sampler-include-method=-siena.OpTest--void-main-java.lang.String[]-- -sampler-include-method=-siena.SENP--boolean-match-byte[],byte[]-- -sampler-include-method=-siena.SENP--siena.AttributeConstraint-readAttributeConstraint-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.AttributeValue-readAttribute-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeConstraint-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeValue-- -sampler-include-method=-siena.Tokenizer--boolean-isCurrentFirstIdentChar--- -sampler-include-method=-siena.Tokenizer--double-read_decimal--- -sampler-include-method=-siena.Tokenizer--int-currByte--- -sampler-include-method=-siena.Tokenizer--int-nextByte--- -sampler-include-method=-siena.Tokenizer--int-read_id---
+siena,1_2,1,boost.preprocess.size,101992
+siena,1_2,1,boost.preprocess.time,488
+siena,1_2,1,boost.preprocess.number,21 
+siena,1_2,1,boost.preprocess.time_p,371.0
+siena,1_2,1,boost.mine.size,5828
+siena,1_2,1,boost.mine.time,1822
+siena,1_2,1,theta,0.121273
+siena,1_2,1,prune.functions.count,32
+siena,1_2,1,prune.includes,-sampler-include-method=-siena.AttributeConstraint--int-hashCode--- -sampler-include-method=-siena.AttributeValue--double-doubleValue--- -sampler-include-method=-siena.AttributeValue--void--init--siena.AttributeValue-- -sampler-include-method=-siena.ByteBuf--byte[]-bytes--- -sampler-include-method=-siena.ByteBuf--void-append-byte-- -sampler-include-method=-siena.ByteBuf--void-append-byte[]-- -sampler-include-method=-siena.Filter--void-addConstraint-java.lang.String,siena.AttributeConstraint-- -sampler-include-method=-siena.HierarchicalDispatcher--void--init---- -sampler-include-method=-siena.HierarchicalDispatcher--void-disconnectMaster--- -sampler-include-method=-siena.HierarchicalDispatcher--void-run--- -sampler-include-method=-siena.HierarchicalDispatcher--void-setListener-int-- -sampler-include-method=-siena.HierarchicalDispatcher--void-setMaster-java.lang.String-- -sampler-include-method=-siena.OpTest--void-main-java.lang.String[]-- -sampler-include-method=-siena.PacketHandlerFactory--siena.PacketHandler-getHandler-java.lang.String-- -sampler-include-method=-siena.Poset--boolean-empty--- -sampler-include-method=-siena.SENP--boolean-match-byte[],byte[]-- -sampler-include-method=-siena.SENP--siena.AttributeConstraint-readAttributeConstraint-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.AttributeValue-readAttribute-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeConstraint-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeValue-- -sampler-include-method=-siena.SENP--siena.SENPPacket-decode-byte[]-- -sampler-include-method=-siena.SienaId--java.lang.String-getId--- -sampler-include-method=-siena.StartServer--void-main-java.lang.String[]-- -sampler-include-method=-siena.TCPPacketHandler--void--init--java.lang.String-- -sampler-include-method=-siena.Tokenizer--boolean-isCurrentFirstIdentChar--- -sampler-include-method=-siena.Tokenizer--double-read_decimal--- -sampler-include-method=-siena.Tokenizer--int-currByte--- -sampler-include-method=-siena.Tokenizer--int-nextByte--- -sampler-include-method=-siena.Tokenizer--int-nextToken--- -sampler-include-method=-siena.Tokenizer--int-read_id--- -sampler-include-method=-siena.Tokenizer--int-read_int--- -sampler-include-method=-siena.Tokenizer--int-read_number---
+siena,1_2,1,prune.functions.count,14
+siena,1_2,1,prune.preprocess.size,159432
+siena,1_2,1,prune.preprocess.time,611
+siena,1_2,1,prune.preprocess.number,55 
+siena,1_2,1,prune.preprocess.time_p,495.0
+siena,1_2,1,prune.mine.size,5800
+siena,1_2,1,prune.mine.time,1968
+siena,1_2,1,boost.profile.time,855163
+siena,1_2,1,boost.profile.size,876
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v1/subv2/boost/output.sites
+siena,1_2,1,boost.profile.number,1076
+siena,1_2,1,prune.profile.time,854439
+siena,1_2,1,prune.profile.size,2858
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v1/subv2/prune/output.sites
+siena,1_2,1,prune.profile.number,4422
+siena,1_2,1,prune-minus-boost.profile.time,855066
+siena,1_2,1,prune-minus-boost.profile.size,2161
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v1/subv2/prune-minus-boost/output.sites
+siena,1_2,1,prune-minus-boost.profile.number,3346
+siena,1_2,1,end

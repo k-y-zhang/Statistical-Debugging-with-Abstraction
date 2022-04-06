@@ -1,0 +1,40 @@
+4,8,1,start
+4,8,1,raw.profile.time,23723
+4,8,1,coarse-grained.profile.time,151828
+4,8,1,coarse-grained.profile.number,3874
+4,8,1,coarse-grained.profile.size,48320
+4,8,1,fine-grained.profile.time,1624539
+4,8,1,fine-grained.profile.size,461280
+4,8,1,fine-grained.profile.number,17569
+4,8,1,fine-grained.preprocess.size,41958288
+4,8,1,fine-grained.preprocess.time,160378
+4,8,1,fine-grained.preprocess.number,675
+4,8,1,fine-grained.preprocess.time_p,157868.0
+4,8,1,fine-grained.mine.size,74656
+4,8,1,fine-grained.mine.time,968
+4,8,1,boost.includes,-sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.format.DateTimeFormatter-offsetFormatter--- -sampler-include-method=-org.joda.time.DateTimeZone--int-parseOffset-java.lang.String--
+4,8,1,boost.profile.number,-5
+4,8,1,boost.profile.time,30012
+4,8,1,boost.profile.size,16560
+4,8,1,boost.preprocess.size,903248
+4,8,1,boost.preprocess.time,5069
+4,8,1,boost.preprocess.number,9
+4,8,1,boost.preprocess.time_p,4187.0
+4,8,1,boost.mine.size,24880
+4,8,1,boost.mine.time,70
+4,8,1,prune.theta,0.002681
+4,8,1,prune.includes,-sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.format.DateTimeFormatter-offsetFormatter--- -sampler-include-method=-org.joda.time.DateTimeZone--int-parseOffset-java.lang.String-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-forOffsetHoursMinutes-int,int-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-forOffsetMillis-int-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-fixedOffsetZone-java.lang.String,int-- -sampler-include-method=-org.joda.time.DateTimeZone--java.lang.String-printOffset-int-- -sampler-include-method=-org.joda.time.field.FieldUtils--int-safeMultiply-int,int-- -sampler-include-method=-org.joda.time.format.FormatUtils--int-parseTwoDigits-java.lang.String,int-- -sampler-include-method=-org.joda.time.format.DateTimeFormatterBuilder-TimeZoneOffset--int-digitCount-java.lang.String,int,int-- -sampler-include-method=-org.joda.time.tz.FixedDateTimeZone--boolean-equals-java.lang.Object-- -sampler-include-method=-org.joda.time.format.DateTimeFormatterBuilder-TimeZoneOffset--int-parseInto-org.joda.time.format.DateTimeParserBucket,java.lang.String,int-- -sampler-include-method=-org.joda.time.DateTimeZone--void--init--java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--long-parseMillis-java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--org.joda.time.format.DateTimeFormatter-withChronology-org.joda.time.Chronology-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-forID-java.lang.String-- -sampler-include-method=-org.joda.time.tz.ZoneInfoProvider--org.joda.time.DateTimeZone-getZone-java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeParserBucket--void-sort-org.joda.time.format.DateTimeParserBucket-SavedField[],int-- -sampler-include-method=-org.joda.time.format.DateTimeParserBucket--long-computeMillis-boolean,java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeParserBucket--void--init--long,org.joda.time.Chronology,java.util.Locale,java.lang.Integer,int-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--org.joda.time.format.DateTimeParser-requireParser--- -sampler-include-method=-org.joda.time.format.FormatUtils--void-appendPaddedInteger-java.lang.StringBuffer,int,int-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--org.joda.time.Chronology-selectChronology-org.joda.time.Chronology-- -sampler-include-method=-org.joda.time.DateTimeUtils--org.joda.time.Chronology-getChronology-org.joda.time.Chronology-- -sampler-include-method=-org.joda.time.DateTimeZone--void-setDefault-org.joda.time.DateTimeZone-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-getDefault---
+4,8,1,prune.includes_diff,-sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-forOffsetHoursMinutes-int,int-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-forOffsetMillis-int-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-fixedOffsetZone-java.lang.String,int-- -sampler-include-method=-org.joda.time.DateTimeZone--java.lang.String-printOffset-int-- -sampler-include-method=-org.joda.time.field.FieldUtils--int-safeMultiply-int,int-- -sampler-include-method=-org.joda.time.format.FormatUtils--int-parseTwoDigits-java.lang.String,int-- -sampler-include-method=-org.joda.time.format.DateTimeFormatterBuilder-TimeZoneOffset--int-digitCount-java.lang.String,int,int-- -sampler-include-method=-org.joda.time.tz.FixedDateTimeZone--boolean-equals-java.lang.Object-- -sampler-include-method=-org.joda.time.format.DateTimeFormatterBuilder-TimeZoneOffset--int-parseInto-org.joda.time.format.DateTimeParserBucket,java.lang.String,int-- -sampler-include-method=-org.joda.time.DateTimeZone--void--init--java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--long-parseMillis-java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--org.joda.time.format.DateTimeFormatter-withChronology-org.joda.time.Chronology-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-forID-java.lang.String-- -sampler-include-method=-org.joda.time.tz.ZoneInfoProvider--org.joda.time.DateTimeZone-getZone-java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeParserBucket--void-sort-org.joda.time.format.DateTimeParserBucket-SavedField[],int-- -sampler-include-method=-org.joda.time.format.DateTimeParserBucket--long-computeMillis-boolean,java.lang.String-- -sampler-include-method=-org.joda.time.format.DateTimeParserBucket--void--init--long,org.joda.time.Chronology,java.util.Locale,java.lang.Integer,int-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--org.joda.time.format.DateTimeParser-requireParser--- -sampler-include-method=-org.joda.time.format.FormatUtils--void-appendPaddedInteger-java.lang.StringBuffer,int,int-- -sampler-include-method=-org.joda.time.format.DateTimeFormatter--org.joda.time.Chronology-selectChronology-org.joda.time.Chronology-- -sampler-include-method=-org.joda.time.DateTimeUtils--org.joda.time.Chronology-getChronology-org.joda.time.Chronology-- -sampler-include-method=-org.joda.time.DateTimeZone--void-setDefault-org.joda.time.DateTimeZone-- -sampler-include-method=-org.joda.time.DateTimeZone--org.joda.time.DateTimeZone-getDefault---
+4,8,1,prune_s.profile.number,1050
+4,8,1,prune_s.profile.time,35159
+4,8,1,prune_s.profile.size,32440
+4,8,1,prune.profile.number,1053
+4,8,1,prune.profile.time,41263
+4,8,1,prune.profile.size,32440
+4,8,1,prune.preprocess.size,41751872
+4,8,1,prune.preprocess.time,90277
+4,8,1,prune.preprocess.number,675
+4,8,1,prune.preprocess.time_p,87261.0
+4,8,1,prune.mine.size,74976
+4,8,1,prune.mine.time,1131
+4,8,1,end

@@ -1,0 +1,40 @@
+3,106,1,start
+3,106,1,raw.profile.time,86
+3,106,1,coarse-grained.profile.time,235
+3,106,1,coarse-grained.profile.number,1075
+3,106,1,coarse-grained.profile.size,68
+3,106,1,fine-grained.profile.time,361
+3,106,1,fine-grained.profile.size,2116
+3,106,1,fine-grained.profile.number,19457
+3,106,1,fine-grained.preprocess.size,1013984
+3,106,1,fine-grained.preprocess.time,3308
+3,106,1,fine-grained.preprocess.number,327
+3,106,1,fine-grained.preprocess.time_p,2395.0
+3,106,1,fine-grained.mine.size,25504
+3,106,1,fine-grained.mine.time,266
+3,106,1,boost.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--int-sign-int-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--void-parseAndIgnoreWhitespace-java.lang.String,java.text.ParsePosition--
+3,106,1,boost.profile.number,-4
+3,106,1,boost.profile.time,106
+3,106,1,boost.profile.size,68
+3,106,1,boost.preprocess.size,143968
+3,106,1,boost.preprocess.time,778
+3,106,1,boost.preprocess.number,4
+3,106,1,boost.preprocess.time_p,185.0
+3,106,1,boost.mine.size,19472
+3,106,1,boost.mine.time,32
+3,106,1,prune.theta,0.212290
+3,106,1,prune.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--int-sign-int-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--void-parseAndIgnoreWhitespace-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--org.apache.commons.math.fraction.Fraction-parse-java.lang.String-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--org.apache.commons.math.fraction.Fraction-parse-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--char-parseNextCharacter-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.ProperFractionFormat--org.apache.commons.math.fraction.Fraction-parse-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.Fraction--void--init--int,int-- -sampler-include-method=-org.apache.commons.math.fraction.Fraction--void-reduce--- -sampler-include-method=-org.apache.commons.math.util.MathUtils--int-gcd-int,int-- -sampler-include-method=-org.apache.commons.math.fraction.ProperFractionFormat--void-setWholeFormat-java.text.NumberFormat--
+3,106,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--org.apache.commons.math.fraction.Fraction-parse-java.lang.String-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--org.apache.commons.math.fraction.Fraction-parse-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.FractionFormat--char-parseNextCharacter-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.ProperFractionFormat--org.apache.commons.math.fraction.Fraction-parse-java.lang.String,java.text.ParsePosition-- -sampler-include-method=-org.apache.commons.math.fraction.Fraction--void--init--int,int-- -sampler-include-method=-org.apache.commons.math.fraction.Fraction--void-reduce--- -sampler-include-method=-org.apache.commons.math.util.MathUtils--int-gcd-int,int-- -sampler-include-method=-org.apache.commons.math.fraction.ProperFractionFormat--void-setWholeFormat-java.text.NumberFormat--
+3,106,1,prune_s.profile.number,270
+3,106,1,prune_s.profile.time,178
+3,106,1,prune_s.profile.size,68
+3,106,1,prune.profile.number,274
+3,106,1,prune.profile.time,354
+3,106,1,prune.profile.size,68
+3,106,1,prune.preprocess.size,329200
+3,106,1,prune.preprocess.time,1938
+3,106,1,prune.preprocess.number,327
+3,106,1,prune.preprocess.time_p,1225.0
+3,106,1,prune.mine.size,25920
+3,106,1,prune.mine.time,231
+3,106,1,end

@@ -1,0 +1,15 @@
+grep,1_11,5,start
+grep,1_11,5,fine-grained.preprocess.size,2137536
+grep,1_11,5,fine-grained.preprocess.time,49860
+grep,1_11,5,fine-grained.preprocess.number,907 
+grep,1_11,5,fine-grained.preprocess.time_p,49596.0
+grep,1_11,5,fine-grained.mine.size,5820
+grep,1_11,5,fine-grained.mine.time,1625
+grep,1_11,5,boost,0.05
+grep,1_11,5,boost.functions.count,5
+grep,1_11,5,boost.includes,-sampler-include-method=dfasyntax -sampler-include-method=init_syntax_once -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile
+grep,1_11,5,boost.preprocess.size,1175828
+grep,1_11,5,boost.preprocess.time,4394
+grep,1_11,5,boost.preprocess.number,0 
+grep,1_11,5,boost.preprocess.time_p,4206.0
+grep,1_11,5,boost.mine.size,5828

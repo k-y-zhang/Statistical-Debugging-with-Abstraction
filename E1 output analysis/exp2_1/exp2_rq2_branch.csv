@@ -1,0 +1,16 @@
+subject	branch_iter	branch_perd
+  apache-ant	490.75	21.87
+  bash      	239	27.96
+  derby     	4425.33	41.45
+  grep      	40.8	52.55
+  gzip      	32.69	47.2
+  nanoxml   	49.09	49.23
+  sed       	50.75	67.72
+  siena     	29	24.22
+  space     	80.06	69.05
+Lang	6.6	0.98
+Chart	45.64	1.75
+Math	18.74	1.39
+Time	65.22	8.26
+Mockito	62.89	18.5
+Closure	341.98	10.58

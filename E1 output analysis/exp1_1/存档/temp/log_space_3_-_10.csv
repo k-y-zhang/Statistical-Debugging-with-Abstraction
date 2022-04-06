@@ -1,0 +1,38 @@
+space,3_-,10,start
+space,3_-,10,fine-grained.preprocess.size,1863992
+space,3_-,10,fine-grained.preprocess.time,47766
+space,3_-,10,fine-grained.preprocess.number,2175 
+space,3_-,10,fine-grained.preprocess.time_p,47536.0
+space,3_-,10,fine-grained.mine.size,5784
+space,3_-,10,fine-grained.mine.time,4065
+space,3_-,10,boost,0.05
+space,3_-,10,boost.functions.count,5
+space,3_-,10,boost.includes,-sampler-include-method=angclaus -sampler-include-method=angstep -sampler-include-method=parserro -sampler-include-method=trigrdef -sampler-include-method=versdef
+space,3_-,10,boost.preprocess.size,307076
+space,3_-,10,boost.preprocess.time,1149
+space,3_-,10,boost.preprocess.number,228 
+space,3_-,10,boost.preprocess.time_p,1043.0
+space,3_-,10,boost.mine.size,5800
+space,3_-,10,boost.mine.time,1533
+space,3_-,10,theta,0.380220
+space,3_-,10,prune.functions.count,29
+space,3_-,10,prune.includes,-sampler-include-method=GetKeyword -sampler-include-method=GetReal -sampler-include-method=GetUName -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=TapeGet -sampler-include-method=angclaus -sampler-include-method=angstep -sampler-include-method=doubstep -sampler-include-method=emsginit -sampler-include-method=floatsup -sampler-include-method=greldef -sampler-include-method=griddef1 -sampler-include-method=groupdef -sampler-include-method=hexgrdef -sampler-include-method=isletter -sampler-include-method=kwdsinit -sampler-include-method=main -sampler-include-method=moseinit -sampler-include-method=nomefile -sampler-include-method=parserro -sampler-include-method=prnfile -sampler-include-method=readfil3 -sampler-include-method=recgrdef -sampler-include-method=squgrdef -sampler-include-method=trigrdef -sampler-include-method=unaminit -sampler-include-method=versdef
+space,3_-,10,prune.preprocess.size,1525904
+space,3_-,10,prune.preprocess.time,11395
+space,3_-,10,prune.preprocess.number,1595 
+space,3_-,10,prune.preprocess.time_p,11164.0
+space,3_-,10,prune.mine.size,5832
+space,3_-,10,prune.mine.time,4998
+space,3_-,10,boost.profile.time,8967
+space,3_-,10,boost.profile.size,6121
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_b.sites
+space,3_-,10,boost.profile.number,4648
+space,3_-,10,prune.profile.time,28509
+space,3_-,10,prune.profile.size,119214
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_p.sites
+space,3_-,10,prune.profile.number,92876
+space,3_-,10,prune-minus-boost.profile.time,24714
+space,3_-,10,prune-minus-boost.profile.size,92088
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_pmb.sites
+space,3_-,10,prune-minus-boost.profile.number,70732
+space,3_-,10,end

@@ -1,0 +1,13 @@
+6,43,10,start
+6,43,10,raw.profile.time,75175
+6,43,10,coarse-grained.profile.time,477340
+6,43,10,coarse-grained.profile.number,9869
+6,43,10,coarse-grained.profile.size,200236
+6,43,10,fine-grained.profile.time,941799
+6,43,10,fine-grained.profile.size,1668956
+6,43,10,fine-grained.profile.number,202266
+6,43,10,fine-grained.preprocess.size,47686224
+6,43,10,fine-grained.preprocess.time,237803
+6,43,10,fine-grained.preprocess.number,5006
+6,43,10,fine-grained.preprocess.time_p,236475.0
+6,43,10,fine-grained.mine.size,

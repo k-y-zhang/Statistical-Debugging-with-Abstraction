@@ -1,0 +1,40 @@
+3,75,1,start
+3,75,1,raw.profile.time,19
+3,75,1,coarse-grained.profile.time,263
+3,75,1,coarse-grained.profile.number,4048
+3,75,1,coarse-grained.profile.size,100
+3,75,1,fine-grained.profile.time,861
+3,75,1,fine-grained.profile.size,6244
+3,75,1,fine-grained.profile.number,671834
+3,75,1,fine-grained.preprocess.size,2364128
+3,75,1,fine-grained.preprocess.time,3051
+3,75,1,fine-grained.preprocess.number,58
+3,75,1,fine-grained.preprocess.time_p,2515.0
+3,75,1,fine-grained.mine.size,19712
+3,75,1,fine-grained.mine.time,48
+3,75,1,boost.includes,-sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-long-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-int-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getCumFreq-long-- -sampler-include-method=-org.apache.commons.math.stat.Frequency-NaturalComparator--int-compare-java.lang.Object,java.lang.Object-- -sampler-include-method=-org.apache.commons.math.stat.Frequency-NaturalComparator--int-compare-java.lang.Comparable,java.lang.Comparable--
+3,75,1,boost.profile.number,36
+3,75,1,boost.profile.time,66
+3,75,1,boost.profile.size,36
+3,75,1,boost.preprocess.size,142176
+3,75,1,boost.preprocess.time,630
+3,75,1,boost.preprocess.number,10
+3,75,1,boost.preprocess.time_p,110.0
+3,75,1,boost.mine.size,19456
+3,75,1,boost.mine.time,53
+3,75,1,prune.theta,0.543564
+3,75,1,prune.includes,-sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-long-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-java.lang.Object-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-int-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getCumFreq-long-- -sampler-include-method=-org.apache.commons.math.stat.Frequency-NaturalComparator--int-compare-java.lang.Object,java.lang.Object-- -sampler-include-method=-org.apache.commons.math.stat.Frequency-NaturalComparator--int-compare-java.lang.Comparable,java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getSumFreq--- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getCount-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getCumPct-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getCumFreq-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--void-addValue-java.lang.Comparable--
+3,75,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getPct-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getSumFreq--- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getCount-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--double-getCumPct-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--long-getCumFreq-java.lang.Comparable-- -sampler-include-method=-org.apache.commons.math.stat.Frequency--void-addValue-java.lang.Comparable--
+3,75,1,prune_s.profile.number,222
+3,75,1,prune_s.profile.time,157
+3,75,1,prune_s.profile.size,36
+3,75,1,prune.profile.number,258
+3,75,1,prune.profile.time,319
+3,75,1,prune.profile.size,36
+3,75,1,prune.preprocess.size,151984
+3,75,1,prune.preprocess.time,568
+3,75,1,prune.preprocess.number,58
+3,75,1,prune.preprocess.time_p,163.0
+3,75,1,prune.mine.size,19760
+3,75,1,prune.mine.time,47
+3,75,1,end

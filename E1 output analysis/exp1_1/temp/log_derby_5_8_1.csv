@@ -1,0 +1,46 @@
+derby,5_8,1,start
+derby,5_8,1,coarse-grained.profile.time,4505220
+derby,5_8,1,coarse-grained.profile.size,21877
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/derby/versions/v5/subv8/coarse-grained/output.sites
+derby,5_8,1,coarse-grained.profile.number,28887
+derby,5_8,1,fine-grained.profile.time,18942887
+derby,5_8,1,fine-grained.profile.size,436652
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/derby/versions/v5/subv8/fine-grained/output.sites
+derby,5_8,1,fine-grained.profile.number,1389978
+derby,5_8,1,fine-grained.preprocess.size,1754976
+derby,5_8,1,fine-grained.preprocess.time,32190
+derby,5_8,1,fine-grained.preprocess.number,102 
+derby,5_8,1,fine-grained.preprocess.time_p,31784.0
+derby,5_8,1,fine-grained.mine.size,5832
+derby,5_8,1,fine-grained.mine.time,1606
+derby,5_8,1,boost,0.05
+derby,5_8,1,boost.functions.count,22
+derby,5_8,1,boost.includes,-sampler-include-method=-org.apache.derbyTesting.functionTests.harness.CopySuppFiles--void-copyFiles-java.io.File,java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.CurrentTime--java.lang.String-getTime--- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.JavaVersionHolder--boolean-atLeast-int,int-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.JavaVersionHolder--void--init--java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.NetServer--boolean-isJCCConnection-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.NetServer--java.lang.String-getDriverName-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--boolean-verifyFramework-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--java.lang.String-createPropString--- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--org.apache.derbyTesting.functionTests.harness.JavaVersionHolder-getProperties-java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-cleanupBaseDir-java.io.File-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-deleteFile-java.io.File-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-doCleanup-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-encryptionProtocol-java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-main-java.lang.String[]-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-mergeProps-java.util.Properties,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-setDirectories-java.lang.String,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-testRun-java.lang.String,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-verifyTestType--- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.SkipTest--boolean-skipIt-java.lang.String,java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.SpecialFlags--void-parse-java.lang.String,java.util.Properties,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.util.TestUtil--java.lang.String-getHostName--- -sampler-include-method=-org.apache.derbyTesting.functionTests.util.TestUtil--void--clinit----
+derby,5_8,1,boost.preprocess.size,161100
+derby,5_8,1,boost.preprocess.time,867
+derby,5_8,1,boost.preprocess.number,102 
+derby,5_8,1,boost.preprocess.time_p,694.0
+derby,5_8,1,boost.mine.size,5856
+derby,5_8,1,boost.mine.time,2120
+derby,5_8,1,theta,0.103723
+derby,5_8,1,prune.functions.count,20
+derby,5_8,1,prune.includes,-sampler-include-method=-org.apache.derbyTesting.functionTests.harness.CurrentTime--java.lang.String-getTime--- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.JavaVersionHolder--boolean-atLeast-int,int-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.JavaVersionHolder--void--init--java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.NetServer--boolean-isJCCConnection-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.NetServer--java.lang.String-getDriverName-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--boolean-verifyFramework-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--java.lang.String-createPropString--- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--org.apache.derbyTesting.functionTests.harness.JavaVersionHolder-getProperties-java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-cleanupBaseDir-java.io.File-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-deleteFile-java.io.File-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-doCleanup-java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-encryptionProtocol-java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-main-java.lang.String[]-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-setDirectories-java.lang.String,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-testRun-java.lang.String,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.RunTest--void-verifyTestType--- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.SkipTest--boolean-skipIt-java.lang.String,java.lang.String-- -sampler-include-method=-org.apache.derbyTesting.functionTests.harness.SpecialFlags--void-parse-java.lang.String,java.util.Properties,java.util.Properties-- -sampler-include-method=-org.apache.derbyTesting.functionTests.util.TestUtil--java.lang.String-getHostName--- -sampler-include-method=-org.apache.derbyTesting.functionTests.util.TestUtil--void--clinit----
+derby,5_8,1,prune.preprocess.size,158908
+derby,5_8,1,prune.preprocess.time,1082
+derby,5_8,1,prune.preprocess.number,101 
+derby,5_8,1,prune.preprocess.time_p,875.0
+derby,5_8,1,prune.mine.size,5860
+derby,5_8,1,prune.mine.time,2426
+derby,5_8,1,boost.profile.time,3916949
+derby,5_8,1,boost.profile.size,1319
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/derby/versions/v5/subv8/boost/output.sites
+derby,5_8,1,boost.profile.number,3400
+derby,5_8,1,prune.profile.time,3930307
+derby,5_8,1,prune.profile.size,1268
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/derby/versions/v5/subv8/prune/output.sites
+derby,5_8,1,prune.profile.number,3252
+derby,5_8,1,prune-minus-boost.profile.time,0
+derby,5_8,1,prune-minus-boost.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/derby/versions/v5/subv8/prune-minus-boost/output.sites
+derby,5_8,1,prune-minus-boost.profile.number,1389978
+derby,5_8,1,end

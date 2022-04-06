@@ -1,0 +1,40 @@
+3,70,5,start
+3,70,5,raw.profile.time,107
+3,70,5,coarse-grained.profile.time,535
+3,70,5,coarse-grained.profile.number,4232
+3,70,5,coarse-grained.profile.size,260
+3,70,5,fine-grained.profile.time,1418
+3,70,5,fine-grained.profile.size,12292
+3,70,5,fine-grained.profile.number,113538
+3,70,5,fine-grained.preprocess.size,2344560
+3,70,5,fine-grained.preprocess.time,6830
+3,70,5,fine-grained.preprocess.number,10
+3,70,5,fine-grained.preprocess.time_p,5945.0
+3,70,5,fine-grained.mine.size,19760
+3,70,5,fine-grained.mine.time,69
+3,70,5,boost.includes,-sampler-include-method=-org.apache.commons.math.analysis.solvers.BisectionSolver--double-solve-org.apache.commons.math.analysis.UnivariateRealFunction,double,double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BisectionSolver--double-solve-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl--void-verifyInterval-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils--double-midpoint-double,double--
+3,70,5,boost.profile.number,0
+3,70,5,boost.profile.time,160
+3,70,5,boost.profile.size,68
+3,70,5,boost.preprocess.size,144576
+3,70,5,boost.preprocess.time,1189
+3,70,5,boost.preprocess.number,6
+3,70,5,boost.preprocess.time_p,424.0
+3,70,5,boost.mine.size,19552
+3,70,5,boost.mine.time,105
+3,70,5,prune.theta,0.134471
+3,70,5,prune.includes,-sampler-include-method=-org.apache.commons.math.analysis.solvers.BisectionSolver--double-solve-org.apache.commons.math.analysis.UnivariateRealFunction,double,double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BisectionSolver--double-solve-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl--void-verifyInterval-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils--double-midpoint-double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.BisectionSolver--double-solve-org.apache.commons.math.analysis.UnivariateRealFunction,double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.ConvergingAlgorithmImpl--void--init--int,double--
+3,70,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.analysis.solvers.BisectionSolver--double-solve-org.apache.commons.math.analysis.UnivariateRealFunction,double,double-- -sampler-include-method=-org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.ConvergingAlgorithmImpl--void--init--int,double--
+3,70,5,prune_s.profile.number,36
+3,70,5,prune_s.profile.time,189
+3,70,5,prune_s.profile.size,68
+3,70,5,prune.profile.number,44
+3,70,5,prune.profile.time,354
+3,70,5,prune.profile.size,68
+3,70,5,prune.preprocess.size,154672
+3,70,5,prune.preprocess.time,1027
+3,70,5,prune.preprocess.number,10
+3,70,5,prune.preprocess.time_p,336.0
+3,70,5,prune.mine.size,19520
+3,70,5,prune.mine.time,93
+3,70,5,end

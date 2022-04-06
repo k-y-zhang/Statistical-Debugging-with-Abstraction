@@ -1,0 +1,22 @@
+gzip,2_6,1,start
+gzip,2_6,1,coarse-grained.profile.time,14476
+gzip,2_6,1,coarse-grained.profile.size,81
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v2/subv6/v2_subv6_c.sites
+gzip,2_6,1,coarse-grained.profile.number,98
+gzip,2_6,1,fine-grained.profile.time,453775
+gzip,2_6,1,fine-grained.profile.size,881244
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v2/subv6/v2_subv6_f.sites
+gzip,2_6,1,fine-grained.profile.number,4032690
+gzip,2_6,1,fine-grained.preprocess.size,2578356
+gzip,2_6,1,fine-grained.preprocess.time,105043
+gzip,2_6,1,fine-grained.preprocess.number,27918 
+gzip,2_6,1,fine-grained.preprocess.time_p,104731.0
+gzip,2_6,1,fine-grained.mine.size,5752
+gzip,2_6,1,fine-grained.mine.time,209575
+gzip,2_6,1,boost,0.05
+gzip,2_6,1,boost.functions.count,4
+gzip,2_6,1,boost.includes,-sampler-include-method=compress_block -sampler-include-method=ct_tally -sampler-include-method=fill_window -sampler-include-method=longest_match
+gzip,2_6,1,boost.preprocess.size,75120
+gzip,2_6,1,boost.preprocess.number,0 
+gzip,2_6,1,boost.preprocess.time_p,
+gzip,2_6,1,boost.mine.size,5872

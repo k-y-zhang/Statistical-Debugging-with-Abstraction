@@ -1,0 +1,38 @@
+space,8_-,5,start
+space,8_-,5,fine-grained.preprocess.size,1931184
+space,8_-,5,fine-grained.preprocess.time,95791
+space,8_-,5,fine-grained.preprocess.number,5014 
+space,8_-,5,fine-grained.preprocess.time_p,95479.0
+space,8_-,5,fine-grained.mine.size,5820
+space,8_-,5,fine-grained.mine.time,101379
+space,8_-,5,boost,0.05
+space,8_-,5,boost.functions.count,4
+space,8_-,5,boost.includes,-sampler-include-method=extremes -sampler-include-method=pqlimits -sampler-include-method=secorpha -sampler-include-method=sgrpha2n
+space,8_-,5,boost.preprocess.size,314612
+space,8_-,5,boost.preprocess.time,1399
+space,8_-,5,boost.preprocess.number,366 
+space,8_-,5,boost.preprocess.time_p,1280.0
+space,8_-,5,boost.mine.size,5832
+space,8_-,5,boost.mine.time,1562
+space,8_-,5,theta,0.284532
+space,8_-,5,prune.functions.count,61
+space,8_-,5,prune.includes,-sampler-include-method=Get1Real -sampler-include-method=GetInt -sampler-include-method=GetKeyword -sampler-include-method=GetReal -sampler-include-method=GetUName -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=TapeGet -sampler-include-method=adddef -sampler-include-method=addscan -sampler-include-method=adremdef -sampler-include-method=ampunit -sampler-include-method=ampval -sampler-include-method=angunit -sampler-include-method=angval -sampler-include-method=elemdef -sampler-include-method=emsginit -sampler-include-method=extremes -sampler-include-method=fixgramp -sampler-include-method=fixgrpha -sampler-include-method=fixport -sampler-include-method=fixselem -sampler-include-method=fixsgrel -sampler-include-method=fixsgrid -sampler-include-method=floatsup -sampler-include-method=geomspec -sampler-include-method=grampexc -sampler-include-method=greldef -sampler-include-method=grexcdef -sampler-include-method=grgeodef -sampler-include-method=griddef1 -sampler-include-method=groupdef -sampler-include-method=grphaexc -sampler-include-method=grwrite -sampler-include-method=isletter -sampler-include-method=kwdsinit -sampler-include-method=lenunit -sampler-include-method=main -sampler-include-method=moseinit -sampler-include-method=nodecoor -sampler-include-method=nodedef -sampler-include-method=nomefile -sampler-include-method=polspec -sampler-include-method=portspec -sampler-include-method=pqlimits -sampler-include-method=prnfile -sampler-include-method=readfil3 -sampler-include-method=recspec -sampler-include-method=remdef -sampler-include-method=secorpha -sampler-include-method=sgrpha2n -sampler-include-method=simamp -sampler-include-method=simgroup -sampler-include-method=simpha -sampler-include-method=simpol -sampler-include-method=sinelem -sampler-include-method=squgrdef -sampler-include-method=unaminit -sampler-include-method=unifamp -sampler-include-method=unifpha
+space,8_-,5,prune.preprocess.size,1706784
+space,8_-,5,prune.preprocess.time,41742
+space,8_-,5,prune.preprocess.number,3860 
+space,8_-,5,prune.preprocess.time_p,41429.0
+space,8_-,5,prune.mine.size,5828
+space,8_-,5,prune.mine.time,78449
+space,8_-,5,boost.profile.time,10251
+space,8_-,5,boost.profile.size,10108
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v8/v8_b.sites
+space,8_-,5,boost.profile.number,7940
+space,8_-,5,prune.profile.time,46462
+space,8_-,5,prune.profile.size,269621
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v8/v8_p.sites
+space,8_-,5,prune.profile.number,215682
+space,8_-,5,prune-minus-boost.profile.time,41978
+space,8_-,5,prune-minus-boost.profile.size,227765
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v8/v8_pmb.sites
+space,8_-,5,prune-minus-boost.profile.number,181456
+space,8_-,5,end

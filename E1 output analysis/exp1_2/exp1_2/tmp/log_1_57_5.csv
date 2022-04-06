@@ -1,0 +1,13 @@
+1,57,5,start
+1,57,5,raw.profile.time,8937
+1,57,5,coarse-grained.profile.time,65293
+1,57,5,coarse-grained.profile.number,2036
+1,57,5,coarse-grained.profile.size,13048
+1,57,5,fine-grained.profile.time,3981127
+1,57,5,fine-grained.profile.size,159876
+1,57,5,fine-grained.profile.number,77084
+1,57,5,fine-grained.preprocess.size,10691120
+1,57,5,fine-grained.preprocess.time,15460
+1,57,5,fine-grained.preprocess.number,0
+1,57,5,fine-grained.preprocess.time_p,14673.0
+# fail for being empty

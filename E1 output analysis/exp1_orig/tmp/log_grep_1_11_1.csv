@@ -1,0 +1,23 @@
+grep,1_11,1,start
+grep,1_11,1,coarse-grained.profile.time,4677
+grep,1_11,1,coarse-grained.profile.size,325
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv11/v1_subv11_c.sites
+grep,1_11,1,coarse-grained.profile.number,123
+grep,1_11,1,fine-grained.profile.time,79470
+grep,1_11,1,fine-grained.profile.size,871903
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv11/v1_subv11_f.sites
+grep,1_11,1,fine-grained.profile.number,1098644
+grep,1_11,1,fine-grained.preprocess.size,1970348
+grep,1_11,1,fine-grained.preprocess.time,46846
+grep,1_11,1,fine-grained.preprocess.number,907 
+grep,1_11,1,fine-grained.preprocess.time_p,46635.0
+grep,1_11,1,fine-grained.mine.size,5952
+grep,1_11,1,fine-grained.mine.time,1350
+grep,1_11,1,boost,0.05
+grep,1_11,1,boost.functions.count,5
+grep,1_11,1,boost.includes,-sampler-include-method=dfasyntax -sampler-include-method=init_syntax_once -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile
+grep,1_11,1,boost.preprocess.size,1175320
+grep,1_11,1,boost.preprocess.time,4032
+grep,1_11,1,boost.preprocess.number,0 
+grep,1_11,1,boost.preprocess.time_p,3854.0
+grep,1_11,1,boost.mine.size,5828

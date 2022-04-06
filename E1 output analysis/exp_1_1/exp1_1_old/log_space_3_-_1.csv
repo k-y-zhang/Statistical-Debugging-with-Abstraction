@@ -1,0 +1,42 @@
+space,3_-,1,start
+space,3_-,1,coarse-grained.profile.time,7479
+space,3_-,1,coarse-grained.profile.size,5032
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_c.sites
+space,3_-,1,coarse-grained.profile.number,136
+space,3_-,1,fine-grained.profile.time,72086
+space,3_-,1,fine-grained.profile.size,569400
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_f.sites
+space,3_-,1,fine-grained.profile.number,459152
+space,3_-,1,fine-grained.preprocess.size,1858872
+space,3_-,1,fine-grained.preprocess.time,42440
+space,3_-,1,fine-grained.preprocess.number,2175 
+space,3_-,1,fine-grained.preprocess.time_p,42242.0
+space,3_-,1,fine-grained.mine.size,5852
+space,3_-,1,fine-grained.mine.time,3556
+space,3_-,1,boost,0.05
+space,3_-,1,boost.functions.count,5
+space,3_-,1,boost.includes,-sampler-include-method=angclaus -sampler-include-method=angstep -sampler-include-method=parserro -sampler-include-method=trigrdef -sampler-include-method=versdef
+space,3_-,1,boost.preprocess.size,307688
+space,3_-,1,boost.preprocess.time,1222
+space,3_-,1,boost.preprocess.number,228 
+space,3_-,1,boost.preprocess.time_p,1114.0
+space,3_-,1,boost.mine.size,5824
+space,3_-,1,boost.mine.time,1425
+space,3_-,1,theta,0.409842
+space,3_-,1,prune.functions.count,25
+space,3_-,1,prune.includes,-sampler-include-method=GetKeyword -sampler-include-method=GetReal -sampler-include-method=GetUName -sampler-include-method=InKWords -sampler-include-method=InUNames -sampler-include-method=InserUN -sampler-include-method=TapeGet -sampler-include-method=doubstep -sampler-include-method=emsginit -sampler-include-method=floatsup -sampler-include-method=greldef -sampler-include-method=griddef1 -sampler-include-method=groupdef -sampler-include-method=hexgrdef -sampler-include-method=isletter -sampler-include-method=kwdsinit -sampler-include-method=main -sampler-include-method=moseinit -sampler-include-method=nomefile -sampler-include-method=parserro -sampler-include-method=prnfile -sampler-include-method=readfil3 -sampler-include-method=recgrdef -sampler-include-method=squgrdef -sampler-include-method=unaminit
+space,3_-,1,prune.preprocess.size,1492968
+space,3_-,1,prune.preprocess.time,10624
+space,3_-,1,prune.preprocess.number,1384 
+space,3_-,1,prune.preprocess.time_p,10433.0
+space,3_-,1,prune.mine.size,5792
+space,3_-,1,prune.mine.time,3290
+space,3_-,1,boost.profile.time,8643
+space,3_-,1,boost.profile.size,10020
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_b.sites
+space,3_-,1,boost.profile.number,4648
+space,3_-,1,prune-minus-boost.profile.time,22885
+space,3_-,1,prune-minus-boost.profile.size,94732
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/space/versions/v3/v3_pmb.sites
+space,3_-,1,prune-minus-boost.profile.number,70732
+space,3_-,1,end

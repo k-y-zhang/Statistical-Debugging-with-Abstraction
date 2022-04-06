@@ -1,0 +1,42 @@
+sed,2_1,1,start
+sed,2_1,1,coarse-grained.profile.time,2999
+sed,2_1,1,coarse-grained.profile.size,1468
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v2/subv1/v2_subv1_c.sites
+sed,2_1,1,coarse-grained.profile.number,155
+sed,2_1,1,fine-grained.profile.time,61894
+sed,2_1,1,fine-grained.profile.size,409068
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v2/subv1/v2_subv1_f.sites
+sed,2_1,1,fine-grained.profile.number,1099856
+sed,2_1,1,fine-grained.preprocess.size,1674280
+sed,2_1,1,fine-grained.preprocess.time,31492
+sed,2_1,1,fine-grained.preprocess.number,2346 
+sed,2_1,1,fine-grained.preprocess.time_p,31230.0
+sed,2_1,1,fine-grained.mine.size,5828
+sed,2_1,1,fine-grained.mine.time,2812
+sed,2_1,1,boost,0.05
+sed,2_1,1,boost.functions.count,7
+sed,2_1,1,boost.includes,-sampler-include-method=bad_prog -sampler-include-method=ck_fopen -sampler-include-method=ck_malloc -sampler-include-method=compile_address -sampler-include-method=compile_program -sampler-include-method=inchar -sampler-include-method=savchar
+sed,2_1,1,boost.preprocess.size,727724
+sed,2_1,1,boost.preprocess.time,4026
+sed,2_1,1,boost.preprocess.number,1552 
+sed,2_1,1,boost.preprocess.time_p,3880.0
+sed,2_1,1,boost.mine.size,5812
+sed,2_1,1,boost.mine.time,1693
+sed,2_1,1,theta,0.449187
+sed,2_1,1,prune.functions.count,9
+sed,2_1,1,prune.includes,-sampler-include-method=ck_fopen -sampler-include-method=ck_malloc -sampler-include-method=compile_address -sampler-include-method=compile_file -sampler-include-method=compile_program -sampler-include-method=inchar -sampler-include-method=main -sampler-include-method=re_set_syntax -sampler-include-method=savchar
+sed,2_1,1,prune.preprocess.size,1115736
+sed,2_1,1,prune.preprocess.time,4978
+sed,2_1,1,prune.preprocess.number,2060 
+sed,2_1,1,prune.preprocess.time_p,4814.0
+sed,2_1,1,prune.mine.size,5812
+sed,2_1,1,prune.mine.time,2780
+sed,2_1,1,boost.profile.time,8216
+sed,2_1,1,boost.profile.size,39736
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v2/subv1/v2_subv1_b.sites
+sed,2_1,1,boost.profile.number,107964
+sed,2_1,1,prune-minus-boost.profile.time,4897
+sed,2_1,1,prune-minus-boost.profile.size,13084
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v2/subv1/v2_subv1_pmb.sites
+sed,2_1,1,prune-minus-boost.profile.number,34902
+sed,2_1,1,end

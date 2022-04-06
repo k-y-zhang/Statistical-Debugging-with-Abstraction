@@ -1,0 +1,28 @@
+3,35,1,start
+3,35,1,raw.profile.time,233
+3,35,1,coarse-grained.profile.time,1912
+3,35,1,coarse-grained.profile.number,5712
+3,35,1,coarse-grained.profile.size,244
+3,35,1,fine-grained.profile.time,6388
+3,35,1,fine-grained.profile.size,14308
+3,35,1,fine-grained.profile.number,1028278
+3,35,1,fine-grained.preprocess.size,2567344
+3,35,1,fine-grained.preprocess.time,4756
+3,35,1,fine-grained.preprocess.number,4
+3,35,1,fine-grained.preprocess.time_p,4191.0
+3,35,1,fine-grained.mine.size,19360
+3,35,1,fine-grained.mine.time,41
+3,35,1,boost.includes,-sampler-include-method=-org.apache.commons.math3.genetics.ListPopulation--void--init--java.util.List,int-- -sampler-include-method=-org.apache.commons.math3.genetics.ListPopulation--void--init--int--
+3,35,1,boost.profile.number,18
+3,35,1,boost.profile.time,674
+3,35,1,boost.profile.size,52
+3,35,1,boost.preprocess.size,142896
+3,35,1,boost.preprocess.time,624
+3,35,1,boost.preprocess.number,4
+3,35,1,boost.preprocess.time_p,92.0
+3,35,1,boost.mine.size,19296
+3,35,1,boost.mine.time,53
+3,35,1,prune.theta,0.316689
+3,35,1,prune.includes,-sampler-include-method=-org.apache.commons.math3.genetics.ListPopulation--void--init--java.util.List,int-- -sampler-include-method=-org.apache.commons.math3.genetics.ListPopulation--void--init--int--
+3,35,1,prune.includes_diff,
+3,35,1,end

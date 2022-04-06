@@ -1,0 +1,40 @@
+3,25,10,start
+3,25,10,raw.profile.time,403
+3,25,10,coarse-grained.profile.time,428
+3,25,10,coarse-grained.profile.number,6010
+3,25,10,coarse-grained.profile.size,144
+3,25,10,fine-grained.profile.time,17466
+3,25,10,fine-grained.profile.size,9040
+3,25,10,fine-grained.profile.number,189737
+3,25,10,fine-grained.preprocess.size,2535024
+3,25,10,fine-grained.preprocess.time,10491
+3,25,10,fine-grained.preprocess.number,2853
+3,25,10,fine-grained.preprocess.time_p,9623.0
+3,25,10,fine-grained.mine.size,46256
+3,25,10,fine-grained.mine.time,2715
+3,25,10,boost.includes,-sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--double[]-guess--- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void-sortObservations---
+3,25,10,boost.profile.number,23
+3,25,10,boost.profile.time,580
+3,25,10,boost.profile.size,32
+3,25,10,boost.preprocess.size,144656
+3,25,10,boost.preprocess.time,1053
+3,25,10,boost.preprocess.number,16
+3,25,10,boost.preprocess.time_p,289.0
+3,25,10,boost.mine.size,19296
+3,25,10,boost.mine.time,83
+3,25,10,prune.theta,0.076010
+3,25,10,prune.includes,-sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--double[]-guess--- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void-sortObservations--- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void-guessPhi--- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-atan2-double,double-- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void-guessAOmega--- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void--init--org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cosQ-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polyCosine-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cos-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polySine-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sin-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sinQ-double,double--
+3,25,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void-guessPhi--- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-atan2-double,double-- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void-guessAOmega--- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.optimization.fitting.HarmonicFitter-ParameterGuesser--void--init--org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cosQ-double,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polyCosine-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-cos-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-polySine-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sin-double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sinQ-double,double--
+3,25,10,prune_s.profile.number,2295
+3,25,10,prune_s.profile.time,10231
+3,25,10,prune_s.profile.size,148
+3,25,10,prune.profile.number,2326
+3,25,10,prune.profile.time,9500
+3,25,10,prune.profile.size,152
+3,25,10,prune.preprocess.size,1259328
+3,25,10,prune.preprocess.time,3156
+3,25,10,prune.preprocess.number,2853
+3,25,10,prune.preprocess.time_p,2307.0
+3,25,10,prune.mine.size,46752
+3,25,10,prune.mine.time,941
+3,25,10,end

@@ -1,0 +1,40 @@
+3,49,1,start
+3,49,1,raw.profile.time,1454
+3,49,1,coarse-grained.profile.time,1626
+3,49,1,coarse-grained.profile.number,5346
+3,49,1,coarse-grained.profile.size,564
+3,49,1,fine-grained.profile.time,56339
+3,49,1,fine-grained.profile.size,38944
+3,49,1,fine-grained.profile.number,164389
+3,49,1,fine-grained.preprocess.size,4736800
+3,49,1,fine-grained.preprocess.time,18027
+3,49,1,fine-grained.preprocess.number,284
+3,49,1,fine-grained.preprocess.time_p,17078.0
+3,49,1,fine-grained.mine.size,20624
+3,49,1,fine-grained.mine.time,115
+3,49,1,boost.includes,-sampler-include-method=-org.apache.commons.math.exception.util.LocalizedFormats--java.lang.String-getLocalizedString-java.util.Locale-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--org.apache.commons.math.linear.OpenMapRealVector-ebeMultiply-org.apache.commons.math.linear.RealVector--
+3,49,1,boost.profile.number,3
+3,49,1,boost.profile.time,1385
+3,49,1,boost.profile.size,144
+3,49,1,boost.preprocess.size,153056
+3,49,1,boost.preprocess.time,1230
+3,49,1,boost.preprocess.number,11
+3,49,1,boost.preprocess.time_p,393.0
+3,49,1,boost.mine.size,19760
+3,49,1,boost.mine.time,81
+3,49,1,prune.theta,0.187176
+3,49,1,prune.includes,-sampler-include-method=-org.apache.commons.math.exception.util.LocalizedFormats--java.lang.String-getLocalizedString-java.util.Locale-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--org.apache.commons.math.linear.OpenMapRealVector-ebeMultiply-org.apache.commons.math.linear.RealVector-- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealVector--void-checkVectorDimensions-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-doRemove-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-remove-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--boolean-containsKey-int-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--void--init--org.apache.commons.math.linear.OpenMapRealVector-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--void--init--org.apache.commons.math.util.OpenIntToDoubleHashMap-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--void-setEntry-int,double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--int-key--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--boolean-hasNext--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--void--init--org.apache.commons.math.util.OpenIntToDoubleHashMap-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--double-value--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--void-advance--- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--double-getEntry-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--boolean-containsKey-int,int-- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealVector--void-checkIndex-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-get-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-findInsertionIndex-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--boolean-isDefaultValue-double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-computeCapacity-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--boolean-shouldGrowTable--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-put-int,double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-hashOf-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-findInsertionIndex-int[],byte[],int,int-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-ceil-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-floor-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-abs-double--
+3,49,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.linear.AbstractRealVector--void-checkVectorDimensions-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-doRemove-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-remove-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--boolean-containsKey-int-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--void--init--org.apache.commons.math.linear.OpenMapRealVector-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--void--init--org.apache.commons.math.util.OpenIntToDoubleHashMap-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--void-setEntry-int,double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--int-key--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--boolean-hasNext--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--void--init--org.apache.commons.math.util.OpenIntToDoubleHashMap-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--double-value--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap-Iterator--void-advance--- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--double-getEntry-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--boolean-containsKey-int,int-- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealVector--void-checkIndex-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-get-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-findInsertionIndex-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.linear.OpenMapRealVector--boolean-isDefaultValue-double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-computeCapacity-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--boolean-shouldGrowTable--- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--double-put-int,double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-hashOf-int-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-findInsertionIndex-int[],byte[],int,int-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-ceil-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-floor-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-abs-double--
+3,49,1,prune_s.profile.number,398
+3,49,1,prune_s.profile.time,1367
+3,49,1,prune_s.profile.size,144
+3,49,1,prune.profile.number,409
+3,49,1,prune.profile.time,1537
+3,49,1,prune.profile.size,144
+3,49,1,prune.preprocess.size,1137760
+3,49,1,prune.preprocess.time,2642
+3,49,1,prune.preprocess.number,284
+3,49,1,prune.preprocess.time_p,1812.0
+3,49,1,prune.mine.size,21072
+3,49,1,prune.mine.time,115
+3,49,1,end

@@ -1,0 +1,40 @@
+2,2,10,start
+2,2,10,raw.profile.time,50852
+2,2,10,coarse-grained.profile.time,256497
+2,2,10,coarse-grained.profile.number,8478
+2,2,10,coarse-grained.profile.size,61720
+2,2,10,fine-grained.profile.time,2517902
+2,2,10,fine-grained.profile.size,1621724
+2,2,10,fine-grained.profile.number,111155
+2,2,10,fine-grained.preprocess.size,45188080
+2,2,10,fine-grained.preprocess.time,351991
+2,2,10,fine-grained.preprocess.number,115
+2,2,10,fine-grained.preprocess.time_p,348789.0
+2,2,10,fine-grained.mine.size,43200
+2,2,10,fine-grained.mine.time,126
+2,2,10,boost.includes,-sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getItemCount-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--org.jfree.data.xy.XYIntervalSeries-getSeries-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getSeriesCount--- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--void-addSeries-org.jfree.data.xy.XYIntervalSeries-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getStartYValue-int,int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getEndYValue-int,int--
+2,2,10,boost.profile.number,0
+2,2,10,boost.profile.time,52850
+2,2,10,boost.profile.size,9136
+2,2,10,boost.preprocess.size,929392
+2,2,10,boost.preprocess.time,3437
+2,2,10,boost.preprocess.number,9
+2,2,10,boost.preprocess.time_p,2569.0
+2,2,10,boost.mine.size,25696
+2,2,10,boost.mine.time,140
+2,2,10,prune.theta,0.004810
+2,2,10,prune.includes,-sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getItemCount-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--org.jfree.data.xy.XYIntervalSeries-getSeries-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--int-getSeriesCount--- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--void-addSeries-org.jfree.data.xy.XYIntervalSeries-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getStartYValue-int,int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getEndYValue-int,int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getStartXValue-int,int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getEndXValue-int,int-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--void-add-org.jfree.data.ComparableObjectItem,boolean-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--int-getItemCount--- -sampler-include-method=-org.jfree.data.ComparableObjectItem--void--init--java.lang.Comparable,java.lang.Object-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getYHighValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getYLowValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getXLowValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getXHighValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getYHighValue--- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getYLowValue--- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getXHighValue--- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getXLowValue--- -sampler-include-method=-org.jfree.data.general.Series--void-addChangeListener-org.jfree.data.event.SeriesChangeListener-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.event.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String-- -sampler-include-method=-org.jfree.data.general.DatasetUtilities--org.jfree.data.Range-iterateDomainBounds-org.jfree.data.xy.XYDataset,boolean-- -sampler-include-method=-org.jfree.data.general.DatasetUtilities--org.jfree.data.Range-iterateRangeBounds-org.jfree.data.xy.XYDataset,boolean-- -sampler-include-method=-org.jfree.data.general.AbstractDataset--void-notifyListeners-org.jfree.data.event.DatasetChangeEvent-- -sampler-include-method=-org.jfree.data.event.DatasetChangeEvent--void--init--java.lang.Object,org.jfree.data.general.Dataset,org.jfree.chart.event.DatasetChangeInfo--
+2,2,10,prune.includes_diff,-sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getStartXValue-int,int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeriesCollection--double-getEndXValue-int,int-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--void-add-org.jfree.data.ComparableObjectItem,boolean-- -sampler-include-method=-org.jfree.data.ComparableObjectSeries--int-getItemCount--- -sampler-include-method=-org.jfree.data.ComparableObjectItem--void--init--java.lang.Comparable,java.lang.Object-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getYHighValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getYLowValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getXLowValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalSeries--double-getXHighValue-int-- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getYHighValue--- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getYLowValue--- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getXHighValue--- -sampler-include-method=-org.jfree.data.xy.XYIntervalDataItem--double-getXLowValue--- -sampler-include-method=-org.jfree.data.general.Series--void-addChangeListener-org.jfree.data.event.SeriesChangeListener-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.event.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String-- -sampler-include-method=-org.jfree.data.general.DatasetUtilities--org.jfree.data.Range-iterateDomainBounds-org.jfree.data.xy.XYDataset,boolean-- -sampler-include-method=-org.jfree.data.general.DatasetUtilities--org.jfree.data.Range-iterateRangeBounds-org.jfree.data.xy.XYDataset,boolean-- -sampler-include-method=-org.jfree.data.general.AbstractDataset--void-notifyListeners-org.jfree.data.event.DatasetChangeEvent-- -sampler-include-method=-org.jfree.data.event.DatasetChangeEvent--void--init--java.lang.Object,org.jfree.data.general.Dataset,org.jfree.chart.event.DatasetChangeInfo--
+2,2,10,prune_s.profile.number,172
+2,2,10,prune_s.profile.time,49335
+2,2,10,prune_s.profile.size,9136
+2,2,10,prune.profile.number,180
+2,2,10,prune.profile.time,57529
+2,2,10,prune.profile.size,9132
+2,2,10,prune.preprocess.size,8639472
+2,2,10,prune.preprocess.time,15585
+2,2,10,prune.preprocess.number,115
+2,2,10,prune.preprocess.time_p,14201.0
+2,2,10,prune.mine.size,43216
+2,2,10,prune.mine.time,140
+2,2,10,end

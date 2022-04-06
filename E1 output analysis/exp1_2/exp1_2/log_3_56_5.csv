@@ -1,0 +1,40 @@
+3,56,5,start
+3,56,5,raw.profile.time,91
+3,56,5,coarse-grained.profile.time,893
+3,56,5,coarse-grained.profile.number,4573
+3,56,5,coarse-grained.profile.size,84
+3,56,5,fine-grained.profile.time,25103
+3,56,5,fine-grained.profile.size,4852
+3,56,5,fine-grained.profile.number,835514
+3,56,5,fine-grained.preprocess.size,2494640
+3,56,5,fine-grained.preprocess.time,3263
+3,56,5,fine-grained.preprocess.number,5088
+3,56,5,fine-grained.preprocess.time_p,2823.0
+3,56,5,fine-grained.mine.size,43040
+3,56,5,fine-grained.mine.time,323
+3,56,5,boost.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--void--clinit---- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-expint-int,double[]--
+3,56,5,boost.profile.number,74
+3,56,5,boost.profile.time,433
+3,56,5,boost.profile.size,24
+3,56,5,boost.preprocess.size,143024
+3,56,5,boost.preprocess.time,498
+3,56,5,boost.preprocess.number,25
+3,56,5,boost.preprocess.time_p,94.0
+3,56,5,boost.mine.size,19488
+3,56,5,boost.mine.time,24
+3,56,5,prune.theta,0.721928
+3,56,5,prune.includes,-sampler-include-method=-org.apache.commons.math.util.MathUtils--void--clinit---- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-expint-int,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-splitAdd-double[],double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--boolean-hasNext--- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--java.lang.Integer-next--- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-slowexp-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-split-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-slowSin-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-slowCos-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void--clinit---- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-splitMult-double[],double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double[]-slowLog-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-resplit-double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-buildSinCosTables--- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-quadMult-double[],double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-splitReciprocal-double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--int-getCount-int-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--void--init--org.apache.commons.math.util.MultidimensionalCounter-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter--int[]-getCounts-int-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter--int-getCount-int[]-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--int[]-copyOf-int[],int-- -sampler-include-method=-org.apache.commons.math.util.FastMath--int-min-int,int-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter--void--init--int[]--
+3,56,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.util.FastMath--void-splitAdd-double[],double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--boolean-hasNext--- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--java.lang.Integer-next--- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-slowexp-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-split-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-slowSin-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-slowCos-double,double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void--clinit---- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-splitMult-double[],double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double[]-slowLog-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-resplit-double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-buildSinCosTables--- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-quadMult-double[],double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.FastMath--void-splitReciprocal-double[],double[]-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--int-getCount-int-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter-Iterator--void--init--org.apache.commons.math.util.MultidimensionalCounter-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter--int[]-getCounts-int-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter--int-getCount-int[]-- -sampler-include-method=-org.apache.commons.math.util.MathUtils--int[]-copyOf-int[],int-- -sampler-include-method=-org.apache.commons.math.util.FastMath--int-min-int,int-- -sampler-include-method=-org.apache.commons.math.util.MultidimensionalCounter--void--init--int[]--
+3,56,5,prune_s.profile.number,16300
+3,56,5,prune_s.profile.time,28780
+3,56,5,prune_s.profile.size,112
+3,56,5,prune.profile.number,16374
+3,56,5,prune.profile.time,29015
+3,56,5,prune.profile.size,112
+3,56,5,prune.preprocess.size,704496
+3,56,5,prune.preprocess.time,1604
+3,56,5,prune.preprocess.number,5088
+3,56,5,prune.preprocess.time_p,1042.0
+3,56,5,prune.mine.size,42928
+3,56,5,prune.mine.time,617
+3,56,5,end

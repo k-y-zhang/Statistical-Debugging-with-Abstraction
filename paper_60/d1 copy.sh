@@ -1,0 +1,491 @@
+#!/usr/bin/bash
+# himps1
+# 实验 1 脚本
+# 这个脚本用来运行原实验 1，
+# 包括 c 和 java 程序的差异。
+# 以及目录结构的差异。
+
+root="/home/sunzzq2"
+LIB="/home/paper_60/exp2/"
+BOOST=0.05
+
+set -e
+#set -v
+trap 'echo "ERROR: $BASH_SOURCE:$LINENO $BASH_COMMAND" >&2' ERR
+
+sub=$1
+pid=$2
+bid=$3
+k=$4
+
+test -z "$sub" && sub='grep'
+test -z "$pid" && pid=1
+test -z "$bid" && bid=3
+test -z "$k" && k=10
+
+########
+
+HIMPS_JAR="himps1.jar"
+SUBJECT_TYPE=C
+# case $1
+#   )
+#   *)HIMPS=2
+# esac
+GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.GenSirScriptClient"
+case $1 in
+grep | sed | gzip)
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.GenSirScriptClient"
+  ;;
+space)
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.GenSiemensScriptsClient"
+  ;;
+bash)
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.GenBashScriptClient"
+  ;;
+"apache-ant")
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.java.AntGenSirScriptClient"
+  SUBJECT_TYPE=JAVA
+  ;;
+nanoxml)
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.java.NanoxmlGenSirScriptClient"
+  SUBJECT_TYPE=JAVA
+  ;;
+derby)
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.java.DerbyGenSirScriptClient"
+  SUBJECT_TYPE=JAVA
+  #BOOST=1
+  ;;
+siena)
+  GENSCRIPT="java -cp /home/paper_60/exp2/zuo3.jar zuo.processor.genscript.client.twopass.java.SienaGenSirScriptClient"
+  SUBJECT_TYPE=JAVA
+  ;;
+*)
+  echo "error $1"
+  exit 1
+  ;;
+esac
+
+SUBJECT_VER="v${pid}/subv${bid}"
+SUBJECT_VER2="v${pid}_subv${bid}"
+dir="/home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/${sub}"
+OUTPUTSDIR="${dir}/outputs.alt/v${pid}/versions/subv${bid}/{step_name}/time"
+EXEPREFIX="${dir}/versions/${SUBJECT_VER}/subv${bid}_"
+
+if [ "$sub" = "space" ]; then
+  if [ "$bid" != "-" ]; then
+    echo "FAIL> '$bid' is not None"
+    exit 1
+  fi
+  SUBJECT_VER="v${pid}"
+  SUBJECT_VER2="v${pid}"
+  OUTPUTSDIR="${dir}/outputs/versions/v${pid}/{step_name}/time"
+  EXEPREFIX="${dir}/versions/${SUBJECT_VER}/v${pid}_"
+fi
+
+for step_name in "coarse-grained" "fine-grained" "boost" "prune" "prune-minus-boost" ; 
+do
+rm -f "${OUTPUTSDIR/\{step_name\}/${step_name}}"
+done
+
+case "$1" in
+grep | sed | gzip | bash )
+  CSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_c.sites"
+  FSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_f.sites"
+  BSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+  PSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_p.sites"
+  PMBSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_pmb.sites"
+  ;;
+space )
+  CSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_c.sites"
+  FSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_f.sites"
+  BSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+  PSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_p.sites"
+  PMBSITE="${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_pmb.sites"
+
+  ;;
+
+"apache-ant" | nanoxml | derby | siena )
+  CSITE="${dir}/versions/${SUBJECT_VER}/coarse-grained/output.sites"
+  FSITE="${dir}/versions/${SUBJECT_VER}/fine-grained/output.sites"
+  BSITE="${dir}/versions/${SUBJECT_VER}/boost/output.sites"
+  PSITE="${dir}/versions/${SUBJECT_VER}/prune/output.sites"
+  PMBSITE="${dir}/versions/${SUBJECT_VER}/prune-minus-boost/output.sites"
+  HIMPS_JAR="himps2.jar"
+  ;;
+*)
+  echo "fail!"
+  exit 1
+  ;;
+esac
+rm -f "$CSITE" "$FSITE" "$BSITE" "$PSITE" "$PMBSITE"
+####
+
+#root=$(pwd)
+
+mkdir -p "$root/outputs/exp1_orig/tmp"
+OUT="$root/outputs/exp1_orig/tmp/log_${sub}_${pid}_${bid}_${k}.csv"
+echo "$OUT"
+# read
+OUT2="$root/outputs/exp1_orig/log_${sub}_${pid}_${bid}_${k}.csv"
+if test -e "$OUT2"; then
+  echo "skip '${sub}_${pid}_${bid}_${k}'"
+  exit
+fi
+rm -rf "$OUT"
+
+# if grep -q "^${pid},${bid},$k,end$" "$OUT2"; then
+#     echo "skip finished $*"
+#     exit 0
+# fi
+rm -rf "$root/tmp/"
+mkdir -p "$root/tmp/"
+# WS=$(mktemp -d -p "$root/tmp/" "orig-${sub}-${pid}-${bid}-$k.XXX")
+
+# echo "${WS}"
+# mkdir -p "${WS}/"
+
+#[ -z "$pid" ] && pid=1
+#pid_n=$pid
+#pids=(NULL Lang Chart Math Time Mockito Closure) #
+
+#[ -z "$bid" ] && bid=2
+#[ -z "$k" ] && k=1 # k=1, 5, 10
+
+key="${sub},${pid}_${bid},$k"
+echo "$key,start" >>"$OUT"
+echo "OUT>>$OUT"
+
+timeit() {
+  echo "argv:" "$@"
+  local row_name="$key,$1"
+  echo -n "$key,$1.size," >>$OUT
+  shift
+  local stime="$(date +%s%N)"
+  # echo 1
+  /usr/bin/time -f "%M" -a -o "$OUT" "$@" # 有的程序自己会返回运行信息，特别是时间。
+  #echo 2
+  local time="$(($(date +%s%N) - stime - 0))"
+  # echo 3
+  echo -e "${row_name}.time,$((time / 1000000))" >>"$OUT"
+}
+
+sizeit() {
+  du --apparent-size -s "$1" | awk '{print $1}'
+}
+
+count_p() {
+  ruby -e 'data=STDIN.read;puts (data[/scheme="branches".*?<\/sites>/m]||"\n").count("\n").pred*2+(data[/scheme="returns".*?<\/sites>/m]||"\n").count("\n").pred*6+(data[/scheme="scalar-pairs".*?<\/sites>/m]||"\n").count("\n").pred*6+(data[/scheme="method-entries".*?<\/sites>/m]||"\n").count("\n").pred*1' # < 'output.sites'
+}
+
+read_profiles() {
+  local step_name="$1"
+  {
+    echo -n "$key,${step_name}.profile.time,"
+    cat "${OUTPUTSDIR/\{step_name\}/${step_name}}" | sed -ne '2p' | sed -re 's/[^0-9]+//g'
+    echo "$key,${step_name}.profile.size,$(sizeit "${dir}/traces/${SUBJECT_VER}/${step_name}/")"
+    local oo=""
+    case "${step_name}" in
+    "coarse-grained") oo=$CSITE ;;
+    "fine-grained") oo=$FSITE ;;
+    "boost") oo=$BSITE ;;
+    "prune") oo=$PSITE ;;
+    "prune-minus-boost") oo=$PMBSITE ;;
+    esac
+    echo "$key,${step_name}.profile.number,$(cat "${oo}" | count_p)"
+  } >> "$OUT"
+}
+####
+
+#cd /home/paper_60/exp2/
+
+dir="/home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/${sub}"
+cd "$dir/scripts/"
+
+dataset_output_folder="dataset_output_folder_${sub}_${pid}_${bid}_${k}"
+mbs_output_file="mbs_output_file_${sub}_${pid}_${bid}_${k}"
+mkdir -p ${dataset_output_folder}
+
+# java -jar preprocess1.jar \
+#   "${dir}/traces/${SUBJECT_VER}/fine-grained/" \
+#   "${dir}/versions/v${pid}/subv1/${SUBJECT_VER2}_f.sites" \
+#   dataset_output_folder
+
+# k=5
+# sudo docker run -it --rm -v /home:/home -w $PWD mbs2 \
+#   mbs -k $k -n 0.5 -g --refine 2 --dfs --merge --cache 9999 --up-limit 2 dataset_output_folder/mps-ds.pb -o mbs_output_file # --metric 0
+#
+
+############################
+
+# baseline
+
+# echo == 运行fg
+
+collect_run_tests() {
+  # local step_name="$1"
+  # echo -n "${key},${step_name}.test.time," >>$OUT
+  # echo $(cat "${OUTPUTSDIR/{step_name}/${step_name}}" | sed -ne '2p' | sed -re 's/[^0-9]+//g') >>$OUT
+  # echo -n "${key},${step_name}.test.size," >>$OUT
+  # echo $(sizeit "${dir}/traces/${SUBJECT_VER}/${step_name}/") >>$OUT
+  read_profiles "$1"
+  # local step_name="$1"
+  # {
+  #   echo -n "$key,fine-grained.profile.time,"
+  #   cat "${OUTPUTSDIR/{step_name/}/${step_name}}" | sed -ne '2p' | sed -re 's/[^0-9]+//g'
+  #   echo "$key,fine-grained.profile.size,$(sizeit "${dir}/traces/${SUBJECT_VER}/${step_name}/")"
+  #   echo "$key,fine-grained.profile.number,$(($(cat "${dir}/versions/${SUBJECT_VER}/${step_name}/output.sites" | count_p) - 0))"
+  # } >>"$OUT"
+}
+
+run_p_m() {
+  local step_name=$1
+  local profiles=$2  # "${dir}/traces/${SUBJECT_VER}/fine-grained/"
+  local site_file=$3 # "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_f.sites"
+  echo "preprocess ${step_name} ${profiles} ${site_file}"
+  rm -rf ${dataset_output_folder}
+  mkdir -p "${dataset_output_folder}"
+  timeit "${step_name}.preprocess" \
+    java -Xmx4g -jar ${LIB}/preprocess1.jar \
+    "$profiles" \
+    "$site_file" \
+    ${dataset_output_folder} | tee -a "${dataset_output_folder}/log_preprocess.txt"
+  #    rm -rf "$preprocess_output_folder"
+
+  echo "$key,${step_name}.preprocess.number,$(($(cat "${dataset_output_folder}/predicate.mapping" | wc -l) / 5))" >>$OUT
+  echo "$key,${step_name}.preprocess.time_p,$(ruby -e 'print STDIN.read.scan(/preprocessing time = (.+)/)[-1][0].to_f*1000' <"${dataset_output_folder}/log_preprocess.txt")" >>$OUT
+
+  echo ">>>${step_name}.mine"
+
+  timeit "${step_name}.mine" \
+    sudo docker run -it --rm -v /home:/home -w $PWD mbs2 \
+    mbs -k "$k" -n 0.5 -g --refine 2 --dfs --merge --cache 9999 --up-limit 2 ${dataset_output_folder}/mps-ds.pb -o ${mbs_output_file} # | tee -a "${dataset_output_folder}/log_mine.txt"  # --metric 0
+
+}
+
+rm -f "${dataset_output_folder}/log_preprocess.txt"
+
+baseline() {
+  echo $GENSCRIPT
+  $GENSCRIPT || echo 1
+  [ "$sub" = "siena" ] && sed -i -re 's/^sleep [0-9]+$/sleep 0.5/' ./*.sh
+  ##
+  rm -rf "${dir}/traces/${SUBJECT_VER}/coarse-grained/"
+  rm -rf "${dir}/traces/${SUBJECT_VER}/fine-grained/"
+  # exit
+  # 收集数据（不含运行测试用例）
+  sed -i -re '${/^rm /d}' "${dir}/scripts/${SUBJECT_VER2}_cg.sh"
+  sed -i -re '${/^rm /d}' "${dir}/scripts/${SUBJECT_VER2}_fg.sh"
+  bash "${dir}/scripts/${SUBJECT_VER2}_cg.sh" # || echo "ERROR"
+  bash "${dir}/scripts/${SUBJECT_VER2}_fg.sh" # || echo "ERROR"
+  [ "${SUBJECT_TYPE}" = "C" ] && extract-section .debug_site_info "${EXEPREFIX}cinst.exe" >$CSITE
+  [ "${SUBJECT_TYPE}" = "C" ] && extract-section .debug_site_info "${EXEPREFIX}finst.exe" >$FSITE
+
+  # exit
+  # p+m
+
+  run_p_m "fine-grained" "${dir}/traces/${SUBJECT_VER}/fine-grained/" "$FSITE"
+
+}
+
+#exit
+
+hi_boost() {
+  ## 计算 boost
+  echo "${key},boost,$BOOST" >>$OUT
+  echo "begin"
+
+  wc $CSITE
+  wc $FSITE
+  du --apparent-size -s "${dir}/traces/${SUBJECT_VER}/coarse-grained"
+  echo "end"
+  mkdir -p "${dir}/versions/${SUBJECT_VER}/predicate-dataset/boost/"
+  java -Xmx4g -jar ${LIB}/${HIMPS_JAR} \
+    "$CSITE" \
+    "${dir}/traces/${SUBJECT_VER}/coarse-grained/" \
+    "$FSITE" \
+    --boost "$BOOST" \
+    "${dir}/versions/${SUBJECT_VER}/predicate-dataset/boost/boost_functions_2_0.05.txt"
+  cat "${dir}/versions/${SUBJECT_VER}/predicate-dataset/boost/boost_functions_2_0.05.txt"
+  #exit
+  $GENSCRIPT || echo 1
+  sed -i -re 's/^sleep [0-9]+$/sleep 0.5/' ./*.sh
+  #sed -i -re 's/^stime=/exit\n/' ./*.sh # for debug
+  sed -i -re 's/^.*MySed.*$/#\n/' ./*.sh # for debug
+  ## 运行测试用例
+  rm -rf "${dir}/traces/${SUBJECT_VER}/boost/"   #!!
+  mkdir -p "${dir}/traces/${SUBJECT_VER}/boost/" #!!
+  sed -i -re 's/^rm \$TRACE.*$//' "${dir}/scripts/${SUBJECT_VER2}_boost.sh"
+
+  bash "${dir}/scripts/${SUBJECT_VER2}_boost.sh" || echo "ERROR"
+  #exit
+  [ "${SUBJECT_TYPE}" = "C" ] && extract-section .debug_site_info "${EXEPREFIX}binst.exe" >$BSITE
+
+  ## 预处理
+  run_p_m "boost" "${dir}/traces/${SUBJECT_VER}/boost/" "$BSITE"
+
+  echo 计算 theta
+  theta=$(ruby -e "xs=STDIN.read.scan(/TOP-\(\d+\) SUP=.+ IG=(.+)$/);puts(xs[ARGV[0].to_i-1]||xs.last)" "$k" <${mbs_output_file})
+  cat ${mbs_output_file}
+  echo "theta>$theta"
+  echo "${key},theta,${theta}" >>$OUT
+}
+
+hi_prune() {
+  ## 首先，生成函数列表
+  echo "theta>$theta"
+  #[ "$sub" = "gzip" ] &&
+  theta=$(echo "$theta - 0.000001" | bc) # gzip 向下取整
+  mkdir -p $(dirname "${dir}/versions/${SUBJECT_VER}/predicate-dataset/prune/prune_functions_2_0.05.txt")
+  rm -rf "${dir}/versions/${SUBJECT_VER}/predicate-dataset/prune/prune_functions_2_0.05.txt"
+  java -Xmx4g -jar ${LIB}/${HIMPS_JAR} \
+    "$CSITE" \
+    "${dir}/traces/${SUBJECT_VER}/coarse-grained" \
+    "$FSITE" \
+    --prune "$theta" \
+    "${dir}/versions/${SUBJECT_VER}/predicate-dataset/prune/prune_functions_2_0.05.txt"
+  test -s "${dir}/versions/${SUBJECT_VER}/predicate-dataset/prune/prune_functions_2_0.05.txt"
+  mkdir -p $(dirname "${dir}/versions/${SUBJECT_VER}/predicate-dataset/pruneMinusBoost/prune_minus_boost_functions_2_0.05.txt")
+  ruby -e 'a,b=ARGV.map{|e|open(e).readlines};puts(b-a)' \
+    "${dir}/versions/${SUBJECT_VER}/predicate-dataset/boost/boost_functions_2_0.05.txt" \
+    "${dir}/versions/${SUBJECT_VER}/predicate-dataset/prune/prune_functions_2_0.05.txt" >"${dir}/versions/${SUBJECT_VER}/predicate-dataset/pruneMinusBoost/prune_minus_boost_functions_2_0.05.txt"
+  #exit
+  ## 然后，生成执行脚本
+  $GENSCRIPT || echo 1
+  sed -i -re 's/^sleep [0-9]+$/sleep 0.5/' ./*.sh # for debug
+  sed -i -re 's/^(.*MySed.*)$/#\1\n/' ./*.sh      # for debug
+
+  ## 并执行（记录pruneMinusBoost的运行数据，用prune的结果mine）。
+  rm -rf "${dir}/traces/${SUBJECT_VER}/prune/"
+  mkdir -p "${dir}/traces/${SUBJECT_VER}/prune/" #!!
+  rm -rf "${dir}/traces/${SUBJECT_VER}/pruneMinusBoost/"
+  mkdir -p "${dir}/traces/${SUBJECT_VER}/pruneMinusBoost/" #!!
+  sed -i -re 's/^rm \$TRACE.*$//' "${dir}/scripts/${SUBJECT_VER2}_prune.sh"
+  sed -i -re 's/^rm \$TRACE.*$//' "${dir}/scripts/${SUBJECT_VER2}_pruneMinusBoost.sh"
+  bash "${dir}/scripts/${SUBJECT_VER2}_prune.sh" || echo "ERROR"
+  bash "${dir}/scripts/${SUBJECT_VER2}_pruneMinusBoost.sh" || echo "ERROR"
+
+  [ "${SUBJECT_TYPE}" = "C" ] && extract-section .debug_site_info "${EXEPREFIX}pinst.exe" >$PSITE
+  [ "${SUBJECT_TYPE}" = "C" ] && extract-section .debug_site_info "${EXEPREFIX}pmbinst.exe" >$PMBSITE
+
+  # sed -i -re 's/([0-9]+\t[0-9]+\t[0-9]+)\t[0-9]+/\1/' ${dir}/traces/${SUBJECT_VER}/prune/* # bug?
+  ## 最后，预处理（只处理 prune 的）
+  ## 并挖掘（只挖掘 prune 的）
+  run_p_m "prune" "${dir}/traces/${SUBJECT_VER}/prune/" "$PSITE"
+
+}
+
+hi_method() {
+  # cg
+
+  # boost
+  hi_boost
+  # exit
+  # echo 323
+  # echo "${dir}/traces/${SUBJECT_VER}/boost/"
+  # echo "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+  # java -jar preprocess1.jar \
+  #   "${dir}/traces/${SUBJECT_VER}/boost/" \
+  #   "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites" \
+  #   dataset_output_folder
+  # echo 323
+  #exit
+  #run_p_m "boost" "${dir}/traces/${SUBJECT_VER}/boost/" "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+  # prune
+  hi_prune
+
+  collect_run_tests "coarse-grained"
+  collect_run_tests "fine-grained"
+  collect_run_tests "boost"
+  collect_run_tests "prune-minus-boost"
+}
+
+#rm -f "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+# [ "${SUBJECT_TYPE}" = "C" ] && extract-section .debug_site_info "${dir}/versions/${SUBJECT_VER}/subv${bid}_binst.exe" > "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+# wc -l "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+# exit
+# rm -rf dataset_output_folder
+# echo "${dir}/traces/${SUBJECT_VER}/boost/"
+# echo "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+# echo "${dir}/versions/${SUBJECT_VER}/predicate-dataset/boost/boost_functions_2_0.05.txt"
+# # run_p_m "boost" "${dir}/traces/${SUBJECT_VER}/boost/" "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites"
+# java -jar ${LIB}/preprocess1.jar \
+#     "${dir}/traces/${SUBJECT_VER}/boost/" \
+#     "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_b.sites" \
+#     dataset_output_folder
+# # java -jar ${LIB}/preprocess1.jar \
+# #     "${dir}/traces/${SUBJECT_VER}/fine-grained/" \
+# #     "${dir}/versions/${SUBJECT_VER}/${SUBJECT_VER2}_f.sites" \
+# #     dataset_output_folder
+# exit
+
+[ "$k" = 1 ] && baseline
+# exit
+hi_method
+
+echo "END"
+echo "$key,end" >>"$OUT"
+cat "$OUT"
+cat "$OUT" >"$OUT2"
+exit
+
+############################
+
+# 收集数据。
+
+# baseline
+# hi
+#
+#
+#
+
+grep v1_subv3
+grep v1_subv7
+grep v1_subv8
+grep v1_subv11
+grep v3_subv12
+grep v3_subv2
+grep v4_subv10
+grep v4_subv12
+
+gzip v1_subv4
+gzip v1_subv5
+gzip v1_subv13
+gzip v1_subv15
+gzip v1_subv16
+gzip v2_subv1
+gzip v2_subv3
+gzip v2_subv6
+gzip v4_subv6
+gzip v5_subv13
+gzip v5_subv1
+gzip v5_subv6
+gzip v5_subv7
+
+sed v2_subv1
+sed v3_subv1
+sed v3_subv2
+sed v3_subv5
+
+gzip 1 5
+# # # #
+
+grep 1 8 1
+gzip 1 4 1
+sed 2 1 1
+
+space 3
+
+bash 1 4
+
+apache-ant 8 1
+
+derby 5 8
+
+nanoxml 1 1
+
+siena 1 2
+
+# # # #
+csh
+# predicate-dataset
+# csh,bison

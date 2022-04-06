@@ -1,0 +1,40 @@
+3,45,1,start
+3,45,1,raw.profile.time,39552
+3,45,1,coarse-grained.profile.time,1010779
+3,45,1,coarse-grained.profile.number,5542
+3,45,1,coarse-grained.profile.size,9304
+3,45,1,fine-grained.profile.time,12631805
+3,45,1,fine-grained.profile.size,523740
+3,45,1,fine-grained.profile.number,168070
+3,45,1,fine-grained.preprocess.size,28835456
+3,45,1,fine-grained.preprocess.time,101120
+3,45,1,fine-grained.preprocess.number,33
+3,45,1,fine-grained.preprocess.time_p,99077.0
+3,45,1,fine-grained.mine.size,20496
+3,45,1,fine-grained.mine.time,83
+3,45,1,boost.includes,-sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-computeCapacity-int--
+3,45,1,boost.profile.number,2
+3,45,1,boost.profile.time,40808
+3,45,1,boost.profile.size,1940
+3,45,1,boost.preprocess.size,250672
+3,45,1,boost.preprocess.time,1666
+3,45,1,boost.preprocess.number,9
+3,45,1,boost.preprocess.time_p,982.0
+3,45,1,boost.mine.size,20224
+3,45,1,boost.mine.time,62
+3,45,1,prune.theta,0.007118
+3,45,1,prune.includes,-sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--void--init--int,double-- -sampler-include-method=-org.apache.commons.math.util.OpenIntToDoubleHashMap--int-computeCapacity-int-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-ceil-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-floor-double-- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealMatrix--void--init--int,int--
+3,45,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.util.FastMath--double-ceil-double-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-floor-double-- -sampler-include-method=-org.apache.commons.math.linear.AbstractRealMatrix--void--init--int,int--
+3,45,1,prune_s.profile.number,31
+3,45,1,prune_s.profile.time,37356
+3,45,1,prune_s.profile.size,1944
+3,45,1,prune.profile.number,41
+3,45,1,prune.profile.time,38986
+3,45,1,prune.profile.size,1944
+3,45,1,prune.preprocess.size,482384
+3,45,1,prune.preprocess.time,2554
+3,45,1,prune.preprocess.number,33
+3,45,1,prune.preprocess.time_p,1782.0
+3,45,1,prune.mine.size,20560
+3,45,1,prune.mine.time,80
+3,45,1,end

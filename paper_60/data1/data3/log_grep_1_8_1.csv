@@ -1,0 +1,38 @@
+grep,1_8,1,start
+grep,1_8,1,coarse-grained.profile.time,8319
+grep,1_8,1,coarse-grained.profile.size,3272
+grep,1_8,1,coarse-grained.profile.number,123
+grep,1_8,1,fine-grained.profile.time,197603
+grep,1_8,1,fine-grained.profile.size,894344
+grep,1_8,1,fine-grained.profile.number,1098642
+grep,1_8,1,fine-grained.preprocess.size,2206028
+grep,1_8,1,fine-grained.preprocess.time,75807
+grep,1_8,1,fine-grained.preprocess.number,7290 
+grep,1_8,1,fine-grained.preprocess.time_p,75560.0
+grep,1_8,1,fine-grained.mine.size,5880
+grep,1_8,1,fine-grained.mine.time,295678
+grep,1_8,1,boost,0.05
+grep,1_8,1,boost.functions.count,8 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/predicate-dataset/boost/boost_functions_2_0.05.txt
+grep,1_8,1,prune-minus-boost.includes,-sampler-include-method=btowc -sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=charclass_index -sampler-include-method=dfaexec -sampler-include-method=dfastate -sampler-include-method=is_alpha -sampler-include-method=looking_at
+grep,1_8,1,boost.preprocess.size,1131152
+grep,1_8,1,boost.preprocess.time,4726
+grep,1_8,1,boost.preprocess.number,1801 
+grep,1_8,1,boost.preprocess.time_p,4523.0
+grep,1_8,1,boost.mine.size,5796
+grep,1_8,1,boost.mine.time,8604
+grep,1_8,1,theta,0.020027
+grep,1_8,1,prune.functions.count,48 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v1/subv8/predicate-dataset/prune/prune_functions_2_0.05.txt
+grep,1_8,1,prune-minus-boost.includes,-sampler-include-method=EGexecute -sampler-include-method=Gcompile -sampler-include-method=addtok -sampler-include-method=atom -sampler-include-method=branch -sampler-include-method=btowc -sampler-include-method=build_state -sampler-include-method=build_state_zero -sampler-include-method=charclass_index -sampler-include-method=closure -sampler-include-method=copy -sampler-include-method=copyset -sampler-include-method=dfaanalyze -sampler-include-method=dfacomp -sampler-include-method=dfaexec -sampler-include-method=dfainit -sampler-include-method=dfamust -sampler-include-method=dfaparse -sampler-include-method=dfastate -sampler-include-method=dfasyntax -sampler-include-method=epsclosure -sampler-include-method=fillbuf -sampler-include-method=freelist -sampler-include-method=grep -sampler-include-method=grepbuf -sampler-include-method=ifree -sampler-include-method=init_syntax_once -sampler-include-method=insert -sampler-include-method=is_alpha -sampler-include-method=kwsmusts -sampler-include-method=lex -sampler-include-method=looking_at -sampler-include-method=main -sampler-include-method=merge -sampler-include-method=prline -sampler-include-method=prtext -sampler-include-method=re_compile_pattern -sampler-include-method=re_set_syntax -sampler-include-method=regex_compile -sampler-include-method=regexp -sampler-include-method=reset -sampler-include-method=setmatcher -sampler-include-method=state_index -sampler-include-method=xcalloc -sampler-include-method=xmalloc -sampler-include-method=xmalloc_1 -sampler-include-method=xrealloc_1 -sampler-include-method=zeroset
+grep,1_8,1,prune.preprocess.size,1916736
+grep,1_8,1,prune.preprocess.time,52121
+grep,1_8,1,prune.preprocess.number,7070 
+grep,1_8,1,prune.preprocess.time_p,51890.0
+grep,1_8,1,prune.mine.size,5864
+grep,1_8,1,prune.mine.time,246759
+grep,1_8,1,boost.profile.time,40685
+grep,1_8,1,boost.profile.size,54332
+grep,1_8,1,boost.profile.number,60970
+grep,1_8,1,prune-minus-boost.profile.time,55155
+grep,1_8,1,prune-minus-boost.profile.size,374336
+grep,1_8,1,prune-minus-boost.profile.number,461342
+grep,1_8,1,end

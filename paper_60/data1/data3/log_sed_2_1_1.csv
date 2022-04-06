@@ -1,0 +1,38 @@
+sed,2_1,1,start
+sed,2_1,1,coarse-grained.profile.time,3619
+sed,2_1,1,coarse-grained.profile.size,1468
+sed,2_1,1,coarse-grained.profile.number,155
+sed,2_1,1,fine-grained.profile.time,55791
+sed,2_1,1,fine-grained.profile.size,409072
+sed,2_1,1,fine-grained.profile.number,1099856
+sed,2_1,1,fine-grained.preprocess.size,1675208
+sed,2_1,1,fine-grained.preprocess.time,23466
+sed,2_1,1,fine-grained.preprocess.number,2342 
+sed,2_1,1,fine-grained.preprocess.time_p,23277.0
+sed,2_1,1,fine-grained.mine.size,5836
+sed,2_1,1,fine-grained.mine.time,1430
+sed,2_1,1,boost,0.05
+sed,2_1,1,boost.functions.count,7 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v2/subv1/predicate-dataset/boost/boost_functions_2_0.05.txt
+sed,2_1,1,prune-minus-boost.includes,-sampler-include-method=bad_prog -sampler-include-method=ck_fopen -sampler-include-method=ck_malloc -sampler-include-method=compile_address -sampler-include-method=compile_program -sampler-include-method=inchar -sampler-include-method=savchar
+sed,2_1,1,boost.preprocess.size,727648
+sed,2_1,1,boost.preprocess.time,3378
+sed,2_1,1,boost.preprocess.number,1552 
+sed,2_1,1,boost.preprocess.time_p,3237.0
+sed,2_1,1,boost.mine.size,5844
+sed,2_1,1,boost.mine.time,1163
+sed,2_1,1,theta,0.449187
+sed,2_1,1,prune.functions.count,9 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v2/subv1/predicate-dataset/prune/prune_functions_2_0.05.txt
+sed,2_1,1,prune-minus-boost.includes,-sampler-include-method=ck_fopen -sampler-include-method=ck_malloc -sampler-include-method=compile_address -sampler-include-method=compile_file -sampler-include-method=compile_program -sampler-include-method=inchar -sampler-include-method=main -sampler-include-method=re_set_syntax -sampler-include-method=savchar
+sed,2_1,1,prune.preprocess.size,1117240
+sed,2_1,1,prune.preprocess.time,4283
+sed,2_1,1,prune.preprocess.number,2060 
+sed,2_1,1,prune.preprocess.time_p,4118.0
+sed,2_1,1,prune.mine.size,5796
+sed,2_1,1,prune.mine.time,1257
+sed,2_1,1,boost.profile.time,9079
+sed,2_1,1,boost.profile.size,39736
+sed,2_1,1,boost.profile.number,107964
+sed,2_1,1,prune-minus-boost.profile.time,5582
+sed,2_1,1,prune-minus-boost.profile.size,13084
+sed,2_1,1,prune-minus-boost.profile.number,34902
+sed,2_1,1,end

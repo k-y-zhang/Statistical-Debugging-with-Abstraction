@@ -1,0 +1,46 @@
+gzip,1_15,1,start
+gzip,1_15,1,coarse-grained.profile.time,28797
+gzip,1_15,1,coarse-grained.profile.size,74
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv15/v1_subv15_c.sites
+gzip,1_15,1,coarse-grained.profile.number,81
+gzip,1_15,1,fine-grained.profile.time,678034
+gzip,1_15,1,fine-grained.profile.size,759213
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv15/v1_subv15_f.sites
+gzip,1_15,1,fine-grained.profile.number,3434614
+gzip,1_15,1,fine-grained.preprocess.size,2521876
+gzip,1_15,1,fine-grained.preprocess.time,90063
+gzip,1_15,1,fine-grained.preprocess.number,27607 
+gzip,1_15,1,fine-grained.preprocess.time_p,89765.0
+gzip,1_15,1,fine-grained.mine.size,5836
+gzip,1_15,1,fine-grained.mine.time,71363
+gzip,1_15,1,boost,0.05
+gzip,1_15,1,boost.functions.count,5
+gzip,1_15,1,boost.includes,-sampler-include-method=ct_tally -sampler-include-method=fill_window -sampler-include-method=longest_match -sampler-include-method=send_all_trees -sampler-include-method=updcrc
+gzip,1_15,1,boost.preprocess.size,1119692
+gzip,1_15,1,boost.preprocess.time,3427
+gzip,1_15,1,boost.preprocess.number,4290 
+gzip,1_15,1,boost.preprocess.time_p,3227.0
+gzip,1_15,1,boost.mine.size,5840
+gzip,1_15,1,boost.mine.time,1567
+gzip,1_15,1,theta,0.291636
+gzip,1_15,1,prune.functions.count,9
+gzip,1_15,1,prune.includes,-sampler-include-method=_getopt_internal -sampler-include-method=add_envopt -sampler-include-method=basename -sampler-include-method=clear_bufs -sampler-include-method=do_exit -sampler-include-method=getopt_long -sampler-include-method=main -sampler-include-method=updcrc -sampler-include-method=write_buf
+gzip,1_15,1,prune.preprocess.size,1124364
+gzip,1_15,1,prune.preprocess.time,4053
+gzip,1_15,1,prune.preprocess.number,1280 
+gzip,1_15,1,prune.preprocess.time_p,3858.0
+gzip,1_15,1,prune.mine.size,5868
+gzip,1_15,1,prune.mine.time,2055
+gzip,1_15,1,boost.profile.time,386919
+gzip,1_15,1,boost.profile.size,44726
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv15/v1_subv15_b.sites
+gzip,1_15,1,boost.profile.number,169470
+gzip,1_15,1,prune.profile.time,61522
+gzip,1_15,1,prune.profile.size,61002
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv15/v1_subv15_p.sites
+gzip,1_15,1,prune.profile.number,287138
+gzip,1_15,1,prune-minus-boost.profile.time,20967
+gzip,1_15,1,prune-minus-boost.profile.size,56356
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv15/v1_subv15_pmb.sites
+gzip,1_15,1,prune-minus-boost.profile.number,270362
+gzip,1_15,1,end

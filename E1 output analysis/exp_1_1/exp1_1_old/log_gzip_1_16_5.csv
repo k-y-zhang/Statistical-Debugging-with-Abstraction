@@ -1,0 +1,34 @@
+gzip,1_16,5,start
+gzip,1_16,5,fine-grained.preprocess.size,2447140
+gzip,1_16,5,fine-grained.preprocess.time,59479
+gzip,1_16,5,fine-grained.preprocess.number,1044 
+gzip,1_16,5,fine-grained.preprocess.time_p,59170.0
+gzip,1_16,5,fine-grained.mine.size,5788
+gzip,1_16,5,fine-grained.mine.time,2462
+gzip,1_16,5,boost,0.05
+gzip,1_16,5,boost.functions.count,2
+gzip,1_16,5,boost.includes,-sampler-include-method=fill_inbuf -sampler-include-method=get_method
+gzip,1_16,5,boost.preprocess.size,587740
+gzip,1_16,5,boost.preprocess.time,2856
+gzip,1_16,5,boost.preprocess.number,53 
+gzip,1_16,5,boost.preprocess.time_p,2684.0
+gzip,1_16,5,boost.mine.size,5824
+gzip,1_16,5,boost.mine.time,1644
+gzip,1_16,5,theta,0.171701
+gzip,1_16,5,prune.functions.count,10
+gzip,1_16,5,prune.includes,-sampler-include-method=_getopt_internal -sampler-include-method=add_envopt -sampler-include-method=basename -sampler-include-method=clear_bufs -sampler-include-method=do_exit -sampler-include-method=fill_inbuf -sampler-include-method=get_method -sampler-include-method=getopt_long -sampler-include-method=main -sampler-include-method=treat_stdin
+gzip,1_16,5,prune.preprocess.size,1165016
+gzip,1_16,5,prune.preprocess.time,8273
+gzip,1_16,5,prune.preprocess.number,712 
+gzip,1_16,5,prune.preprocess.time_p,8042.0
+gzip,1_16,5,prune.mine.size,5840
+gzip,1_16,5,prune.mine.time,1971
+gzip,1_16,5,boost.profile.time,18297
+gzip,1_16,5,boost.profile.size,40908
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv16/v1_subv16_b.sites
+gzip,1_16,5,boost.profile.number,193886
+gzip,1_16,5,prune-minus-boost.profile.time,20699
+gzip,1_16,5,prune-minus-boost.profile.size,60504
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv16/v1_subv16_pmb.sites
+gzip,1_16,5,prune-minus-boost.profile.number,287758
+gzip,1_16,5,end

@@ -1,0 +1,40 @@
+3,41,1,start
+3,41,1,raw.profile.time,1795
+3,41,1,coarse-grained.profile.time,163957
+3,41,1,coarse-grained.profile.number,5740
+3,41,1,coarse-grained.profile.size,4776
+3,41,1,fine-grained.profile.time,2071780
+3,41,1,fine-grained.profile.size,281440
+3,41,1,fine-grained.profile.number,1026588
+3,41,1,fine-grained.preprocess.size,17996256
+3,41,1,fine-grained.preprocess.time,26167
+3,41,1,fine-grained.preprocess.number,443
+3,41,1,fine-grained.preprocess.time_p,25247.0
+3,41,1,fine-grained.mine.size,21552
+3,41,1,fine-grained.mine.time,76
+3,41,1,boost.includes,-sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--double-evaluate-double[],double[]-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic--boolean-test-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--double-evaluate-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.summary.Sum--double-evaluate-double[],double[],int,int--
+3,41,1,boost.profile.number,148
+3,41,1,boost.profile.time,9740
+3,41,1,boost.profile.size,996
+3,41,1,boost.preprocess.size,233312
+3,41,1,boost.preprocess.time,1136
+3,41,1,boost.preprocess.number,38
+3,41,1,boost.preprocess.time_p,479.0
+3,41,1,boost.mine.size,19568
+3,41,1,boost.mine.time,39
+3,41,1,prune.theta,0.039501
+3,41,1,prune.includes,-sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--double-evaluate-double[],double[]-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic--boolean-test-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--double-evaluate-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.summary.Sum--double-evaluate-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic--boolean-test-double[],double[],int,int,boolean-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Mean--double-evaluate-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--double-evaluate-double[],double[],double,int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--void-clear--- -sampler-include-method=-org.apache.commons.math.stat.descriptive.summary.Sum--double-evaluate-double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic--boolean-test-double[],int,int,boolean-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-sqrt-double--
+3,41,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic--boolean-test-double[],double[],int,int,boolean-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Mean--double-evaluate-double[],double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--double-evaluate-double[],double[],double,int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.moment.Variance--void-clear--- -sampler-include-method=-org.apache.commons.math.stat.descriptive.summary.Sum--double-evaluate-double[],int,int-- -sampler-include-method=-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic--boolean-test-double[],int,int,boolean-- -sampler-include-method=-org.apache.commons.math.util.FastMath--double-sqrt-double--
+3,41,1,prune_s.profile.number,1990
+3,41,1,prune_s.profile.time,13334
+3,41,1,prune_s.profile.size,996
+3,41,1,prune.profile.number,2138
+3,41,1,prune.profile.time,9719
+3,41,1,prune.profile.size,996
+3,41,1,prune.preprocess.size,805520
+3,41,1,prune.preprocess.time,1826
+3,41,1,prune.preprocess.number,432
+3,41,1,prune.preprocess.time_p,1344.0
+3,41,1,prune.mine.size,22320
+3,41,1,prune.mine.time,98
+3,41,1,end

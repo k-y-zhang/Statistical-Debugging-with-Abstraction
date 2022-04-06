@@ -1,0 +1,34 @@
+gzip,5_13,10,start
+gzip,5_13,10,fine-grained.preprocess.size,2790320
+gzip,5_13,10,fine-grained.preprocess.time,124289
+gzip,5_13,10,fine-grained.preprocess.number,32277 
+gzip,5_13,10,fine-grained.preprocess.time_p,123974.0
+gzip,5_13,10,fine-grained.mine.size,5820
+gzip,5_13,10,fine-grained.mine.time,769922
+gzip,5_13,10,boost,0.05
+gzip,5_13,10,boost.functions.count,16
+gzip,5_13,10,boost.includes,-sampler-include-method=check_ofname -sampler-include-method=copy_stat -sampler-include-method=create_outfile -sampler-include-method=do_stat -sampler-include-method=get_istat -sampler-include-method=get_suffix -sampler-include-method=make_ofname -sampler-include-method=name_too_long -sampler-include-method=progerror -sampler-include-method=reset_times -sampler-include-method=send_all_trees -sampler-include-method=send_tree -sampler-include-method=strlwr -sampler-include-method=treat_dir -sampler-include-method=treat_file -sampler-include-method=xunlink
+gzip,5_13,10,boost.preprocess.size,742272
+gzip,5_13,10,boost.preprocess.time,3930
+gzip,5_13,10,boost.preprocess.number,1237 
+gzip,5_13,10,boost.preprocess.time_p,3792.0
+gzip,5_13,10,boost.mine.size,5832
+gzip,5_13,10,boost.mine.time,2099
+gzip,5_13,10,theta,0.084000
+gzip,5_13,10,prune.functions.count,46
+gzip,5_13,10,prune.includes,-sampler-include-method=add_envopt -sampler-include-method=base_name -sampler-include-method=bi_init -sampler-include-method=bi_reverse -sampler-include-method=bi_windup -sampler-include-method=build_bl_tree -sampler-include-method=build_tree -sampler-include-method=check_ofname -sampler-include-method=clear_bufs -sampler-include-method=compress_block -sampler-include-method=copy_stat -sampler-include-method=create_outfile -sampler-include-method=ct_init -sampler-include-method=ct_tally -sampler-include-method=deflate -sampler-include-method=do_exit -sampler-include-method=do_stat -sampler-include-method=file_read -sampler-include-method=fill_window -sampler-include-method=flush_block -sampler-include-method=flush_outbuf -sampler-include-method=gen_bitlen -sampler-include-method=gen_codes -sampler-include-method=get_istat -sampler-include-method=get_suffix -sampler-include-method=init_block -sampler-include-method=input_eof -sampler-include-method=lm_init -sampler-include-method=longest_match -sampler-include-method=main -sampler-include-method=make_ofname -sampler-include-method=name_too_long -sampler-include-method=pqdownheap -sampler-include-method=progerror -sampler-include-method=reset_times -sampler-include-method=scan_tree -sampler-include-method=send_all_trees -sampler-include-method=send_bits -sampler-include-method=send_tree -sampler-include-method=strlwr -sampler-include-method=treat_dir -sampler-include-method=treat_file -sampler-include-method=updcrc -sampler-include-method=write_buf -sampler-include-method=xunlink -sampler-include-method=zip
+gzip,5_13,10,prune.preprocess.size,1867964
+gzip,5_13,10,prune.preprocess.time,64763
+gzip,5_13,10,prune.preprocess.number,31949 
+gzip,5_13,10,prune.preprocess.time_p,64525.00000000001
+gzip,5_13,10,prune.mine.size,5788
+gzip,5_13,10,prune.mine.time,754181
+gzip,5_13,10,boost.profile.time,19920
+gzip,5_13,10,boost.profile.size,57128
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv13/v5_subv13_b.sites
+gzip,5_13,10,boost.profile.number,261598
+gzip,5_13,10,prune-minus-boost.profile.time,553170
+gzip,5_13,10,prune-minus-boost.profile.size,306640
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv13/v5_subv13_pmb.sites
+gzip,5_13,10,prune-minus-boost.profile.number,1291204
+gzip,5_13,10,end

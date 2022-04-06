@@ -1,0 +1,38 @@
+gzip,1_4,5,start
+gzip,1_4,5,fine-grained.preprocess.size,2448284
+gzip,1_4,5,fine-grained.preprocess.time,83055
+gzip,1_4,5,fine-grained.preprocess.number,30766 
+gzip,1_4,5,fine-grained.preprocess.time_p,82809.0
+gzip,1_4,5,fine-grained.mine.size,5788
+gzip,1_4,5,fine-grained.mine.time,542503
+gzip,1_4,5,boost,0.05
+gzip,1_4,5,boost.functions.count,5
+gzip,1_4,5,boost.includes,-sampler-include-method=display_ratio -sampler-include-method=longest_match -sampler-include-method=send_all_trees -sampler-include-method=send_tree -sampler-include-method=treat_stdin
+gzip,1_4,5,boost.preprocess.size,1124272
+gzip,1_4,5,boost.preprocess.time,3291
+gzip,1_4,5,boost.preprocess.number,3466 
+gzip,1_4,5,boost.preprocess.time_p,3150.0
+gzip,1_4,5,boost.mine.size,5784
+gzip,1_4,5,boost.mine.time,3159
+gzip,1_4,5,theta,0.155867
+gzip,1_4,5,prune.functions.count,35
+gzip,1_4,5,prune.includes,-sampler-include-method=_getopt_internal -sampler-include-method=add_envopt -sampler-include-method=basename -sampler-include-method=bi_init -sampler-include-method=bi_reverse -sampler-include-method=bi_windup -sampler-include-method=build_bl_tree -sampler-include-method=build_tree -sampler-include-method=clear_bufs -sampler-include-method=compress_block -sampler-include-method=ct_init -sampler-include-method=ct_tally -sampler-include-method=deflate -sampler-include-method=display_ratio -sampler-include-method=do_exit -sampler-include-method=file_read -sampler-include-method=fill_window -sampler-include-method=flush_block -sampler-include-method=flush_outbuf -sampler-include-method=gen_bitlen -sampler-include-method=gen_codes -sampler-include-method=getopt_long -sampler-include-method=init_block -sampler-include-method=lm_init -sampler-include-method=longest_match -sampler-include-method=main -sampler-include-method=pqdownheap -sampler-include-method=scan_tree -sampler-include-method=send_all_trees -sampler-include-method=send_bits -sampler-include-method=send_tree -sampler-include-method=treat_stdin -sampler-include-method=updcrc -sampler-include-method=write_buf -sampler-include-method=zip
+gzip,1_4,5,prune.preprocess.size,2088808
+gzip,1_4,5,prune.preprocess.time,62725
+gzip,1_4,5,prune.preprocess.number,30542 
+gzip,1_4,5,prune.preprocess.time_p,62512.0
+gzip,1_4,5,prune.mine.size,5772
+gzip,1_4,5,prune.mine.time,582868
+gzip,1_4,5,boost.profile.time,342544
+gzip,1_4,5,boost.profile.size,42700
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv4/v1_subv4_b.sites
+gzip,1_4,5,boost.profile.number,168932
+gzip,1_4,5,prune.profile.time,650338
+gzip,1_4,5,prune.profile.size,357237
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv4/v1_subv4_p.sites
+gzip,1_4,5,prune.profile.number,1512134
+gzip,1_4,5,prune-minus-boost.profile.time,302281
+gzip,1_4,5,prune-minus-boost.profile.size,313038
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v1/subv4/v1_subv4_pmb.sites
+gzip,1_4,5,prune-minus-boost.profile.number,1336614
+gzip,1_4,5,end

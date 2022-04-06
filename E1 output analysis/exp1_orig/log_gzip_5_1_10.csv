@@ -1,0 +1,38 @@
+gzip,5_1,10,start
+gzip,5_1,10,fine-grained.preprocess.size,2583008
+gzip,5_1,10,fine-grained.preprocess.time,81182
+gzip,5_1,10,fine-grained.preprocess.number,27110 
+gzip,5_1,10,fine-grained.preprocess.time_p,80916.0
+gzip,5_1,10,fine-grained.mine.size,5832
+gzip,5_1,10,fine-grained.mine.time,134421
+gzip,5_1,10,boost,0.05
+gzip,5_1,10,boost.functions.count,4
+gzip,5_1,10,boost.includes,-sampler-include-method=compress_block -sampler-include-method=ct_tally -sampler-include-method=fill_window -sampler-include-method=longest_match
+gzip,5_1,10,boost.preprocess.size,1159332
+gzip,5_1,10,boost.preprocess.time,4025
+gzip,5_1,10,boost.preprocess.number,5440 
+gzip,5_1,10,boost.preprocess.time_p,3801.0
+gzip,5_1,10,boost.mine.size,5856
+gzip,5_1,10,boost.mine.time,2072
+gzip,5_1,10,theta,0.523818
+gzip,5_1,10,prune.functions.count,33
+gzip,5_1,10,prune.includes,-sampler-include-method=add_envopt -sampler-include-method=base_name -sampler-include-method=bi_init -sampler-include-method=bi_reverse -sampler-include-method=bi_windup -sampler-include-method=build_bl_tree -sampler-include-method=build_tree -sampler-include-method=clear_bufs -sampler-include-method=compress_block -sampler-include-method=ct_init -sampler-include-method=ct_tally -sampler-include-method=deflate -sampler-include-method=do_exit -sampler-include-method=file_read -sampler-include-method=fill_window -sampler-include-method=flush_block -sampler-include-method=flush_outbuf -sampler-include-method=gen_bitlen -sampler-include-method=gen_codes -sampler-include-method=init_block -sampler-include-method=input_eof -sampler-include-method=lm_init -sampler-include-method=longest_match -sampler-include-method=main -sampler-include-method=pqdownheap -sampler-include-method=scan_tree -sampler-include-method=send_all_trees -sampler-include-method=send_bits -sampler-include-method=send_tree -sampler-include-method=treat_stdin -sampler-include-method=updcrc -sampler-include-method=write_buf -sampler-include-method=zip
+gzip,5_1,10,prune.preprocess.size,1988272
+gzip,5_1,10,prune.preprocess.time,43536
+gzip,5_1,10,prune.preprocess.number,21987 
+gzip,5_1,10,prune.preprocess.time_p,43298.0
+gzip,5_1,10,prune.mine.size,5844
+gzip,5_1,10,prune.mine.time,113727
+gzip,5_1,10,boost.profile.time,229074
+gzip,5_1,10,boost.profile.size,55884
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv1/v5_subv1_b.sites
+gzip,5_1,10,boost.profile.number,206652
+gzip,5_1,10,prune.profile.time,343798
+gzip,5_1,10,prune.profile.size,326983
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv1/v5_subv1_p.sites
+gzip,5_1,10,prune.profile.number,1403836
+gzip,5_1,10,prune-minus-boost.profile.time,132680
+gzip,5_1,10,prune-minus-boost.profile.size,270118
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv1/v5_subv1_pmb.sites
+gzip,5_1,10,prune-minus-boost.profile.number,1192930
+gzip,5_1,10,end

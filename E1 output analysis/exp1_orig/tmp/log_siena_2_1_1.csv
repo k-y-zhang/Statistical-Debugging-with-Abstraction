@@ -1,0 +1,18 @@
+siena,2_1,1,start
+siena,2_1,1,coarse-grained.profile.time,2562032
+siena,2_1,1,coarse-grained.profile.size,495
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v2/subv1/coarse-grained/output.sites
+siena,2_1,1,coarse-grained.profile.number,245
+siena,2_1,1,fine-grained.profile.time,853803
+siena,2_1,1,fine-grained.profile.size,13828
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/siena/versions/v2/subv1/fine-grained/output.sites
+siena,2_1,1,fine-grained.profile.number,19460
+siena,2_1,1,fine-grained.preprocess.size,314964
+siena,2_1,1,fine-grained.preprocess.time,1699
+siena,2_1,1,fine-grained.preprocess.number,80 
+siena,2_1,1,fine-grained.preprocess.time_p,1569.0
+siena,2_1,1,fine-grained.mine.size,5872
+siena,2_1,1,fine-grained.mine.time,1546
+siena,2_1,1,boost,0.05
+siena,2_1,1,boost.functions.count,21
+siena,2_1,1,boost.includes,-sampler-include-method=-siena.AttributeConstraint--int-hashCode--- -sampler-include-method=-siena.AttributeValue--int-intValue--- -sampler-include-method=-siena.AttributeValue--void--init--siena.AttributeValue-- -sampler-include-method=-siena.ByteBuf--byte[]-bytes--- -sampler-include-method=-siena.ByteBuf--void-append-byte-- -sampler-include-method=-siena.ByteBuf--void-append-byte[]-- -sampler-include-method=-siena.Filter--java.util.Iterator-constraintsIterator-java.lang.String-- -sampler-include-method=-siena.Filter--void-addConstraint-java.lang.String,siena.AttributeConstraint-- -sampler-include-method=-siena.OpCov--boolean-app-siena.Filter,siena.Event-- -sampler-include-method=-siena.OpTest--void-main-java.lang.String[]-- -sampler-include-method=-siena.SENP--boolean-match-byte[],byte[]-- -sampler-include-method=-siena.SENP--siena.AttributeConstraint-readAttributeConstraint-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.AttributeValue-readAttribute-siena.Tokenizer-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeConstraint-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.AttributeValue-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.Event-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode-siena.ByteBuf,siena.Filter-- -sampler-include-method=-siena.SENP--siena.ByteBuf-encode_decimal-siena.ByteBuf,long-- -sampler-include-method=-siena.Tokenizer--boolean-isCurrentFirstIdentChar--- -sampler-include-method=-siena.Tokenizer--int-currByte--- -sampler-include-method=-siena.Tokenizer--int-read_id---

@@ -1,0 +1,28 @@
+5,8,1,start
+5,8,1,raw.profile.time,31572
+5,8,1,coarse-grained.profile.time,278514
+5,8,1,coarse-grained.profile.number,1602
+5,8,1,coarse-grained.profile.size,11164
+5,8,1,fine-grained.profile.time,254610
+5,8,1,fine-grained.profile.size,22012
+5,8,1,fine-grained.profile.number,10778
+5,8,1,fine-grained.preprocess.size,2429056
+5,8,1,fine-grained.preprocess.time,6727
+5,8,1,fine-grained.preprocess.number,40
+5,8,1,fine-grained.preprocess.time_p,6236.0
+5,8,1,fine-grained.mine.size,25680
+5,8,1,fine-grained.mine.time,80
+5,8,1,boost.includes,-sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-TypeVariableReturnType--void-readTypeVariables--- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--org.mockito.internal.util.reflection.GenericMetadataSupport-BoundedType-boundsOf-java.lang.reflect.TypeVariable-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--java.lang.reflect.Type-getActualTypeArgumentFor-java.lang.reflect.TypeVariable-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--void-registerTypeVariableIfNotPresent-java.lang.reflect.TypeVariable-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--org.mockito.internal.util.reflection.GenericMetadataSupport-resolveGenericReturnType-java.lang.reflect.Method-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-FromClassGenericMetadataSupport--java.lang.Class-superClassOf-java.lang.Class-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-FromClassGenericMetadataSupport--void--init--java.lang.Class-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--void-registerTypeParametersOn-java.lang.reflect.TypeVariable[]-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-FromClassGenericMetadataSupport--void-readActualTypeParametersOnDeclaringClass-java.lang.Class-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--org.mockito.internal.util.reflection.GenericMetadataSupport-inferFrom-java.lang.reflect.Type-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--void-registerTypeVariablesOn-java.lang.reflect.Type-- -sampler-include-method=-org.mockito.internal.util.Checks--java.lang.Object-checkNotNull-java.lang.Object,java.lang.String--
+5,8,1,boost.profile.number,120
+5,8,1,boost.profile.time,83969
+5,8,1,boost.profile.size,5740
+5,8,1,boost.preprocess.size,730928
+5,8,1,boost.preprocess.time,2442
+5,8,1,boost.preprocess.number,40
+5,8,1,boost.preprocess.time_p,1859.0
+5,8,1,boost.mine.size,26624
+5,8,1,boost.mine.time,59
+5,8,1,prune.theta,0.006344
+5,8,1,prune.includes,-sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-TypeVariableReturnType--void-readTypeVariables--- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--org.mockito.internal.util.reflection.GenericMetadataSupport-BoundedType-boundsOf-java.lang.reflect.TypeVariable-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--java.lang.reflect.Type-getActualTypeArgumentFor-java.lang.reflect.TypeVariable-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--void-registerTypeVariableIfNotPresent-java.lang.reflect.TypeVariable-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--org.mockito.internal.util.reflection.GenericMetadataSupport-resolveGenericReturnType-java.lang.reflect.Method-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-FromClassGenericMetadataSupport--java.lang.Class-superClassOf-java.lang.Class-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-FromClassGenericMetadataSupport--void--init--java.lang.Class-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--void-registerTypeParametersOn-java.lang.reflect.TypeVariable[]-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport-FromClassGenericMetadataSupport--void-readActualTypeParametersOnDeclaringClass-java.lang.Class-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--org.mockito.internal.util.reflection.GenericMetadataSupport-inferFrom-java.lang.reflect.Type-- -sampler-include-method=-org.mockito.internal.util.reflection.GenericMetadataSupport--void-registerTypeVariablesOn-java.lang.reflect.Type-- -sampler-include-method=-org.mockito.internal.util.Checks--java.lang.Object-checkNotNull-java.lang.Object,java.lang.String--
+5,8,1,prune.includes_diff,
+5,8,1,end

@@ -1,0 +1,40 @@
+3,8,10,start
+3,8,10,raw.profile.time,163
+3,8,10,coarse-grained.profile.time,2902
+3,8,10,coarse-grained.profile.number,7308
+3,8,10,coarse-grained.profile.size,532
+3,8,10,fine-grained.profile.time,1612102
+3,8,10,fine-grained.profile.size,32476
+3,8,10,fine-grained.profile.number,1271158
+3,8,10,fine-grained.preprocess.size,3551680
+3,8,10,fine-grained.preprocess.time,6820
+3,8,10,fine-grained.preprocess.number,926
+3,8,10,fine-grained.preprocess.time_p,6034.0
+3,8,10,fine-grained.mine.size,46672
+3,8,10,fine-grained.mine.time,542
+3,8,10,boost.includes,-sampler-include-method=-org.apache.commons.math3.distribution.DiscreteDistribution--java.lang.Object[]-sample-int-- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextDouble---
+3,8,10,boost.profile.number,70
+3,8,10,boost.profile.time,2019
+3,8,10,boost.profile.size,92
+3,8,10,boost.preprocess.size,146192
+3,8,10,boost.preprocess.time,644
+3,8,10,boost.preprocess.number,12
+3,8,10,boost.preprocess.time_p,119.0
+3,8,10,boost.mine.size,19456
+3,8,10,boost.mine.time,42
+3,8,10,prune.theta,0.141543
+3,8,10,prune.includes,-sampler-include-method=-org.apache.commons.math3.distribution.DiscreteDistribution--java.lang.Object[]-sample-int-- -sampler-include-method=-org.apache.commons.math3.random.BitsStreamGenerator--double-nextDouble--- -sampler-include-method=-org.apache.commons.math3.distribution.DiscreteDistribution--java.lang.Object-sample--- -sampler-include-method=-org.apache.commons.math3.random.Well19937c--int-next-int-- -sampler-include-method=-org.apache.commons.math3.distribution.DiscreteRealDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,double[],double[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.distribution.DiscreteDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,java.util.List-- -sampler-include-method=-org.apache.commons.math3.util.MathArrays--double[]-normalizeArray-double[],double-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]--
+3,8,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.distribution.DiscreteDistribution--java.lang.Object-sample--- -sampler-include-method=-org.apache.commons.math3.random.Well19937c--int-next-int-- -sampler-include-method=-org.apache.commons.math3.distribution.DiscreteRealDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,double[],double[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-long-- -sampler-include-method=-org.apache.commons.math3.distribution.DiscreteDistribution--void--init--org.apache.commons.math3.random.RandomGenerator,java.util.List-- -sampler-include-method=-org.apache.commons.math3.util.MathArrays--double[]-normalizeArray-double[],double-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void-setSeed-int[]-- -sampler-include-method=-org.apache.commons.math3.random.AbstractWell--void--init--int,int,int,int,int[]--
+3,8,10,prune_s.profile.number,6174
+3,8,10,prune_s.profile.time,1706321
+3,8,10,prune_s.profile.size,196
+3,8,10,prune.profile.number,6244
+3,8,10,prune.profile.time,1785068
+3,8,10,prune.profile.size,268
+3,8,10,prune.preprocess.size,370240
+3,8,10,prune.preprocess.time,1406
+3,8,10,prune.preprocess.number,963
+3,8,10,prune.preprocess.time_p,990.0
+3,8,10,prune.mine.size,47504
+3,8,10,prune.mine.time,1385
+3,8,10,end

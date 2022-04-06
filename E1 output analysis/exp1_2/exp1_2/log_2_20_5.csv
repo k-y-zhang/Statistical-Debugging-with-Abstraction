@@ -1,0 +1,28 @@
+2,20,5,start
+2,20,5,raw.profile.time,8240
+2,20,5,coarse-grained.profile.time,231108
+2,20,5,coarse-grained.profile.number,7207
+2,20,5,coarse-grained.profile.size,39784
+2,20,5,fine-grained.profile.time,2420569
+2,20,5,fine-grained.profile.size,1060336
+2,20,5,fine-grained.profile.number,541962
+2,20,5,fine-grained.preprocess.size,44111744
+2,20,5,fine-grained.preprocess.time,93359
+2,20,5,fine-grained.preprocess.number,6
+2,20,5,fine-grained.preprocess.time_p,91708.0
+2,20,5,fine-grained.mine.size,22304
+2,20,5,fine-grained.mine.time,80
+2,20,5,boost.includes,-sampler-include-method=-org.jfree.chart.plot.Marker--void--init--java.awt.Paint,java.awt.Stroke,java.awt.Paint,java.awt.Stroke,float-- -sampler-include-method=-org.jfree.chart.util.RectangleInsets--void--init--org.jfree.chart.util.UnitType,double,double,double,double--
+2,20,5,boost.profile.number,16
+2,20,5,boost.profile.time,22884
+2,20,5,boost.profile.size,6864
+2,20,5,boost.preprocess.size,420096
+2,20,5,boost.preprocess.time,1428
+2,20,5,boost.preprocess.number,6
+2,20,5,boost.preprocess.time_p,941.0
+2,20,5,boost.mine.size,22288
+2,20,5,boost.mine.time,57
+2,20,5,prune.theta,0.001511
+2,20,5,prune.includes,-sampler-include-method=-org.jfree.chart.plot.Marker--void--init--java.awt.Paint,java.awt.Stroke,java.awt.Paint,java.awt.Stroke,float-- -sampler-include-method=-org.jfree.chart.util.RectangleInsets--void--init--org.jfree.chart.util.UnitType,double,double,double,double--
+2,20,5,prune.includes_diff,
+2,20,5,end

@@ -1,0 +1,40 @@
+3,14,1,start
+3,14,1,raw.profile.time,31599
+3,14,1,coarse-grained.profile.time,211443
+3,14,1,coarse-grained.profile.number,6890
+3,14,1,coarse-grained.profile.size,2236
+3,14,1,fine-grained.profile.time,30577826
+3,14,1,fine-grained.profile.size,133540
+3,14,1,fine-grained.profile.number,1247088
+3,14,1,fine-grained.preprocess.size,9257824
+3,14,1,fine-grained.preprocess.time,16895
+3,14,1,fine-grained.preprocess.number,792
+3,14,1,fine-grained.preprocess.time_p,16110.0
+3,14,1,fine-grained.mine.size,26656
+3,14,1,fine-grained.mine.time,164
+3,14,1,boost.includes,-sampler-include-method=-org.apache.commons.math3.analysis.polynomials.PolynomialFunction--double-value-double-- -sampler-include-method=-org.apache.commons.math3.analysis.polynomials.PolynomialFunction--void--init--double[]-- -sampler-include-method=-org.apache.commons.math3.analysis.polynomials.PolynomialFunction--double-evaluate-double[],double--
+3,14,1,boost.profile.number,112
+3,14,1,boost.profile.time,235765
+3,14,1,boost.profile.size,392
+3,14,1,boost.preprocess.size,168560
+3,14,1,boost.preprocess.time,995
+3,14,1,boost.preprocess.number,10
+3,14,1,boost.preprocess.time_p,496.0
+3,14,1,boost.mine.size,19216
+3,14,1,boost.mine.time,25
+3,14,1,prune.theta,0.047269
+3,14,1,prune.includes,-sampler-include-method=-org.apache.commons.math3.analysis.polynomials.PolynomialFunction--double-value-double-- -sampler-include-method=-org.apache.commons.math3.analysis.polynomials.PolynomialFunction--void--init--double[]-- -sampler-include-method=-org.apache.commons.math3.analysis.polynomials.PolynomialFunction--double-evaluate-double[],double-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--org.apache.commons.math3.linear.BlockRealMatrix-copy--- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--void-setEntry-int,int,double-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--double[][]-createBlocksLayout-int,int-- -sampler-include-method=-org.apache.commons.math3.fitting.CurveFitter--double[]-fit-int,org.apache.commons.math3.analysis.ParametricUnivariateFunction,double[]-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--int-blockWidth-int-- -sampler-include-method=-org.apache.commons.math3.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math3.optim.MaxEval--void--init--int-- -sampler-include-method=-org.apache.commons.math3.optim.nonlinear.vector.Weight--void--init--double[]-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--org.apache.commons.math3.linear.RealMatrix-createRealMatrix-int,int-- -sampler-include-method=-org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer--void-parseOptimizationData-org.apache.commons.math3.optim.OptimizationData[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-min-int,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkColumnIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkRowIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math3.util.Incrementor--void--init--int,org.apache.commons.math3.util.Incrementor-MaxCountExceededCallback--
+3,14,1,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--org.apache.commons.math3.linear.BlockRealMatrix-copy--- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--void-setEntry-int,int,double-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--double[][]-createBlocksLayout-int,int-- -sampler-include-method=-org.apache.commons.math3.fitting.CurveFitter--double[]-fit-int,org.apache.commons.math3.analysis.ParametricUnivariateFunction,double[]-- -sampler-include-method=-org.apache.commons.math3.linear.BlockRealMatrix--int-blockWidth-int-- -sampler-include-method=-org.apache.commons.math3.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math3.optim.MaxEval--void--init--int-- -sampler-include-method=-org.apache.commons.math3.optim.nonlinear.vector.Weight--void--init--double[]-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--org.apache.commons.math3.linear.RealMatrix-createRealMatrix-int,int-- -sampler-include-method=-org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer--void-parseOptimizationData-org.apache.commons.math3.optim.OptimizationData[]-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--int-min-int,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkColumnIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkRowIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math3.util.Incrementor--void--init--int,org.apache.commons.math3.util.Incrementor-MaxCountExceededCallback--
+3,14,1,prune_s.profile.number,2486
+3,14,1,prune_s.profile.time,94988
+3,14,1,prune_s.profile.size,428
+3,14,1,prune.profile.number,2598
+3,14,1,prune.profile.time,93080
+3,14,1,prune.profile.size,444
+3,14,1,prune.preprocess.size,584704
+3,14,1,prune.preprocess.time,2142
+3,14,1,prune.preprocess.number,792
+3,14,1,prune.preprocess.time_p,1540.0
+3,14,1,prune.mine.size,25872
+3,14,1,prune.mine.time,56
+3,14,1,end

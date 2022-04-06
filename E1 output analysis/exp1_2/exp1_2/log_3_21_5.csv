@@ -1,0 +1,40 @@
+3,21,5,start
+3,21,5,raw.profile.time,370
+3,21,5,coarse-grained.profile.time,131431
+3,21,5,coarse-grained.profile.number,6046
+3,21,5,coarse-grained.profile.size,484
+3,21,5,fine-grained.profile.time,478027
+3,21,5,fine-grained.profile.size,31112
+3,21,5,fine-grained.profile.number,1117778
+3,21,5,fine-grained.preprocess.size,3023552
+3,21,5,fine-grained.preprocess.time,6448
+3,21,5,fine-grained.preprocess.number,869
+3,21,5,fine-grained.preprocess.time_p,5757.0
+3,21,5,fine-grained.mine.size,32672
+3,21,5,fine-grained.mine.time,337
+3,21,5,boost.includes,-sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--double-getNorm--- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--org.apache.commons.math3.linear.RealMatrix-createRealMatrix-double[][]-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkSubtractionCompatible-org.apache.commons.math3.linear.AnyMatrix,org.apache.commons.math3.linear.AnyMatrix--
+3,21,5,boost.profile.number,82
+3,21,5,boost.profile.time,1567
+3,21,5,boost.profile.size,100
+3,21,5,boost.preprocess.size,151072
+3,21,5,boost.preprocess.time,863
+3,21,5,boost.preprocess.number,15
+3,21,5,boost.preprocess.time_p,292.0
+3,21,5,boost.mine.size,19168
+3,21,5,boost.mine.time,59
+3,21,5,prune.theta,0.085949
+3,21,5,prune.includes,-sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--double-getNorm--- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--org.apache.commons.math3.linear.RealMatrix-createRealMatrix-double[][]-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkSubtractionCompatible-org.apache.commons.math3.linear.AnyMatrix,org.apache.commons.math3.linear.AnyMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--org.apache.commons.math3.linear.RealMatrix-subtract-org.apache.commons.math3.linear.RealMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--double-walkInColumnOrder-org.apache.commons.math3.linear.RealMatrixPreservingVisitor-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix-1--void-visit-int,int,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-max-double,double-- -sampler-include-method=-org.apache.commons.math3.linear.RectangularCholeskyDecomposition--void--init--org.apache.commons.math3.linear.RealMatrix,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--double-walkInOptimizedOrder-org.apache.commons.math3.linear.RealMatrixPreservingVisitor-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--org.apache.commons.math3.linear.RealMatrix-transpose--- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkMultiplicationCompatible-org.apache.commons.math3.linear.AnyMatrix,org.apache.commons.math3.linear.AnyMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--double-walkInRowOrder-org.apache.commons.math3.linear.RealMatrixPreservingVisitor-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--org.apache.commons.math3.linear.RealMatrix-multiply-org.apache.commons.math3.linear.RealMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--org.apache.commons.math3.linear.RealMatrix-createRealMatrix-int,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-abs-double-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--int-getRowDimension--- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--int-getColumnDimension--- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkColumnIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkRowIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--double[][]-copyOut--- -sampler-include-method=-org.apache.commons.math3.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--void-setSubMatrix-double[][],int,int--
+3,21,5,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--org.apache.commons.math3.linear.RealMatrix-subtract-org.apache.commons.math3.linear.RealMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--double-walkInColumnOrder-org.apache.commons.math3.linear.RealMatrixPreservingVisitor-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix-1--void-visit-int,int,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-max-double,double-- -sampler-include-method=-org.apache.commons.math3.linear.RectangularCholeskyDecomposition--void--init--org.apache.commons.math3.linear.RealMatrix,double-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-sqrt-double-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--double-walkInOptimizedOrder-org.apache.commons.math3.linear.RealMatrixPreservingVisitor-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--org.apache.commons.math3.linear.RealMatrix-transpose--- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkMultiplicationCompatible-org.apache.commons.math3.linear.AnyMatrix,org.apache.commons.math3.linear.AnyMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--double-walkInRowOrder-org.apache.commons.math3.linear.RealMatrixPreservingVisitor-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--org.apache.commons.math3.linear.RealMatrix-multiply-org.apache.commons.math3.linear.RealMatrix-- -sampler-include-method=-org.apache.commons.math3.linear.AbstractRealMatrix--void--init--int,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--org.apache.commons.math3.linear.RealMatrix-createRealMatrix-int,int-- -sampler-include-method=-org.apache.commons.math3.util.FastMath--double-abs-double-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--int-getRowDimension--- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--int-getColumnDimension--- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkColumnIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.MatrixUtils--void-checkRowIndex-org.apache.commons.math3.linear.AnyMatrix,int-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--double[][]-copyOut--- -sampler-include-method=-org.apache.commons.math3.util.MathUtils--void-checkNotNull-java.lang.Object-- -sampler-include-method=-org.apache.commons.math3.linear.Array2DRowRealMatrix--void-setSubMatrix-double[][],int,int--
+3,21,5,prune_s.profile.number,3256
+3,21,5,prune_s.profile.time,322058
+3,21,5,prune_s.profile.size,196
+3,21,5,prune.profile.number,3338
+3,21,5,prune.profile.time,358663
+3,21,5,prune.profile.size,196
+3,21,5,prune.preprocess.size,412704
+3,21,5,prune.preprocess.time,1271
+3,21,5,prune.preprocess.number,869
+3,21,5,prune.preprocess.time_p,673.0
+3,21,5,prune.mine.size,32800
+3,21,5,prune.mine.time,328
+3,21,5,end

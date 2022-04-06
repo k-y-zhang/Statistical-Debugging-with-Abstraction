@@ -1,0 +1,38 @@
+sed,3_5,1,start
+sed,3_5,1,coarse-grained.profile.time,2653
+sed,3_5,1,coarse-grained.profile.size,1468
+sed,3_5,1,coarse-grained.profile.number,97
+sed,3_5,1,fine-grained.profile.time,33024
+sed,3_5,1,fine-grained.profile.size,180104
+sed,3_5,1,fine-grained.profile.number,490644
+sed,3_5,1,fine-grained.preprocess.size,1594628
+sed,3_5,1,fine-grained.preprocess.time,24504
+sed,3_5,1,fine-grained.preprocess.number,6807 
+sed,3_5,1,fine-grained.preprocess.time_p,24312.0
+sed,3_5,1,fine-grained.mine.size,5980
+sed,3_5,1,fine-grained.mine.time,13513
+sed,3_5,1,boost,0.05
+sed,3_5,1,boost.functions.count,4 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv5/predicate-dataset/boost/boost_functions_2_0.05.txt
+sed,3_5,1,prune-minus-boost.includes,-sampler-include-method=ck_fflush -sampler-include-method=compile_filename -sampler-include-method=do_subst -sampler-include-method=mark_subst_opts
+sed,3_5,1,boost.preprocess.size,195628
+sed,3_5,1,boost.preprocess.time,981
+sed,3_5,1,boost.preprocess.number,826 
+sed,3_5,1,boost.preprocess.time_p,875.0
+sed,3_5,1,boost.mine.size,5812
+sed,3_5,1,boost.mine.time,1142
+sed,3_5,1,theta,0.945143
+sed,3_5,1,prune.functions.count,1 /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/sed/versions/v3/subv5/predicate-dataset/prune/prune_functions_2_0.05.txt
+sed,3_5,1,prune-minus-boost.includes,-sampler-include-method=main
+sed,3_5,1,prune.preprocess.size,64648
+sed,3_5,1,prune.preprocess.time,537
+sed,3_5,1,prune.preprocess.number,157 
+sed,3_5,1,prune.preprocess.time_p,454.0
+sed,3_5,1,prune.mine.size,5868
+sed,3_5,1,prune.mine.time,1057
+sed,3_5,1,boost.profile.time,3508
+sed,3_5,1,boost.profile.size,6324
+sed,3_5,1,boost.profile.number,15806
+sed,3_5,1,prune-minus-boost.profile.time,2986
+sed,3_5,1,prune-minus-boost.profile.size,1468
+sed,3_5,1,prune-minus-boost.profile.number,3758
+sed,3_5,1,end

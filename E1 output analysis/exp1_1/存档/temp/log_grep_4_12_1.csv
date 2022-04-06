@@ -1,0 +1,40 @@
+grep,4_12,1,start
+grep,4_12,1,coarse-grained.profile.time,6377
+grep,4_12,1,coarse-grained.profile.size,352
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv12/v4_subv12_c.sites
+grep,4_12,1,coarse-grained.profile.number,131
+grep,4_12,1,fine-grained.profile.time,343702
+grep,4_12,1,fine-grained.profile.size,2050906
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv12/v4_subv12_f.sites
+grep,4_12,1,fine-grained.profile.number,2545716
+grep,4_12,1,fine-grained.preprocess.size,2967408
+grep,4_12,1,fine-grained.preprocess.time,118099
+grep,4_12,1,fine-grained.preprocess.number,4860 
+grep,4_12,1,fine-grained.preprocess.time_p,117784.0
+grep,4_12,1,fine-grained.mine.size,5796
+grep,4_12,1,fine-grained.mine.time,17860
+grep,4_12,1,boost,0.05
+grep,4_12,1,boost.functions.count,13
+grep,4_12,1,boost.includes,-sampler-include-method=addtok -sampler-include-method=atom -sampler-include-method=branch -sampler-include-method=closure -sampler-include-method=dfacomp -sampler-include-method=dfainit -sampler-include-method=dfaparse -sampler-include-method=error -sampler-include-method=insert_op2 -sampler-include-method=lex -sampler-include-method=regexp -sampler-include-method=setmatcher -sampler-include-method=xmalloc_1
+grep,4_12,1,boost.preprocess.size,1640332
+grep,4_12,1,boost.preprocess.time,14414
+grep,4_12,1,boost.preprocess.number,2467 
+grep,4_12,1,boost.preprocess.time_p,14224.0
+grep,4_12,1,boost.mine.size,5888
+grep,4_12,1,boost.mine.time,3977
+grep,4_12,1,theta,0.675677
+grep,4_12,1,prune.functions.count,0
+grep,4_12,1,prune.includes,
+grep,4_12,1,boost.profile.time,26791
+grep,4_12,1,boost.profile.size,280217
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv12/v4_subv12_b.sites
+grep,4_12,1,boost.profile.number,352780
+grep,4_12,1,prune.profile.time,1
+grep,4_12,1,prune.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv12/v4_subv12_p.sites
+grep,4_12,1,prune.profile.number,0
+grep,4_12,1,prune-minus-boost.profile.time,1
+grep,4_12,1,prune-minus-boost.profile.size,4
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/grep/versions/v4/subv12/v4_subv12_pmb.sites
+grep,4_12,1,prune-minus-boost.profile.number,0
+grep,4_12,1,end

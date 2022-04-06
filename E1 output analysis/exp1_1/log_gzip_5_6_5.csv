@@ -1,0 +1,38 @@
+gzip,5_6,5,start
+gzip,5_6,5,fine-grained.preprocess.size,2233864
+gzip,5_6,5,fine-grained.preprocess.time,54513
+gzip,5_6,5,fine-grained.preprocess.number,2609 
+gzip,5_6,5,fine-grained.preprocess.time_p,54175.0
+gzip,5_6,5,fine-grained.mine.size,5824
+gzip,5_6,5,fine-grained.mine.time,3890
+gzip,5_6,5,boost,0.05
+gzip,5_6,5,boost.functions.count,2
+gzip,5_6,5,boost.includes,-sampler-include-method=huft_build -sampler-include-method=inflate_dynamic
+gzip,5_6,5,boost.preprocess.size,1162528
+gzip,5_6,5,boost.preprocess.time,5844
+gzip,5_6,5,boost.preprocess.number,384 
+gzip,5_6,5,boost.preprocess.time_p,5626.0
+gzip,5_6,5,boost.mine.size,5840
+gzip,5_6,5,boost.mine.time,2329
+gzip,5_6,5,theta,0.175893
+gzip,5_6,5,prune.functions.count,13
+gzip,5_6,5,prune.includes,-sampler-include-method=add_envopt -sampler-include-method=base_name -sampler-include-method=clear_bufs -sampler-include-method=fill_inbuf -sampler-include-method=get_method -sampler-include-method=huft_build -sampler-include-method=inflate -sampler-include-method=inflate_block -sampler-include-method=inflate_dynamic -sampler-include-method=main -sampler-include-method=treat_stdin -sampler-include-method=unzip -sampler-include-method=updcrc
+gzip,5_6,5,prune.preprocess.size,1591220
+gzip,5_6,5,prune.preprocess.time,14798
+gzip,5_6,5,prune.preprocess.number,1861 
+gzip,5_6,5,prune.preprocess.time_p,14507.0
+gzip,5_6,5,prune.mine.size,5816
+gzip,5_6,5,prune.mine.time,3611
+gzip,5_6,5,boost.profile.time,22927
+gzip,5_6,5,boost.profile.size,90714
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv6/v5_subv6_b.sites
+gzip,5_6,5,boost.profile.number,435098
+gzip,5_6,5,prune.profile.time,76792
+gzip,5_6,5,prune.profile.size,228774
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv6/v5_subv6_p.sites
+gzip,5_6,5,prune.profile.number,1093116
+gzip,5_6,5,prune-minus-boost.profile.time,70813
+gzip,5_6,5,prune-minus-boost.profile.size,137426
+# /home/sunzzq2/Data/IResearch/Automated_Bug_Isolation/Twopass_heavy/Subjects/gzip/versions/v5/subv6/v5_subv6_pmb.sites
+gzip,5_6,5,prune-minus-boost.profile.number,654592
+gzip,5_6,5,end

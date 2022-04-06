@@ -1,0 +1,40 @@
+3,5,10,start
+3,5,10,raw.profile.time,600
+3,5,10,coarse-grained.profile.time,4935
+3,5,10,coarse-grained.profile.number,7401
+3,5,10,coarse-grained.profile.size,6628
+3,5,10,fine-grained.profile.time,440315
+3,5,10,fine-grained.profile.size,408976
+3,5,10,fine-grained.profile.number,1287232
+3,5,10,fine-grained.preprocess.size,25362736
+3,5,10,fine-grained.preprocess.time,34415
+3,5,10,fine-grained.preprocess.number,58
+3,5,10,fine-grained.preprocess.time_p,33288.0
+3,5,10,fine-grained.mine.size,20464
+3,5,10,fine-grained.mine.time,52
+3,5,10,boost.includes,-sampler-include-method=-org.apache.commons.math3.complex.Complex--java.lang.String-toString--- -sampler-include-method=-org.apache.commons.math3.complex.Complex--org.apache.commons.math3.complex.Complex-reciprocal---
+3,5,10,boost.profile.number,1216
+3,5,10,boost.profile.time,3235
+3,5,10,boost.profile.size,1152
+3,5,10,boost.preprocess.size,271792
+3,5,10,boost.preprocess.time,1189
+3,5,10,boost.preprocess.number,9
+3,5,10,boost.preprocess.time_p,615.0
+3,5,10,boost.mine.size,19840
+3,5,10,boost.mine.time,52
+3,5,10,prune.theta,0.021637
+3,5,10,prune.includes,-sampler-include-method=-org.apache.commons.math3.complex.Complex--java.lang.String-toString--- -sampler-include-method=-org.apache.commons.math3.complex.Complex--org.apache.commons.math3.complex.Complex-reciprocal--- -sampler-include-method=-org.apache.commons.math3.complex.Complex--boolean-equals-java.lang.Object-- -sampler-include-method=-org.apache.commons.math3.complex.Complex--void--init--double,double--
+3,5,10,prune.includes_diff,-sampler-include-method=-org.apache.commons.math3.complex.Complex--boolean-equals-java.lang.Object-- -sampler-include-method=-org.apache.commons.math3.complex.Complex--void--init--double,double--
+3,5,10,prune_s.profile.number,200
+3,5,10,prune_s.profile.time,3047
+3,5,10,prune_s.profile.size,1148
+3,5,10,prune.profile.number,1416
+3,5,10,prune.profile.time,3790
+3,5,10,prune.profile.size,1148
+3,5,10,prune.preprocess.size,355632
+3,5,10,prune.preprocess.time,1588
+3,5,10,prune.preprocess.number,58
+3,5,10,prune.preprocess.time_p,922.0
+3,5,10,prune.mine.size,20848
+3,5,10,prune.mine.time,49
+3,5,10,end

@@ -1,0 +1,28 @@
+6,9,5,start
+6,9,5,raw.profile.time,11652
+6,9,5,coarse-grained.profile.time,15718
+6,9,5,coarse-grained.profile.number,10336
+6,9,5,coarse-grained.profile.size,3772
+6,9,5,fine-grained.profile.time,23504
+6,9,5,fine-grained.profile.size,32936
+6,9,5,fine-grained.profile.number,44393
+6,9,5,fine-grained.preprocess.size,4646416
+6,9,5,fine-grained.preprocess.time,15116
+6,9,5,fine-grained.preprocess.number,8
+6,9,5,fine-grained.preprocess.time_p,13920.0
+6,9,5,fine-grained.mine.size,19680
+6,9,5,fine-grained.mine.time,130
+6,9,5,boost.includes,-sampler-include-method=-com.google.javascript.jscomp.ProcessCommonJSModules--void--init--com.google.javascript.jscomp.AbstractCompiler,java.lang.String,boolean-- -sampler-include-method=-com.google.javascript.jscomp.ProcessCommonJSModules--java.lang.String-normalizeSourceName-java.lang.String--
+6,9,5,boost.profile.number,-3
+6,9,5,boost.profile.time,13504
+6,9,5,boost.profile.size,496
+6,9,5,boost.preprocess.size,175744
+6,9,5,boost.preprocess.time,1476
+6,9,5,boost.preprocess.number,8
+6,9,5,boost.preprocess.time_p,536.0
+6,9,5,boost.mine.size,19648
+6,9,5,boost.mine.time,87
+6,9,5,prune.theta,0.030914
+6,9,5,prune.includes,-sampler-include-method=-com.google.javascript.jscomp.ProcessCommonJSModules--void--init--com.google.javascript.jscomp.AbstractCompiler,java.lang.String,boolean-- -sampler-include-method=-com.google.javascript.jscomp.ProcessCommonJSModules--java.lang.String-normalizeSourceName-java.lang.String--
+6,9,5,prune.includes_diff,
+6,9,5,end

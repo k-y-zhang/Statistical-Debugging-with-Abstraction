@@ -1,0 +1,40 @@
+2,17,10,start
+2,17,10,raw.profile.time,7805
+2,17,10,coarse-grained.profile.time,279737
+2,17,10,coarse-grained.profile.number,7298
+2,17,10,coarse-grained.profile.size,41996
+2,17,10,fine-grained.profile.time,2501004
+2,17,10,fine-grained.profile.size,1132828
+2,17,10,fine-grained.profile.number,546850
+2,17,10,fine-grained.preprocess.size,44208336
+2,17,10,fine-grained.preprocess.time,97132
+2,17,10,fine-grained.preprocess.number,68
+2,17,10,fine-grained.preprocess.time_p,95656.0
+2,17,10,fine-grained.mine.size,30464
+2,17,10,fine-grained.mine.time,59
+2,17,10,boost.includes,-sampler-include-method=-org.jfree.data.time.TimeSeries--java.lang.Object-clone--- -sampler-include-method=-org.jfree.data.time.TimeSeries--org.jfree.data.time.TimeSeries-createCopy-int,int--
+2,17,10,boost.profile.number,44
+2,17,10,boost.profile.time,50862
+2,17,10,boost.profile.size,7256
+2,17,10,boost.preprocess.size,457376
+2,17,10,boost.preprocess.time,1733
+2,17,10,boost.preprocess.number,5
+2,17,10,boost.preprocess.time_p,1115.0
+2,17,10,boost.mine.size,22016
+2,17,10,boost.mine.time,45
+2,17,10,prune.theta,0.004948
+2,17,10,prune.includes,-sampler-include-method=-org.jfree.data.time.TimeSeries--java.lang.Object-clone--- -sampler-include-method=-org.jfree.data.time.TimeSeries--org.jfree.data.time.TimeSeries-createCopy-int,int-- -sampler-include-method=-org.jfree.data.time.TimeSeries--void--init--java.lang.Comparable-- -sampler-include-method=-org.jfree.data.time.TimeSeries--void-removeAgedItems-boolean-- -sampler-include-method=-org.jfree.data.time.TimeSeries--void-add-org.jfree.data.time.TimeSeriesDataItem,boolean-- -sampler-include-method=-org.jfree.data.time.TimeSeries--int-getItemCount--- -sampler-include-method=-org.jfree.data.time.TimeSeriesDataItem--void--init--org.jfree.data.time.RegularTimePeriod,java.lang.Number-- -sampler-include-method=-org.jfree.data.time.Year--int-compareTo-java.lang.Object-- -sampler-include-method=-org.jfree.data.time.Year--void--init--int-- -sampler-include-method=-org.jfree.data.time.Year--long-getFirstMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--long-getLastMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--void-peg-java.util.Calendar-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.general.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String--
+2,17,10,prune.includes_diff,-sampler-include-method=-org.jfree.data.time.TimeSeries--void--init--java.lang.Comparable-- -sampler-include-method=-org.jfree.data.time.TimeSeries--void-removeAgedItems-boolean-- -sampler-include-method=-org.jfree.data.time.TimeSeries--void-add-org.jfree.data.time.TimeSeriesDataItem,boolean-- -sampler-include-method=-org.jfree.data.time.TimeSeries--int-getItemCount--- -sampler-include-method=-org.jfree.data.time.TimeSeriesDataItem--void--init--org.jfree.data.time.RegularTimePeriod,java.lang.Number-- -sampler-include-method=-org.jfree.data.time.Year--int-compareTo-java.lang.Object-- -sampler-include-method=-org.jfree.data.time.Year--void--init--int-- -sampler-include-method=-org.jfree.data.time.Year--long-getFirstMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--long-getLastMillisecond-java.util.Calendar-- -sampler-include-method=-org.jfree.data.time.Year--void-peg-java.util.Calendar-- -sampler-include-method=-org.jfree.data.general.Series--void-fireSeriesChanged--- -sampler-include-method=-org.jfree.data.general.Series--void-notifyListeners-org.jfree.data.general.SeriesChangeEvent-- -sampler-include-method=-org.jfree.data.general.Series--void--init--java.lang.Comparable,java.lang.String--
+2,17,10,prune_s.profile.number,388
+2,17,10,prune_s.profile.time,46949
+2,17,10,prune_s.profile.size,7256
+2,17,10,prune.profile.number,432
+2,17,10,prune.profile.time,45149
+2,17,10,prune.profile.size,7256
+2,17,10,prune.preprocess.size,1114304
+2,17,10,prune.preprocess.time,2418
+2,17,10,prune.preprocess.number,68
+2,17,10,prune.preprocess.time_p,1766.0
+2,17,10,prune.mine.size,30544
+2,17,10,prune.mine.time,59
+2,17,10,end
