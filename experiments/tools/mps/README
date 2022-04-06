@@ -1,0 +1,11 @@
+Files:
+    1) mbs: the binary (compiled in Linux 64, tested in LinuxMint-Debian-64)
+    2) mps-ds.pb: (the dataset of the motivating example in the paper)
+    3) run-mps.sh: the script to run the program over the dataset
+    4) schedule-correct.c and schedule-faulty.c: 
+           the correct and faulty implementation of the motivating example
+    5) predicate.mapping: each number in the output of MPS is a predicate instrumented in the buggy program. In this file, you can interprete the signatures.
+
+Run:
+    1) The libraries boost_program_options and google protobuf should be installed.
+    2) run the script run-mps.sh
