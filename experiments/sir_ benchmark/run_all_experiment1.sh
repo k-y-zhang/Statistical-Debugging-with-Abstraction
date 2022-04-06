@@ -2,12 +2,12 @@
 DIR="/home/sunzzq2/outputs/exp1_orig/tmp"
 mkdir -p "$DIR"
 f() {
-	echo d1.sh "$1" "$2" "$3" 1 >>"${DIR}/_log.txt"
-	bash d1.sh "$1" "$2" "$3" 1
-	echo d1.sh "$1" "$2" "$3" 5 >>"${DIR}/_log.txt"
-	bash d1.sh "$1" "$2" "$3" 5
-	echo d1.sh "$1" "$2" "$3" 10 >>"${DIR}/_log.txt"
-	bash d1.sh "$1" "$2" "$3" 10
+	echo experiment1.sh "$1" "$2" "$3" 1 >>"${DIR}/_log.txt"
+	bash experiment1.sh "$1" "$2" "$3" 1
+	echo experiment1.sh "$1" "$2" "$3" 5 >>"${DIR}/_log.txt"
+	bash experiment1.sh "$1" "$2" "$3" 5
+	echo experiment1.sh "$1" "$2" "$3" 10 >>"${DIR}/_log.txt"
+	bash experiment1.sh "$1" "$2" "$3" 10
 }
 
 export -f "f"
@@ -224,15 +224,15 @@ fi
 # export -f run_siena
 # export -f run_space
 # export -f run_bash
-bash -c "$run_sed" &
-bash -c "$run_ant" &
-bash -c "$run_derby" &
-bash -c "$run_grep" &
-bash -c "$run_gzip" &
-bash -c "$run_nanoxml" &
-bash -c "$run_siena" &
-bash -c "$run_space" &
-bash -c "$run_bash" &
+bash -c "$run_sed"
+bash -c "$run_ant"
+bash -c "$run_derby"
+bash -c "$run_grep"
+bash -c "$run_gzip"
+bash -c "$run_nanoxml"
+bash -c "$run_siena"
+bash -c "$run_space"
+bash -c "$run_bash"
 wait
 exit
 #run_derby &

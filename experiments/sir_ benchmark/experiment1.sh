@@ -125,7 +125,10 @@ space)
 esac
 #rm -f "$CSITE" "$FSITE" "$BSITE" "$PSITE" "$PMBSITE"
 ####
-
+Preprocess1_jar=${LIB}/preprocess1.jar
+if [ $sub = "nanoxml" ]; then
+  Preprocess1_jar=${LIB}/preprocess3.jar
+fi
 #root=$(pwd)
 
 mkdir -p "$root/outputs/exp1_orig/tmp"
@@ -252,7 +255,7 @@ run_p_m() {
 
   mkdir -p "${dataset_output_folder}"
   timeit "${step_name}.preprocess" \
-    java -Xmx4g -jar ${LIB}/preprocess1.jar \
+    java -Xmx4g -jar ${Preprocess1_jar} \
     "$profiles" \
     "$site_file" \
     "${dataset_output_folder}" | tee -a "${dataset_output_folder}/log_preprocess.txt"
@@ -270,20 +273,49 @@ run_p_m() {
 }
 
 mosh() {
-  sed -i -re 's/^sleep [0-9]+$/sleep 0.5/' ./*.sh
+  sed -i -re 's/^sleep [0-9]+$/sleep 0.3/' ./*.sh
   sed -i -re 's/-stime-[0-9]+/-stime/' ./*.sh
   sed -i -r -e 's/stime=/mkdir -p $VERSIONSDIR;mkdir -p $TRACESDIR\nstime=/' *.sh
   sed -i -r -e 's/\/home\/paper_60\/oopsla_artifacts\/single\/Subjects\/Java\//\/home\/sunzzq2\/Data\/IResearch\/Automated_Bug_Isolation\/Twopass_heavy\/Subjects\//g' *.sh
   if [ "$sub" = "derby" ]; then
+    # sed -i -re 's/^(.*MySed.*)$/unset SAMPLER_FILE\n\1\n/' ./*.sh
+    sed -i -re 's/^(java .*)$/\1\nunset SAMPLER_FILE\n/' ./*.sh
+    # find . -name '*.sh' -maxdepth 1 | while read line; do
+    #   awk '/SAMPLER_FILE=(.+)/{c=1;h=$0;}/^java/{s=substr(h,0);gsub("/","/" (c++) "/",s);print s;}{print $0}END{print "ruby /home/paper_60/cc.rb $TRACESDIR"}' "$line" >"$line.2"
+    #   rm "$line"
+    #   mv "$line.2" "$line"
+    # done
+    sed -i -re 's/^(.*shutdown.*)$/unset SAMPLER_FILE\n\1\n/' ./*.sh
     sed -i -re 's/^(.*MySed.*)$/unset SAMPLER_FILE\n\1\n/' ./*.sh
   fi
+  if [ "$sub" = "siena" ]; then
+    find . -name '*.sh' -maxdepth 1 | while read line; do
+      awk '/^java/ && !/StartServer/{gsub(/\&$/,"")}/SAMPLER_FILE=(.+)/{c=1;h=$0;}/^java/{s=substr(h,0);gsub("/","/" (c++) "/",s);print s;}{print $0}END{print "ruby /home/paper_60/cc.rb $TRACESDIR"}' "$line" >"$line.2"
+
+      # awk '/^java/ && /StartServer/{print "unset SAMPLER_FILE"}/^java/ && !/StartServer/{gsub(/\&$/,"");print h}{print}/SAMPLER_FILE=(.+)/{h=$0}' "$line" >"$line.2"
+      rm "$line"
+      mv "$line.2" "$line"
+    done
+    #sed -i -re 's/^(java .*)$/\1\nunset SAMPLER_FILE\n/' ./*.sh
+  fi
+  # if [ "$sub" = "siena" ]; then
+  #   # sed -i -re 's/^(.*MySed.*)$/unset SAMPLER_FILE\n\1\n/' ./*.sh
+  #   #sed -i -re 's/^(java .*)$/\1\nunset SAMPLER_FILE\n/' ./*.sh
+  #   echo
+  #   find . -name '*.sh' -maxdepth 1 | while read line; do
+  #     awk '/SAMPLER_FILE=(.+)/{c=1;h=$0;}/^java/{s=substr(h,0);gsub("/","/" (c++) "/",s);print s;}{print $0}END{print "ruby /home/paper_60/cc.rb $TRACESDIR"}' "$line" >"$line.2"
+  #     rm "$line"
+  #     mv "$line.2" "$line"
+  #   done
+  # fi
   # if [ "$sub" = "apache-ant" ]; then
   #   sed -i -re 's/JSampler.jar/JSampler_orig.jar/' ./*.sh
   # el
-  if [ "$sub" = "nanoxml" ]; then
+  if [ "$sub" = "nanoxml" -o "$sub" = "siena" ]; then
     sed -i -re 's/JSampler.jar/JSampler_slow.jar/g' ./*.sh
     sed -i -re 's/JSampler_orig.jar/JSampler_slow.jar/g' ./*.sh
     # echo ">su1b $sub"
+    # sed -i -re 's/JSampler_slow.jar/JSampler_orig.jar/g' ./*.sh
     #exit
   else
     sed -i -re 's/JSampler.jar/JSampler_orig.jar/g' ./*.sh
@@ -361,7 +393,6 @@ hi_boost() {
   bash "${dir}/scripts/${SUBJECT_VER2}_boost.sh" || echo "ERROR"
   #exit
   [ "${SUBJECT_TYPE}" = "C" ] && {
-
     rm -f "$BSITE"
     extract-section .debug_site_info "${EXEPREFIX}binst.exe" >$BSITE
   }
@@ -421,10 +452,12 @@ hi_prune() {
   ruby -e 'a,b=ARGV.map{|e|open(e).readlines};puts(b-a)' \
     "${dir}/versions/${SUBJECT_VER}/predicate-dataset/boost/boost_functions_2_0.05.txt" \
     "${himps_prune_output_file}" >"${dir}/versions/${SUBJECT_VER}/predicate-dataset/pruneMinusBoost/prune_minus_boost_functions_2_0.05.txt"
+  echo "${key},prune.functions.count,$(wc -l <"${dir}/versions/${SUBJECT_VER}/predicate-dataset/pruneMinusBoost/prune_minus_boost_functions_2_0.05.txt")" >>$OUT
   #exit
   ## 然后，生成执行脚本
   $GENSCRIPT || echo 1
   mosh
+  rm -f "$PSITE" "$PMBSITE" # !
   ## 并执行（记录pruneMinusBoost的运行数据，用prune的结果mine）。
   rm -rf "${dir}/traces/${SUBJECT_VER}/prune/"
   mkdir -p "${dir}/traces/${SUBJECT_VER}/prune/" #!!
@@ -436,7 +469,7 @@ hi_prune() {
   bash "${dir}/scripts/${SUBJECT_VER2}_prune.sh" || echo "ERROR"
   bash "${dir}/scripts/${SUBJECT_VER2}_pruneMinusBoost.sh" || echo "ERROR"
   [ "${SUBJECT_TYPE}" = "C" ] && {
-    rm -f "$PSITE" "$PMBSITE"
+    rm -f "$PSITE" "$PMBSITE" # !
     extract-section .debug_site_info "${EXEPREFIX}pinst.exe" >$PSITE
     extract-section .debug_site_info "${EXEPREFIX}pmbinst.exe" >$PMBSITE
   }
@@ -462,7 +495,9 @@ hi_method() {
   # collect_run_tests "fine-grained"
   collect_run_tests "boost"
   collect_run_tests "prune"
-  collect_run_tests "prune-minus-boost"
+  if [ -s "${dir}/versions/${SUBJECT_VER}/predicate-dataset/pruneMinusBoost/prune_minus_boost_functions_2_0.05.txt" ]; then
+    collect_run_tests "prune-minus-boost"
+  fi
 }
 
 [ "$k" = 1 ] && baseline
@@ -537,3 +572,5 @@ siena 1 2
 csh
 # predicate-dataset
 # csh,bison
+
+TOTO: include 为空的情况的处理。
