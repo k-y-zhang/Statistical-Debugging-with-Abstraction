@@ -19,7 +19,7 @@ We illustrate the employment of our technique to production-run debugging, in pa
 
 Our tools are running on Fedora 19 with Java 7, including JSampler, our tool to instrument Java programs to obtain the coverage matrix, as well as our implementations of algorithms to exert applications of in-house cases and of production-run cases.  
 
-In addition, other tools are based on the original running environments using docker virtual environment, specifically the sample-cc from ... is running on fedora 19 and bug signature mining tool from ... is running on ubuntu 12.04.
+In addition, other tools are based on the original running environments using docker virtual environment, specifically the sample-cc from "Ben Liblit, Alex Aiken, Alice X. Zheng, and Michael I. Jordan. 2003. Bug isolation via remote program sampling. In PLDI. 141–154."  is running on fedora 19 and bug signature minging tool from "Chengnian Sun and Siau-Cheng Khoo. 2013. Mining succinct predicated bug signatures. In FSE. 576–586." is running on ubuntu 12.04.
 
 #### Setup
 
